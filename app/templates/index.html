@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Marvel Character Database</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="{{ 'style.css' if static_site else url_for('static', filename='style.css') }}">
 </head>
 <body>
   <header>
@@ -23,6 +23,13 @@
   </main>
 
   <footer>Unofficial fan project for learning Python and SQL. Not affiliated with or endorsed by Marvel.</footer>
+  {% if static_site %}
+  <!-- Live demo: SQLite compiled to WebAssembly runs the app's SQL queries in the browser -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js"></script>
+  <script src="static-api.js"></script>
+  <script src="app.js"></script>
+  {% else %}
   <script src="{{ url_for('static', filename='app.js') }}"></script>
+  {% endif %}
 </body>
 </html>

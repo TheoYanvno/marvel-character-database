@@ -1,4 +1,10 @@
-// Front end: fetch data from the Flask API and render cards / profile.
+// Front end: get data and render cards / profile.
+// Running under Flask, data comes from the JSON API. On the live demo (GitHub Pages),
+// static-api.js provides the same two calls by running the SQL in the browser.
+const api = window.staticApi ?? {
+  cards: async (q) => (await fetch(`/api/characters?q=${encodeURIComponent(q)}`)).json(),
+  character: async (id) => (await fetch(`/api/characters/${id}`)).json(),
+};
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const monogram = (name) => name.split(/[\s-]+/).map((w) => w[0]).join('').slice(0, 2).toUpperCase();
@@ -14,8 +20,13 @@ const card = (c, tag = 'button') => `
 let all = [];
 
 async function loadCards(q = '') {
-  const res = await fetch(`/api/characters?q=${encodeURIComponent(q)}`);
-  const list = await res.json();
+  let list;
+  try {
+    list = await api.cards(q);
+  } catch (err) {
+    $('grid').innerHTML = '<p class="meta">Could not load the database. Please refresh the page.</p>';
+    throw err;
+  }
   if (!q) {
     all = list;
     $('names').innerHTML = all.map((c) => `<option value="${esc(c.hero_name)}">`).join('');
@@ -24,7 +35,8 @@ async function loadCards(q = '') {
 }
 
 async function showCharacter(id) {
-  const c = await (await fetch(`/api/characters/${id}`)).json();
+  const c = await api.character(id);
+  if (!c) return showGrid();
   $('grid').hidden = true;
   $('detail').hidden = false;
   document.documentElement.style.setProperty('--accent', c.color);

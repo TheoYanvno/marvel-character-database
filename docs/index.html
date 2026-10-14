@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marvel Character Database</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Marvel Character Database</h1>
+    <input id="search" type="search" placeholder="Search by name, real name or power (try &quot;flight&quot;)" autocomplete="off" list="names">
+    <datalist id="names"></datalist>
+  </header>
+
+  <main id="stage">
+    <section id="grid" aria-label="Characters"></section>
+
+    <section id="detail" hidden>
+      <div id="featured"></div>
+      <article id="info"></article>
+    </section>
+  </main>
+
+  <footer>Unofficial fan project for learning Python and SQL. Not affiliated with or endorsed by Marvel.</footer>
+  
+  <!-- Live demo: SQLite compiled to WebAssembly runs the app's SQL queries in the browser -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js"></script>
+  <script src="static-api.js"></script>
+  <script src="app.js"></script>
+  
+</body>
+</html>

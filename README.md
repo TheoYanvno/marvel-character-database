@@ -1,5 +1,7 @@
 # Marvel Character Database
 
+**▶ [Live demo](https://theoyanvno.github.io/marvel-character-database/)**
+
 A Python + SQL web app for exploring Marvel characters. Type a name, real name or power (try "flight") or click a card. The selected card slides to the side and the character's profile appears next to it: origin, powers, teams, relationships, and a timeline of pop culture highlights.
 
 **Tech:** Python · Flask · SQLite (`sqlite3`) · SQL · vanilla JavaScript · CSS animations · `unittest`
@@ -25,7 +27,7 @@ characters ──< character_powers >── powers
 
 ## SQL highlights
 
-All queries live in [`app/db.py`](app/db.py) and use parameterized statements (`?`) to prevent SQL injection. More to explore in [`sql/queries.sql`](sql/queries.sql):
+The app's queries live in [`sql/app_queries.sql`](sql/app_queries.sql), loaded by [`app/db.py`](app/db.py), and use parameterized statements (`?`) to prevent SQL injection. More to explore in [`sql/queries.sql`](sql/queries.sql):
 
 - Search across three tables with `LEFT JOIN` + `LIKE`
 - Powers shared by several characters with `GROUP BY`, `HAVING` and `GROUP_CONCAT`
@@ -42,19 +44,30 @@ All queries live in [`app/db.py`](app/db.py) and use parameterized statements (`
 | GET | `/api/characters/<id>` | Full profile, or 404 |
 | GET | `/api/stats` | Counts by alignment, most common powers, debuts per decade |
 
+## Live demo: the same SQL in the browser
+
+GitHub Pages can only host static files, so it can't run the Flask server. The live demo still runs real SQL:
+
+1. [`build_site.py`](build_site.py) builds the SQLite database file with the same Python code the app uses and writes the site to `docs/`.
+2. In the browser, [`static-api.js`](app/static/static-api.js) downloads that database and runs it with [sql.js](https://sql.js.org) (SQLite compiled to WebAssembly).
+3. Both the Flask app and the browser load their queries from the same file, [`sql/app_queries.sql`](sql/app_queries.sql), so the live demo runs exactly the same SQL as the server.
+
+The front end calls one small data layer (`api.cards()` / `api.character()`), so it doesn't need to know which version it's talking to.
+
 ## Run it
 
 ```bash
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python -m app.main                                  # http://localhost:5000
-python -m unittest discover -s tests -t .           # 10 tests
+python -m unittest discover -s tests -t .           # 12 tests
 python build_db.py                                  # optional: writes marvel.db to explore in DB Browser for SQLite
+python build_site.py                                # rebuilds the live demo in docs/
 ```
 
 ## Add a character
 
-Add an entry to `data/characters.json` (same fields as the others) and restart the app. The database is rebuilt from the JSON file on startup.
+Add an entry to `data/characters.json` (same fields as the others) and restart the app. The database is rebuilt from the JSON file on startup. Run `python build_site.py` to update the live demo.
 
 ## Notes
 

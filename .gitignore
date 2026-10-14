@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 marvel.db
 .venv/
+
+!docs/marvel.db
