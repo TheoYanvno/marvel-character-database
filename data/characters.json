@@ -1,0 +1,886 @@
+[
+  {
+    "hero_name": "Spider-Man",
+    "real_name": "Peter Parker",
+    "alignment": "hero",
+    "first_appearance": "Amazing Fantasy #15",
+    "first_year": 1962,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#c62828",
+    "origin": "A Queens high school student bitten by a radioactive spider during a science demonstration gains spider-like abilities. After he fails to stop a burglar who later kills his Uncle Ben, Peter learns that with great power comes great responsibility.",
+    "powers": [
+      "Superhuman strength",
+      "Wall-crawling",
+      "Spider-sense",
+      "Enhanced agility",
+      "Genius-level intellect"
+    ],
+    "teams": [
+      "Avengers",
+      "Fantastic Four"
+    ],
+    "relationships": [
+      [
+        "May Parker",
+        "family"
+      ],
+      [
+        "Ben Parker",
+        "family"
+      ],
+      [
+        "Mary Jane Watson",
+        "romance"
+      ],
+      [
+        "Green Goblin",
+        "enemy"
+      ],
+      [
+        "Venom",
+        "enemy"
+      ],
+      [
+        "Iron Man",
+        "mentor"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Amazing Fantasy #15",
+        1962,
+        "First appearance"
+      ],
+      [
+        "animation",
+        "Spider-Man",
+        1967,
+        "First animated series"
+      ],
+      [
+        "film",
+        "Spider-Man",
+        2002,
+        "Sam Raimi film starring Tobey Maguire"
+      ],
+      [
+        "film",
+        "Spider-Man: Into the Spider-Verse",
+        2018,
+        "Won the Academy Award for Best Animated Feature"
+      ],
+      [
+        "film",
+        "Spider-Man: No Way Home",
+        2021,
+        "Brought together three generations of film Spider-Men"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Iron Man",
+    "real_name": "Tony Stark",
+    "alignment": "hero",
+    "first_appearance": "Tales of Suspense #39",
+    "first_year": 1963,
+    "creators": "Stan Lee, Larry Lieber, Don Heck, Jack Kirby",
+    "color": "#b71c1c",
+    "origin": "Billionaire weapons maker Tony Stark is gravely wounded and captured by enemies who demand he build them a weapon. Instead he builds an armored suit that keeps him alive and lets him escape, then devotes his genius to protecting the world.",
+    "powers": [
+      "Powered armor",
+      "Genius-level intellect",
+      "Flight",
+      "Energy repulsors"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Pepper Potts",
+        "romance"
+      ],
+      [
+        "James Rhodes",
+        "ally"
+      ],
+      [
+        "Captain America",
+        "ally"
+      ],
+      [
+        "Spider-Man",
+        "ally"
+      ],
+      [
+        "Obadiah Stane",
+        "enemy"
+      ],
+      [
+        "Mandarin",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Tales of Suspense #39",
+        1963,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Iron Man",
+        2008,
+        "Launched the Marvel Cinematic Universe"
+      ],
+      [
+        "film",
+        "The Avengers",
+        2012,
+        null
+      ],
+      [
+        "film",
+        "Avengers: Endgame",
+        2019,
+        "One of the highest-grossing films of all time"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Captain America",
+    "real_name": "Steve Rogers",
+    "alignment": "hero",
+    "first_appearance": "Captain America Comics #1",
+    "first_year": 1941,
+    "creators": "Joe Simon, Jack Kirby",
+    "color": "#1565c0",
+    "origin": "A frail young man rejected by the Army volunteers for an experimental super-soldier serum during World War II and becomes the peak of human ability. Frozen in ice near the end of the war, he is revived decades later and leads the Avengers.",
+    "powers": [
+      "Super-soldier physiology",
+      "Master tactician",
+      "Expert hand-to-hand combat",
+      "Vibranium shield"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Bucky Barnes",
+        "ally"
+      ],
+      [
+        "Peggy Carter",
+        "romance"
+      ],
+      [
+        "Sam Wilson",
+        "ally"
+      ],
+      [
+        "Iron Man",
+        "ally"
+      ],
+      [
+        "Red Skull",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Captain America Comics #1",
+        1941,
+        "Cover showed him punching Hitler, before the U.S. entered the war"
+      ],
+      [
+        "film",
+        "Captain America (movie serial)",
+        1944,
+        "First live-action Marvel character on screen"
+      ],
+      [
+        "film",
+        "Captain America: The First Avenger",
+        2011,
+        null
+      ],
+      [
+        "film",
+        "Captain America: The Winter Soldier",
+        2014,
+        null
+      ],
+      [
+        "film",
+        "Captain America: Civil War",
+        2016,
+        null
+      ]
+    ]
+  },
+  {
+    "hero_name": "Thor",
+    "real_name": "Thor Odinson",
+    "alignment": "hero",
+    "first_appearance": "Journey into Mystery #83",
+    "first_year": 1962,
+    "creators": "Stan Lee, Larry Lieber, Jack Kirby",
+    "color": "#546e7a",
+    "origin": "The Norse god of thunder and prince of Asgard, son of Odin. Sent to Earth to learn humility, he becomes one of its greatest defenders, wielding the enchanted hammer Mjolnir that only the worthy can lift.",
+    "powers": [
+      "Superhuman strength",
+      "Weather control",
+      "Flight",
+      "Near-immortality",
+      "Mjolnir"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Odin",
+        "family"
+      ],
+      [
+        "Loki",
+        "family"
+      ],
+      [
+        "Jane Foster",
+        "romance"
+      ],
+      [
+        "Hulk",
+        "ally"
+      ],
+      [
+        "Hela",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Journey into Mystery #83",
+        1962,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Thor",
+        2011,
+        null
+      ],
+      [
+        "film",
+        "Thor: Ragnarok",
+        2017,
+        null
+      ]
+    ]
+  },
+  {
+    "hero_name": "Hulk",
+    "real_name": "Bruce Banner",
+    "alignment": "hero",
+    "first_appearance": "The Incredible Hulk #1",
+    "first_year": 1962,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#2e7d32",
+    "origin": "Physicist Bruce Banner is caught in the blast of a gamma bomb test while saving a teenager. Afterward, stress or anger transforms him into the Hulk, a creature whose strength grows the angrier he gets.",
+    "powers": [
+      "Superhuman strength",
+      "Regeneration",
+      "Durability",
+      "Genius-level intellect"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Betty Ross",
+        "romance"
+      ],
+      [
+        "She-Hulk",
+        "family"
+      ],
+      [
+        "Thor",
+        "ally"
+      ],
+      [
+        "Thaddeus Ross",
+        "enemy"
+      ],
+      [
+        "Abomination",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Incredible Hulk #1",
+        1962,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "The Incredible Hulk",
+        1977,
+        "Live-action series with Bill Bixby and Lou Ferrigno"
+      ],
+      [
+        "film",
+        "Hulk",
+        2003,
+        "Directed by Ang Lee"
+      ],
+      [
+        "film",
+        "The Avengers",
+        2012,
+        null
+      ]
+    ]
+  },
+  {
+    "hero_name": "Black Widow",
+    "real_name": "Natasha Romanoff",
+    "alignment": "hero",
+    "first_appearance": "Tales of Suspense #52",
+    "first_year": 1964,
+    "creators": "Stan Lee, Don Rico, Don Heck",
+    "color": "#212121",
+    "origin": "Trained from childhood in the Soviet Red Room program, Natasha becomes a master spy and assassin. She defects and joins S.H.I.E.L.D. and the Avengers, working to make up for the harm she did in her past.",
+    "powers": [
+      "Master spy",
+      "Expert hand-to-hand combat",
+      "Peak human conditioning",
+      "Marksmanship"
+    ],
+    "teams": [
+      "Avengers",
+      "S.H.I.E.L.D."
+    ],
+    "relationships": [
+      [
+        "Hawkeye",
+        "ally"
+      ],
+      [
+        "Yelena Belova",
+        "family"
+      ],
+      [
+        "Bucky Barnes",
+        "romance"
+      ],
+      [
+        "Captain America",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Tales of Suspense #52",
+        1964,
+        "First appearance, originally as a villain"
+      ],
+      [
+        "film",
+        "Iron Man 2",
+        2010,
+        "First film appearance"
+      ],
+      [
+        "film",
+        "Black Widow",
+        2021,
+        null
+      ]
+    ]
+  },
+  {
+    "hero_name": "Black Panther",
+    "real_name": "T'Challa",
+    "alignment": "hero",
+    "first_appearance": "Fantastic Four #52",
+    "first_year": 1966,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#4a148c",
+    "origin": "King of the hidden, technologically advanced African nation of Wakanda. T'Challa earns the mantle of the Black Panther, and the powers of the heart-shaped herb, by protecting his people and their vibranium.",
+    "powers": [
+      "Enhanced strength and senses",
+      "Genius-level intellect",
+      "Vibranium suit",
+      "Master tactician"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Shuri",
+        "family"
+      ],
+      [
+        "Storm",
+        "romance"
+      ],
+      [
+        "Killmonger",
+        "enemy"
+      ],
+      [
+        "Klaw",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Fantastic Four #52",
+        1966,
+        "First appearance; first Black superhero in mainstream American comics"
+      ],
+      [
+        "film",
+        "Captain America: Civil War",
+        2016,
+        "First film appearance"
+      ],
+      [
+        "film",
+        "Black Panther",
+        2018,
+        "First superhero film nominated for the Academy Award for Best Picture"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Captain Marvel",
+    "real_name": "Carol Danvers",
+    "alignment": "hero",
+    "first_appearance": "Marvel Super-Heroes #13",
+    "first_year": 1968,
+    "creators": "Roy Thomas, Gene Colan",
+    "color": "#0d47a1",
+    "origin": "U.S. Air Force pilot Carol Danvers gains cosmic powers when her DNA merges with alien Kree energy. She first fought as Ms. Marvel and took the name Captain Marvel in 2012.",
+    "powers": [
+      "Energy absorption and projection",
+      "Flight",
+      "Superhuman strength",
+      "Durability"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Monica Rambeau",
+        "ally"
+      ],
+      [
+        "Jessica Drew",
+        "ally"
+      ],
+      [
+        "Kamala Khan",
+        "ally"
+      ],
+      [
+        "Yon-Rogg",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Marvel Super-Heroes #13",
+        1968,
+        "First appearance as Carol Danvers"
+      ],
+      [
+        "comic",
+        "Ms. Marvel #1",
+        1977,
+        "Becomes Ms. Marvel"
+      ],
+      [
+        "film",
+        "Captain Marvel",
+        2019,
+        "First female-led film in the Marvel Cinematic Universe"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Wolverine",
+    "real_name": "Logan (James Howlett)",
+    "alignment": "antihero",
+    "first_appearance": "The Incredible Hulk #181",
+    "first_year": 1974,
+    "creators": "Len Wein, John Romita Sr., Herb Trimpe",
+    "color": "#f9a825",
+    "origin": "A mutant born with retractable bone claws and a healing factor that slows his aging. A secret program bonded indestructible adamantium to his skeleton, and he later found purpose with the X-Men.",
+    "powers": [
+      "Regeneration",
+      "Adamantium skeleton and claws",
+      "Enhanced senses",
+      "Expert hand-to-hand combat"
+    ],
+    "teams": [
+      "X-Men",
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Jean Grey",
+        "romance"
+      ],
+      [
+        "Professor X",
+        "mentor"
+      ],
+      [
+        "X-23 (Laura Kinney)",
+        "family"
+      ],
+      [
+        "Cyclops",
+        "ally"
+      ],
+      [
+        "Sabretooth",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Incredible Hulk #181",
+        1974,
+        "First full appearance"
+      ],
+      [
+        "film",
+        "X-Men",
+        2000,
+        "Hugh Jackman's first of many appearances"
+      ],
+      [
+        "film",
+        "Logan",
+        2017,
+        "First superhero film nominated for an Academy Award for screenwriting"
+      ],
+      [
+        "film",
+        "Deadpool & Wolverine",
+        2024,
+        null
+      ]
+    ]
+  },
+  {
+    "hero_name": "Storm",
+    "real_name": "Ororo Munroe",
+    "alignment": "hero",
+    "first_appearance": "Giant-Size X-Men #1",
+    "first_year": 1975,
+    "creators": "Len Wein, Dave Cockrum",
+    "color": "#6a1b9a",
+    "origin": "A mutant who can control the weather. Orphaned young, she survived as a thief in Cairo before being revered as a goddess in Kenya. Professor X recruited her, and she went on to lead the X-Men.",
+    "powers": [
+      "Weather control",
+      "Flight",
+      "Lightning generation"
+    ],
+    "teams": [
+      "X-Men",
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Black Panther",
+        "romance"
+      ],
+      [
+        "Professor X",
+        "mentor"
+      ],
+      [
+        "Jean Grey",
+        "ally"
+      ],
+      [
+        "Wolverine",
+        "ally"
+      ],
+      [
+        "Shadow King",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Giant-Size X-Men #1",
+        1975,
+        "First appearance"
+      ],
+      [
+        "animation",
+        "X-Men: The Animated Series",
+        1992,
+        null
+      ],
+      [
+        "film",
+        "X-Men",
+        2000,
+        null
+      ]
+    ]
+  },
+  {
+    "hero_name": "Doctor Strange",
+    "real_name": "Stephen Strange",
+    "alignment": "hero",
+    "first_appearance": "Strange Tales #110",
+    "first_year": 1963,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#00695c",
+    "origin": "A brilliant but arrogant surgeon loses the use of his hands in a car crash. Searching for a cure, he finds the Ancient One, learns the mystic arts and becomes Sorcerer Supreme, Earth's defender against magical threats.",
+    "powers": [
+      "Sorcery",
+      "Astral projection",
+      "Dimensional travel",
+      "Genius-level intellect"
+    ],
+    "teams": [
+      "Avengers",
+      "Defenders"
+    ],
+    "relationships": [
+      [
+        "Wong",
+        "ally"
+      ],
+      [
+        "The Ancient One",
+        "mentor"
+      ],
+      [
+        "Clea",
+        "romance"
+      ],
+      [
+        "Dormammu",
+        "enemy"
+      ],
+      [
+        "Baron Mordo",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Strange Tales #110",
+        1963,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Doctor Strange",
+        2016,
+        null
+      ],
+      [
+        "film",
+        "Doctor Strange in the Multiverse of Madness",
+        2022,
+        null
+      ]
+    ]
+  },
+  {
+    "hero_name": "Scarlet Witch",
+    "real_name": "Wanda Maximoff",
+    "alignment": "antihero",
+    "first_appearance": "The X-Men #4",
+    "first_year": 1964,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#ad1457",
+    "origin": "Introduced alongside her twin brother Quicksilver as members of Magneto's Brotherhood of Evil Mutants. She left to join the Avengers and grew into one of the most powerful beings in the universe through chaos magic and reality-altering power.",
+    "powers": [
+      "Chaos magic",
+      "Reality warping",
+      "Telekinesis"
+    ],
+    "teams": [
+      "Avengers",
+      "Brotherhood of Mutants"
+    ],
+    "relationships": [
+      [
+        "Quicksilver",
+        "family"
+      ],
+      [
+        "Vision",
+        "romance"
+      ],
+      [
+        "Magneto",
+        "family"
+      ],
+      [
+        "Agatha Harkness",
+        "mentor"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The X-Men #4",
+        1964,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Avengers: Age of Ultron",
+        2015,
+        "First full film appearance"
+      ],
+      [
+        "tv",
+        "WandaVision",
+        2021,
+        null
+      ]
+    ]
+  },
+  {
+    "hero_name": "Thanos",
+    "real_name": "Thanos",
+    "alignment": "villain",
+    "first_appearance": "The Invincible Iron Man #55",
+    "first_year": 1973,
+    "creators": "Jim Starlin",
+    "color": "#5e35b1",
+    "origin": "A member of the Eternals born on Saturn's moon Titan, Thanos becomes obsessed with the embodiment of Death. He seeks cosmic power, most famously the Infinity Gems (Infinity Stones in the films), to reshape the universe.",
+    "powers": [
+      "Superhuman strength",
+      "Durability",
+      "Genius-level intellect",
+      "Master tactician"
+    ],
+    "teams": [
+      "Black Order"
+    ],
+    "relationships": [
+      [
+        "Gamora",
+        "family"
+      ],
+      [
+        "Nebula",
+        "family"
+      ],
+      [
+        "Adam Warlock",
+        "enemy"
+      ],
+      [
+        "Captain Marvel",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Invincible Iron Man #55",
+        1973,
+        "First appearance"
+      ],
+      [
+        "comic",
+        "The Infinity Gauntlet",
+        1991,
+        "Landmark crossover"
+      ],
+      [
+        "film",
+        "Avengers: Infinity War",
+        2018,
+        null
+      ]
+    ]
+  },
+  {
+    "hero_name": "Loki",
+    "real_name": "Loki Laufeyson",
+    "alignment": "antihero",
+    "first_appearance": "Journey into Mystery #85",
+    "first_year": 1962,
+    "creators": "Stan Lee, Larry Lieber, Jack Kirby",
+    "color": "#33691e",
+    "origin": "Born to the Frost Giant king Laufey and raised by Odin as Thor's brother, Loki becomes the god of mischief. Jealous of Thor, he schemes against Asgard and Earth, sometimes villain and sometimes reluctant ally.",
+    "powers": [
+      "Sorcery",
+      "Shapeshifting",
+      "Illusion casting",
+      "Near-immortality"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Thor",
+        "family"
+      ],
+      [
+        "Odin",
+        "family"
+      ],
+      [
+        "Laufey",
+        "family"
+      ],
+      [
+        "Enchantress",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Journey into Mystery #85",
+        1962,
+        "First appearance in Marvel's Thor stories"
+      ],
+      [
+        "film",
+        "Thor",
+        2011,
+        null
+      ],
+      [
+        "tv",
+        "Loki",
+        2021,
+        null
+      ]
+    ]
+  }
+]
