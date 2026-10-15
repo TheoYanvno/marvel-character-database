@@ -2434,5 +2434,296 @@
         "Kang the Conqueror appears"
       ]
     ]
+  },
+  {
+    "hero_name": "Deadpool",
+    "real_name": "Wade Wilson",
+    "alignment": "antihero",
+    "first_appearance": "The New Mutants #98",
+    "first_year": 1991,
+    "creators": "Fabian Nicieza, Rob Liefeld",
+    "color": "#c62828",
+    "origin": "A mercenary with terminal cancer, Wade Wilson joins the Weapon X program, which gives him a healing factor but leaves him scarred. Loud, violent and constantly joking, he is one of the few characters who knows he is in a comic book.",
+    "powers": [
+      "Healing factor",
+      "Expert hand-to-hand combat",
+      "Marksmanship",
+      "Breaking the fourth wall"
+    ],
+    "teams": [
+      "X-Force"
+    ],
+    "relationships": [
+      [
+        "Wolverine",
+        "ally"
+      ],
+      [
+        "Cable",
+        "ally"
+      ],
+      [
+        "Vanessa Carlysle",
+        "romance"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The New Mutants #98",
+        1991,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Deadpool",
+        2016,
+        "Played by Ryan Reynolds"
+      ],
+      [
+        "film",
+        "Deadpool & Wolverine",
+        2024,
+        "Teams up with Wolverine"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Punisher",
+    "real_name": "Frank Castle",
+    "alignment": "antihero",
+    "first_appearance": "The Amazing Spider-Man #129",
+    "first_year": 1974,
+    "creators": "Gerry Conway, John Romita Sr., Ross Andru",
+    "color": "#212121",
+    "origin": "After his family is killed in a mob shootout in Central Park, former Marine Frank Castle declares war on crime. Unlike most heroes, he is willing to kill, which puts him at odds with Spider-Man and Daredevil.",
+    "powers": [
+      "Marksmanship",
+      "Expert hand-to-hand combat",
+      "Master tactician"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Daredevil",
+        "enemy"
+      ],
+      [
+        "Spider-Man",
+        "enemy"
+      ],
+      [
+        "Kingpin",
+        "enemy"
+      ],
+      [
+        "Microchip",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Amazing Spider-Man #129",
+        1974,
+        "First appearance"
+      ],
+      [
+        "film",
+        "The Punisher",
+        2004,
+        "Played by Thomas Jane"
+      ],
+      [
+        "tv",
+        "The Punisher",
+        2017,
+        "Netflix series starring Jon Bernthal"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Venom",
+    "real_name": "Eddie Brock",
+    "alignment": "antihero",
+    "first_appearance": "The Amazing Spider-Man #300",
+    "first_year": 1988,
+    "creators": "David Michelinie, Todd McFarlane",
+    "color": "#111111",
+    "origin": "An alien symbiote rejected by Spider-Man bonds with reporter Eddie Brock, who blames Spider-Man for ruining his career. Together they become Venom. Over time the pair turns from villain into a violent \"lethal protector\" of the innocent.",
+    "powers": [
+      "Superhuman strength",
+      "Wall-crawling",
+      "Shapeshifting",
+      "Immune to spider-sense"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Spider-Man",
+        "enemy"
+      ],
+      [
+        "Carnage",
+        "enemy"
+      ],
+      [
+        "Anne Weying",
+        "romance"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Amazing Spider-Man #300",
+        1988,
+        "First full appearance"
+      ],
+      [
+        "film",
+        "Spider-Man 3",
+        2007,
+        "Played by Topher Grace"
+      ],
+      [
+        "film",
+        "Venom",
+        2018,
+        "Played by Tom Hardy"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Mysterio",
+    "real_name": "Quentin Beck",
+    "alignment": "villain",
+    "first_appearance": "The Amazing Spider-Man #13",
+    "first_year": 1964,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#2e7d32",
+    "origin": "A Hollywood special-effects expert and stuntman, Quentin Beck decides he can win fame faster as a villain. Behind his fishbowl helmet, he uses illusions, hypnotic gas and holograms to fool Spider-Man and the public.",
+    "powers": [
+      "Illusion casting",
+      "Expert in special effects",
+      "Master tactician"
+    ],
+    "teams": [
+      "Sinister Six"
+    ],
+    "relationships": [
+      [
+        "Spider-Man",
+        "enemy"
+      ],
+      [
+        "Daredevil",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Amazing Spider-Man #13",
+        1964,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Spider-Man: Far From Home",
+        2019,
+        "Played by Jake Gyllenhaal"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Killmonger",
+    "real_name": "N'Jadaka (Erik Killmonger)",
+    "alignment": "villain",
+    "first_appearance": "Jungle Action #6",
+    "first_year": 1973,
+    "creators": "Don McGregor, Rich Buckler",
+    "color": "#bf360c",
+    "origin": "Exiled from Wakanda as a child, N'Jadaka grows up in America filled with anger at the nation that abandoned him. He returns as Erik Killmonger to challenge T'Challa for the throne and to use Wakanda's power on his own terms.",
+    "powers": [
+      "Expert hand-to-hand combat",
+      "Master tactician",
+      "Peak human conditioning"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Black Panther",
+        "enemy"
+      ],
+      [
+        "Shuri",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Jungle Action #6",
+        1973,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Black Panther",
+        2018,
+        "Played by Michael B. Jordan"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Carnage",
+    "real_name": "Cletus Kasady",
+    "alignment": "villain",
+    "first_appearance": "The Amazing Spider-Man #361",
+    "first_year": 1992,
+    "creators": "David Michelinie, Mark Bagley",
+    "color": "#d50000",
+    "origin": "Serial killer Cletus Kasady shares a prison cell with Eddie Brock. When Venom's symbiote spawns an offspring, it bonds with Kasady and creates Carnage, more dangerous and unhinged than Venom ever was.",
+    "powers": [
+      "Superhuman strength",
+      "Shapeshifting",
+      "Wall-crawling",
+      "Regeneration"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Venom",
+        "enemy"
+      ],
+      [
+        "Spider-Man",
+        "enemy"
+      ],
+      [
+        "Shriek",
+        "romance"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Amazing Spider-Man #361",
+        1992,
+        "First appearance"
+      ],
+      [
+        "comic",
+        "Maximum Carnage",
+        1993,
+        "A 14-part crossover"
+      ],
+      [
+        "film",
+        "Venom: Let There Be Carnage",
+        2021,
+        "Played by Woody Harrelson"
+      ]
+    ]
   }
 ]

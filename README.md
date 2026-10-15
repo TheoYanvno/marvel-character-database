@@ -2,7 +2,7 @@
 
 **▶ [Live demo](https://theoyanvno.github.io/marvel-character-database/)**
 
-A Python + SQL web app for exploring Marvel characters. Type a name, real name or power (try "flight") or click a card. The selected card slides to the side and the character's profile appears next to it: origin, powers, teams, relationships, and a timeline of pop culture highlights.
+A Python + SQL web app for exploring 47 Marvel characters, grouped into **Heroes**, **Villains** and **Antiheroes**. Type a name, real name or power (try "flight"), switch between sections, or click a card. The selected card slides to the side and the character's profile appears next to it: origin, powers, teams, relationships, and a timeline of pop culture highlights.
 
 **Tech:** Python · Flask · SQLite (`sqlite3`) · SQL · vanilla JavaScript · CSS animations · `unittest`
 
@@ -34,6 +34,7 @@ The app's queries live in [`sql/app_queries.sql`](sql/app_queries.sql), loaded b
 - Characters on no team with `LEFT JOIN … IS NULL`
 - Rivalries where both characters are in the database (joining `characters` twice)
 - Years between a character's comic debut and first film with a correlated subquery
+- Search plus an optional side filter in one query: `(name LIKE ? OR …) AND (? = '' OR alignment = ?)`, where an empty side means everyone
 - Debuts per decade with integer math in `GROUP BY`
 
 ## API
@@ -42,6 +43,8 @@ The app's queries live in [`sql/app_queries.sql`](sql/app_queries.sql), loaded b
 |---|---|---|
 | GET | `/api/characters?q=text` | Matching cards (name, real name or power) |
 | GET | `/api/characters/<id>` | Full profile, or 404 |
+| GET | `/api/characters?side=villain` | Only heroes, villains or antiheroes (combine with `q`) |
+| GET | `/api/sides` | How many characters are on each side |
 | GET | `/api/stats` | Counts by alignment, most common powers, debuts per decade |
 
 ## Live demo: the same SQL in the browser
@@ -52,7 +55,7 @@ GitHub Pages can only host static files, so it can't run the Flask server. The l
 2. In the browser, [`static-api.js`](app/static/static-api.js) downloads that database and runs it with [sql.js](https://sql.js.org) (SQLite compiled to WebAssembly).
 3. Both the Flask app and the browser load their queries from the same file, [`sql/app_queries.sql`](sql/app_queries.sql), so the live demo runs exactly the same SQL as the server.
 
-The front end calls one small data layer (`api.cards()` / `api.character()`), so it doesn't need to know which version it's talking to.
+The front end calls one small data layer (`api.cards()`, `api.sides()`, `api.character()`), so it doesn't need to know which version it's talking to.
 
 ## Run it
 
