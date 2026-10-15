@@ -15,7 +15,7 @@ def index():
 
 @app.get("/api/characters")
 def list_characters():
-    return jsonify(db.search(conn, request.args.get("q", "")))
+    return jsonify(db.search(conn, request.args.get("q", ""), request.args.get("side", "")))
 
 
 @app.get("/api/characters/<int:character_id>")
@@ -24,6 +24,11 @@ def character(character_id):
     if profile is None:
         abort(404)
     return jsonify(profile)
+
+
+@app.get("/api/sides")
+def sides():
+    return jsonify(db.side_counts(conn))
 
 
 @app.get("/api/stats")

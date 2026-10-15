@@ -80,10 +80,19 @@ def _rows(conn, name, *params):
     return [dict(r) for r in conn.execute(Q[name], params)]
 
 
-def search(conn, text=""):
-    """Card list. Matches hero name, real name or a power."""
+SIDES = ("hero", "villain", "antihero")
+
+
+def search(conn, text="", side=""):
+    """Card list. Matches hero name, real name or a power; side limits it to heroes, villains or antiheroes."""
     like = f"%{text.strip()}%"
-    return _rows(conn, "search", like, like, like)
+    side = side if side in SIDES else ""
+    return _rows(conn, "search", like, like, like, side, side)
+
+
+def side_counts(conn):
+    """{'hero': 20, 'villain': 16, 'antihero': 7}"""
+    return {r["alignment"]: r["total"] for r in _rows(conn, "side_counts")}
 
 
 def get_character(conn, character_id):

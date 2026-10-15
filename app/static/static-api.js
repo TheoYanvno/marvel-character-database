@@ -37,10 +37,15 @@ function rows(db, sql, params = []) {
 }
 
 window.staticApi = {
-  async cards(q = '') {
+  async cards(q = '', side = '') {
     const { db, Q } = await ready;
     const like = `%${q.trim()}%`;
-    return rows(db, Q.search, [like, like, like]);
+    side = ['hero', 'villain', 'antihero'].includes(side) ? side : '';
+    return rows(db, Q.search, [like, like, like, side, side]);
+  },
+  async sides() {
+    const { db, Q } = await ready;
+    return Object.fromEntries(rows(db, Q.side_counts).map((r) => [r.alignment, r.total]));
   },
   async character(id) {
     const { db, Q } = await ready;

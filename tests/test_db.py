@@ -30,6 +30,21 @@ class DatabaseTests(unittest.TestCase):
         mentor = next(r for r in profile["relationships"] if r["kind"] == "mentor")
         self.assertIsNotNone(mentor["id"])   # Iron Man is linked to his own record
 
+    def test_heroes_and_villains_sections(self):
+        heroes = db.search(self.conn, side="hero")
+        villains = db.search(self.conn, side="villain")
+        self.assertTrue(heroes and villains)
+        self.assertTrue(all(c["alignment"] == "hero" for c in heroes))
+        self.assertIn("Green Goblin", [c["hero_name"] for c in villains])
+        self.assertEqual(db.search(self.conn, "goblin", side="hero"), [])        # search and side combine
+        self.assertEqual(len(db.search(self.conn, side="nonsense")), COUNT)     # unknown side = everyone
+        self.assertEqual(sum(db.side_counts(self.conn).values()), COUNT)
+
+    def test_new_enemy_links_to_existing_record(self):
+        spidey = db.search(self.conn, "Peter Parker")[0]
+        goblin = next(r for r in db.get_character(self.conn, spidey["id"])["relationships"] if r["name"] == "Green Goblin")
+        self.assertIsNotNone(goblin["id"])           # Spider-Man's enemy now has its own profile
+
     def test_missing_character_returns_none(self):
         self.assertIsNone(db.get_character(self.conn, 999))
 

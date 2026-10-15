@@ -11,7 +11,7 @@ from app import db
 class SharedQueryTests(unittest.TestCase):
     def test_all_named_queries_load_and_are_valid_sql(self):
         conn = db.build(db.connect())
-        expected = {"search", "character", "character_powers", "character_teams",
+        expected = {"search", "side_counts", "character", "character_powers", "character_teams",
                     "character_relationships", "character_appearances",
                     "stats_by_alignment", "stats_top_powers", "stats_by_decade"}
         self.assertEqual(set(db.Q), expected)

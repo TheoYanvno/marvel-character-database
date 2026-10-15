@@ -4,13 +4,19 @@
 -- Parameters use ? placeholders, so user input is never pasted into the SQL (prevents SQL injection).
 
 -- name: search
--- Card list. Matches hero name, real name or a power. Params: like, like, like
+-- Card list. Matches hero name, real name or a power, optionally only one side
+-- (hero, villain or antihero; an empty string means all). Params: like, like, like, side, side
 SELECT DISTINCT c.id, c.hero_name, c.real_name, c.alignment, c.first_year, c.color
 FROM characters c
 LEFT JOIN character_powers cp ON cp.character_id = c.id
 LEFT JOIN powers p            ON p.id = cp.power_id
-WHERE c.hero_name LIKE ? OR c.real_name LIKE ? OR p.name LIKE ?
+WHERE (c.hero_name LIKE ? OR c.real_name LIKE ? OR p.name LIKE ?)
+  AND (? = '' OR c.alignment = ?)
 ORDER BY c.hero_name;
+
+-- name: side_counts
+-- How many characters are on each side, for the section tabs
+SELECT alignment, COUNT(*) AS total FROM characters GROUP BY alignment;
 
 -- name: character
 SELECT * FROM characters WHERE id = ?;

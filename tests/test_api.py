@@ -15,6 +15,11 @@ class ApiTests(unittest.TestCase):
         self.assertEqual(len(self.client.get("/api/characters").get_json()), COUNT)
         self.assertEqual(self.client.get("/api/characters?q=wakanda").get_json(), [])
 
+    def test_side_filter_and_counts(self):
+        villains = self.client.get("/api/characters?side=villain").get_json()
+        self.assertTrue(villains and all(c["alignment"] == "villain" for c in villains))
+        self.assertEqual(sum(self.client.get("/api/sides").get_json().values()), COUNT)
+
     def test_character_profile(self):
         first = self.client.get("/api/characters?q=Thor").get_json()[0]
         res = self.client.get(f"/api/characters/{first['id']}")

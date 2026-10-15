@@ -2,9 +2,11 @@
 // Running under Flask, data comes from the JSON API. On the live demo (GitHub Pages),
 // static-api.js provides the same two calls by running the SQL in the browser.
 const api = window.staticApi ?? {
-  cards: async (q) => (await fetch(`/api/characters?q=${encodeURIComponent(q)}`)).json(),
+  cards: async (q, side = '') => (await fetch(`/api/characters?q=${encodeURIComponent(q)}&side=${side}`)).json(),
+  sides: async () => (await fetch('/api/sides')).json(),
   character: async (id) => (await fetch(`/api/characters/${id}`)).json(),
 };
+const SECTIONS = [['hero', 'Heroes'], ['villain', 'Villains'], ['antihero', 'Antiheroes']];
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const monogram = (name) => name.split(/[\s-]+/).map((w) => w[0]).join('').slice(0, 2).toUpperCase();
@@ -18,21 +20,49 @@ const card = (c, tag = 'button') => `
   </${tag}>`;
 
 let all = [];
+let side = '';                     // '' = everyone, or 'hero' / 'villain' / 'antihero'
 
 async function loadCards(q = '') {
   let list;
   try {
-    list = await api.cards(q);
+    list = await api.cards(q, side);
   } catch (err) {
     $('grid').innerHTML = '<p class="meta">Could not load the database. Please refresh the page.</p>';
     throw err;
   }
-  if (!q) {
+  if (!q && !side) {
     all = list;
     $('names').innerHTML = all.map((c) => `<option value="${esc(c.hero_name)}">`).join('');
   }
-  $('grid').innerHTML = list.map((c) => card(c)).join('') || '<p class="meta">No characters match.</p>';
+  const grid = (cards) => `<div class="card-grid">${cards.map((c) => card(c)).join('')}</div>`;
+  if (!list.length) {
+    $('grid').innerHTML = '<p class="meta">No characters match.</p>';
+  } else if (side) {
+    $('grid').innerHTML = grid(list);
+  } else {
+    // Everyone: one section per side, each with its own heading
+    $('grid').innerHTML = SECTIONS.map(([key, title]) => {
+      const cards = list.filter((c) => c.alignment === key);
+      return cards.length ? `<section class="side side-${key}" aria-label="${title}"><h2>${title} <span class="count">${cards.length}</span></h2>${grid(cards)}</section>` : '';
+    }).join('');
+  }
 }
+
+async function showTabs() {
+  const counts = await api.sides();
+  const total = Object.values(counts).reduce((a, b) => a + b, 0);
+  $('tabs').innerHTML = [['', 'All', total], ...SECTIONS.map(([key, title]) => [key, title, counts[key] ?? 0])]
+    .map(([key, title, n]) => `<button class="tab tab-${key || 'all'}" data-side="${key}" aria-pressed="${key === side}">${title} <span class="count">${n}</span></button>`).join('');
+}
+
+$('tabs').addEventListener('click', (e) => {
+  const b = e.target.closest('[data-side]');
+  if (!b) return;
+  side = b.dataset.side;
+  $('tabs').querySelectorAll('[data-side]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+  showGrid();
+  loadCards($('search').value);
+});
 
 async function showCharacter(id) {
   const c = await api.character(id);
@@ -89,4 +119,5 @@ $('search').addEventListener('input', (e) => {
   timer = setTimeout(() => { showGrid(); loadCards(q); }, 200);
 });
 
+showTabs();
 loadCards().then(() => { const id = location.hash.slice(1); if (id) showCharacter(id); });
