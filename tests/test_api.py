@@ -1,6 +1,10 @@
+import json
 import unittest
+from pathlib import Path
 
 from app.main import app
+
+COUNT = len(json.loads((Path(__file__).parent.parent / 'data' / 'characters.json').read_text()))
 
 
 class ApiTests(unittest.TestCase):
@@ -8,7 +12,7 @@ class ApiTests(unittest.TestCase):
         self.client = app.test_client()
 
     def test_list_and_search(self):
-        self.assertEqual(len(self.client.get("/api/characters").get_json()), 14)
+        self.assertEqual(len(self.client.get("/api/characters").get_json()), COUNT)
         self.assertEqual(self.client.get("/api/characters?q=wakanda").get_json(), [])
 
     def test_character_profile(self):

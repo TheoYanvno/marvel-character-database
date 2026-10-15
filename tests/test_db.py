@@ -1,7 +1,11 @@
+import json
 import sqlite3
 import unittest
+from pathlib import Path
 
 from app import db
+
+COUNT = len(json.loads((Path(__file__).parent.parent / 'data' / 'characters.json').read_text()))
 
 
 class DatabaseTests(unittest.TestCase):
@@ -10,7 +14,7 @@ class DatabaseTests(unittest.TestCase):
 
     def test_loads_all_characters(self):
         count = self.conn.execute("SELECT COUNT(*) FROM characters").fetchone()[0]
-        self.assertEqual(count, 14)
+        self.assertEqual(count, COUNT)
 
     def test_search_by_power(self):
         names = [c["hero_name"] for c in db.search(self.conn, "flight")]
@@ -37,7 +41,7 @@ class DatabaseTests(unittest.TestCase):
 
     def test_stats(self):
         s = db.stats(self.conn)
-        self.assertEqual(sum(r["total"] for r in s["by_alignment"]), 14)
+        self.assertEqual(sum(r["total"] for r in s["by_alignment"]), COUNT)
         self.assertTrue(all(r["characters"] > 1 for r in s["top_powers"]))
 
 

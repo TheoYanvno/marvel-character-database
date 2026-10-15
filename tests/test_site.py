@@ -1,3 +1,4 @@
+import json
 import sqlite3
 import tempfile
 import unittest
@@ -30,5 +31,5 @@ class LiveDemoBuildTests(unittest.TestCase):
             self.assertIn("sql-wasm.js", html)
             self.assertNotIn("/static/", html)         # relative paths only, for GitHub Pages
             conn = sqlite3.connect(out / "marvel.db")
-            self.assertEqual(conn.execute("SELECT COUNT(*) FROM characters").fetchone()[0], 14)
+            self.assertEqual(conn.execute("SELECT COUNT(*) FROM characters").fetchone()[0], len(json.loads((Path(__file__).parent.parent / "data" / "characters.json").read_text())))
             conn.close()

@@ -882,5 +882,498 @@
         null
       ]
     ]
+  },
+  {
+    "hero_name": "Daredevil",
+    "real_name": "Matt Murdock",
+    "alignment": "hero",
+    "first_appearance": "Daredevil #1",
+    "first_year": 1964,
+    "creators": "Stan Lee, Bill Everett",
+    "color": "#8e0000",
+    "origin": "Blinded as a boy by radioactive chemicals while saving a man from a truck, Matt Murdock finds his other senses heightened far beyond human limits. Trained by the blind martial artist Stick, he becomes a lawyer by day and the masked protector of Hell's Kitchen by night.",
+    "powers": [
+      "Enhanced senses",
+      "Radar sense",
+      "Expert hand-to-hand combat",
+      "Enhanced agility"
+    ],
+    "teams": [
+      "Defenders"
+    ],
+    "relationships": [
+      [
+        "Foggy Nelson",
+        "ally"
+      ],
+      [
+        "Karen Page",
+        "romance"
+      ],
+      [
+        "Elektra",
+        "romance"
+      ],
+      [
+        "Stick",
+        "mentor"
+      ],
+      [
+        "Kingpin",
+        "enemy"
+      ],
+      [
+        "Punisher",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Daredevil #1",
+        1964,
+        "First appearance"
+      ],
+      [
+        "comic",
+        "Daredevil: Born Again",
+        1986,
+        "Frank Miller and David Mazzucchelli's classic story"
+      ],
+      [
+        "film",
+        "Daredevil",
+        2003,
+        "Played by Ben Affleck"
+      ],
+      [
+        "tv",
+        "Daredevil",
+        2015,
+        "Netflix series starring Charlie Cox"
+      ],
+      [
+        "tv",
+        "Daredevil: Born Again",
+        2025,
+        "Charlie Cox returns in the Marvel Studios revival"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Hawkeye",
+    "real_name": "Clint Barton",
+    "alignment": "hero",
+    "first_appearance": "Tales of Suspense #57",
+    "first_year": 1964,
+    "creators": "Stan Lee, Don Heck",
+    "color": "#5e35b1",
+    "origin": "A carnival performer trained in archery by Trick Shot and in swordplay by the Swordsman, Clint Barton first appears as a misunderstood outlaw before joining the Avengers. With no superpowers, he relies on perfect aim and a quiver of trick arrows.",
+    "powers": [
+      "Marksmanship",
+      "Expert hand-to-hand combat",
+      "Peak human conditioning"
+    ],
+    "teams": [
+      "Avengers",
+      "S.H.I.E.L.D."
+    ],
+    "relationships": [
+      [
+        "Black Widow",
+        "ally"
+      ],
+      [
+        "Kate Bishop",
+        "mentor"
+      ],
+      [
+        "Mockingbird",
+        "romance"
+      ],
+      [
+        "Captain America",
+        "ally"
+      ],
+      [
+        "Kingpin",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Tales of Suspense #57",
+        1964,
+        "First appearance"
+      ],
+      [
+        "comic",
+        "Avengers #16",
+        1965,
+        "Joins the Avengers"
+      ],
+      [
+        "film",
+        "The Avengers",
+        2012,
+        "Played by Jeremy Renner"
+      ],
+      [
+        "tv",
+        "Hawkeye",
+        2021,
+        "Disney+ series with Kate Bishop"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Ant-Man",
+    "real_name": "Scott Lang",
+    "alignment": "hero",
+    "first_appearance": "Avengers #181",
+    "first_year": 1979,
+    "creators": "David Michelinie, John Byrne",
+    "color": "#c62828",
+    "origin": "Scott Lang, an electronics expert who turned to burglary to support his daughter, steals Hank Pym's shrinking suit to save a doctor's life. Pym lets him keep it, and Scott becomes the second Ant-Man, able to shrink to the size of an insect and command ants.",
+    "powers": [
+      "Size manipulation",
+      "Insect communication",
+      "Superhuman strength"
+    ],
+    "teams": [
+      "Avengers",
+      "Fantastic Four"
+    ],
+    "relationships": [
+      [
+        "Cassie Lang",
+        "family"
+      ],
+      [
+        "Hank Pym",
+        "mentor"
+      ],
+      [
+        "Wasp",
+        "romance"
+      ],
+      [
+        "Iron Man",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Avengers #181",
+        1979,
+        "First appearance"
+      ],
+      [
+        "comic",
+        "Marvel Premiere #47",
+        1979,
+        "Becomes Ant-Man"
+      ],
+      [
+        "film",
+        "Ant-Man",
+        2015,
+        "Played by Paul Rudd"
+      ],
+      [
+        "film",
+        "Avengers: Endgame",
+        2019,
+        "Escapes the Quantum Realm and helps plan the time heist"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Vision",
+    "real_name": "Vision",
+    "alignment": "hero",
+    "first_appearance": "Avengers #57",
+    "first_year": 1968,
+    "creators": "Roy Thomas, John Buscema",
+    "color": "#ad1457",
+    "origin": "An android built by the robot Ultron to destroy the Avengers, the Vision turns against his maker and joins the team instead. His struggle to understand human emotions, and his love for the Scarlet Witch, make him one of Marvel's most thoughtful heroes.",
+    "powers": [
+      "Density control",
+      "Flight",
+      "Energy projection",
+      "Superhuman strength"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Scarlet Witch",
+        "romance"
+      ],
+      [
+        "Ultron",
+        "enemy"
+      ],
+      [
+        "Iron Man",
+        "ally"
+      ],
+      [
+        "Captain America",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Avengers #57",
+        1968,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Avengers: Age of Ultron",
+        2015,
+        "Played by Paul Bettany"
+      ],
+      [
+        "tv",
+        "WandaVision",
+        2021,
+        "Disney+ series with Elizabeth Olsen"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Falcon",
+    "real_name": "Sam Wilson",
+    "alignment": "hero",
+    "first_appearance": "Captain America #117",
+    "first_year": 1969,
+    "creators": "Stan Lee, Gene Colan",
+    "color": "#1565c0",
+    "origin": "Sam Wilson, a social worker from Harlem, teams up with Captain America and becomes the Falcon, flying on a winged harness with his trained falcon Redwing. One of the first African American superheroes in mainstream comics, he later takes up the shield as Captain America himself.",
+    "powers": [
+      "Flight",
+      "Expert hand-to-hand combat",
+      "Master tactician"
+    ],
+    "teams": [
+      "Avengers",
+      "Defenders"
+    ],
+    "relationships": [
+      [
+        "Captain America",
+        "mentor"
+      ],
+      [
+        "Winter Soldier",
+        "ally"
+      ],
+      [
+        "Red Skull",
+        "enemy"
+      ],
+      [
+        "Black Widow",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Captain America #117",
+        1969,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Captain America: The Winter Soldier",
+        2014,
+        "Played by Anthony Mackie"
+      ],
+      [
+        "tv",
+        "The Falcon and the Winter Soldier",
+        2021,
+        "Takes up the shield"
+      ],
+      [
+        "film",
+        "Captain America: Brave New World",
+        2025,
+        "First film as Captain America"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Ms. Marvel",
+    "real_name": "Kamala Khan",
+    "alignment": "hero",
+    "first_appearance": "Captain Marvel #14",
+    "first_year": 2013,
+    "creators": "Sana Amanat, G. Willow Wilson, Adrian Alphona, Jamie McKelvie",
+    "color": "#ef6c00",
+    "origin": "Kamala Khan, a Pakistani American teenager and superhero fan from Jersey City, gains shape-shifting powers and takes the name of her idol, Captain Marvel. She balances school, family and faith with protecting her city, and became Marvel's first Muslim character to headline her own comic.",
+    "powers": [
+      "Shapeshifting",
+      "Size manipulation",
+      "Healing factor"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Captain Marvel",
+        "mentor"
+      ],
+      [
+        "Bruno Carrelli",
+        "ally"
+      ],
+      [
+        "Spider-Man",
+        "ally"
+      ],
+      [
+        "Wolverine",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Captain Marvel #14",
+        2013,
+        "First appearance"
+      ],
+      [
+        "comic",
+        "Ms. Marvel #1",
+        2014,
+        "Her own series begins"
+      ],
+      [
+        "tv",
+        "Ms. Marvel",
+        2022,
+        "Disney+ series starring Iman Vellani"
+      ],
+      [
+        "film",
+        "The Marvels",
+        2023,
+        "Teams up with Captain Marvel"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Shang-Chi",
+    "real_name": "Shang-Chi",
+    "alignment": "hero",
+    "first_appearance": "Special Marvel Edition #15",
+    "first_year": 1973,
+    "creators": "Steve Englehart, Jim Starlin",
+    "color": "#b71c1c",
+    "origin": "Raised in isolation and trained from childhood as a living weapon by his powerful father, Shang-Chi discovers his father's evil and walks away. He becomes known as the Master of Kung Fu, using his skill to fight for justice.",
+    "powers": [
+      "Expert hand-to-hand combat",
+      "Peak human conditioning",
+      "Enhanced agility"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Xu Wenwu",
+        "family"
+      ],
+      [
+        "Katy Chen",
+        "ally"
+      ],
+      [
+        "Wong",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Special Marvel Edition #15",
+        1973,
+        "First appearance"
+      ],
+      [
+        "comic",
+        "Master of Kung Fu #17",
+        1974,
+        "The series is renamed for him"
+      ],
+      [
+        "film",
+        "Shang-Chi and the Legend of the Ten Rings",
+        2021,
+        "Played by Simu Liu"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Moon Knight",
+    "real_name": "Marc Spector",
+    "alignment": "hero",
+    "first_appearance": "Werewolf by Night #32",
+    "first_year": 1975,
+    "creators": "Doug Moench, Don Perlin",
+    "color": "#cfd8dc",
+    "origin": "Left for dead in the Egyptian desert, the mercenary Marc Spector is revived before a statue of the moon god Khonshu and becomes his avatar. He fights crime as Moon Knight while living with several identities, including Steven Grant and Jake Lockley.",
+    "powers": [
+      "Expert hand-to-hand combat",
+      "Enhanced strength by moonlight",
+      "Peak human conditioning"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Khonshu",
+        "mentor"
+      ],
+      [
+        "Marlene Alraune",
+        "romance"
+      ],
+      [
+        "Jean-Paul Duchamp",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Werewolf by Night #32",
+        1975,
+        "First appearance"
+      ],
+      [
+        "comic",
+        "Moon Knight #1",
+        1980,
+        "His first solo series"
+      ],
+      [
+        "tv",
+        "Moon Knight",
+        2022,
+        "Disney+ series starring Oscar Isaac"
+      ]
+    ]
   }
 ]
