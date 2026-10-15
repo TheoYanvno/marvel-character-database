@@ -1830,5 +1830,609 @@
         "Played by Cate Blanchett, as Odin's firstborn"
       ]
     ]
+  },
+  {
+    "hero_name": "Mister Fantastic",
+    "real_name": "Reed Richards",
+    "alignment": "hero",
+    "first_appearance": "Fantastic Four #1",
+    "first_year": 1961,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#1565c0",
+    "origin": "Scientist Reed Richards takes his friends on an unauthorized flight into space, where cosmic rays transform them all. Reed's body becomes endlessly stretchable, and he leads the Fantastic Four as one of the smartest people on Earth.",
+    "powers": [
+      "Elasticity",
+      "Genius-level intellect"
+    ],
+    "teams": [
+      "Fantastic Four",
+      "Illuminati"
+    ],
+    "relationships": [
+      [
+        "Invisible Woman",
+        "romance"
+      ],
+      [
+        "The Thing",
+        "ally"
+      ],
+      [
+        "Human Torch",
+        "family"
+      ],
+      [
+        "Doctor Doom",
+        "enemy"
+      ],
+      [
+        "Galactus",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Fantastic Four #1",
+        1961,
+        "First appearance; the comic that launched the Marvel Age"
+      ],
+      [
+        "film",
+        "Fantastic Four",
+        2005,
+        "Played by Ioan Gruffudd"
+      ],
+      [
+        "film",
+        "The Fantastic Four: First Steps",
+        2025,
+        "Played by Pedro Pascal"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Invisible Woman",
+    "real_name": "Susan Storm",
+    "alignment": "hero",
+    "first_appearance": "Fantastic Four #1",
+    "first_year": 1961,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#0277bd",
+    "origin": "Exposed to cosmic rays on the same flight, Sue Storm gains the power to turn invisible and later to create nearly unbreakable force fields. Often called the most powerful member of the Fantastic Four, she is the team's heart and its strongest defense.",
+    "powers": [
+      "Invisibility",
+      "Force fields"
+    ],
+    "teams": [
+      "Fantastic Four"
+    ],
+    "relationships": [
+      [
+        "Mister Fantastic",
+        "romance"
+      ],
+      [
+        "Human Torch",
+        "family"
+      ],
+      [
+        "The Thing",
+        "ally"
+      ],
+      [
+        "Doctor Doom",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Fantastic Four #1",
+        1961,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Fantastic Four",
+        2005,
+        "Played by Jessica Alba"
+      ],
+      [
+        "film",
+        "The Fantastic Four: First Steps",
+        2025,
+        "Played by Vanessa Kirby"
+      ]
+    ]
+  },
+  {
+    "hero_name": "The Thing",
+    "real_name": "Ben Grimm",
+    "alignment": "hero",
+    "first_appearance": "Fantastic Four #1",
+    "first_year": 1961,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#e65100",
+    "origin": "Pilot Ben Grimm flies the rocket on the Fantastic Four's fateful trip. The cosmic rays turn him into a hulking, orange, rock-skinned powerhouse. Gruff but kind, he is famous for his battle cry: \"It's clobberin' time!\"",
+    "powers": [
+      "Superhuman strength",
+      "Durability"
+    ],
+    "teams": [
+      "Fantastic Four",
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Mister Fantastic",
+        "ally"
+      ],
+      [
+        "Human Torch",
+        "ally"
+      ],
+      [
+        "Alicia Masters",
+        "romance"
+      ],
+      [
+        "Hulk",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Fantastic Four #1",
+        1961,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Fantastic Four",
+        2005,
+        "Played by Michael Chiklis"
+      ],
+      [
+        "film",
+        "The Fantastic Four: First Steps",
+        2025,
+        "Played by Ebon Moss-Bachrach"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Silver Surfer",
+    "real_name": "Norrin Radd",
+    "alignment": "hero",
+    "first_appearance": "Fantastic Four #48",
+    "first_year": 1966,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#90a4ae",
+    "origin": "To save his home planet Zenn-La, Norrin Radd agrees to serve the world-devourer Galactus as his herald, searching the universe for planets to consume. On Earth, he rebels against his master to protect humanity and is exiled here for years.",
+    "powers": [
+      "Power Cosmic",
+      "Flight",
+      "Energy projection",
+      "Durability"
+    ],
+    "teams": [
+      "Defenders"
+    ],
+    "relationships": [
+      [
+        "Galactus",
+        "enemy"
+      ],
+      [
+        "Shalla-Bal",
+        "romance"
+      ],
+      [
+        "Mister Fantastic",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Fantastic Four #48",
+        1966,
+        "First appearance in the Galactus Trilogy"
+      ],
+      [
+        "comic",
+        "The Silver Surfer #1",
+        1968,
+        "His own series"
+      ],
+      [
+        "film",
+        "Fantastic Four: Rise of the Silver Surfer",
+        2007,
+        "Played by Doug Jones, voiced by Laurence Fishburne"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Cyclops",
+    "real_name": "Scott Summers",
+    "alignment": "hero",
+    "first_appearance": "The X-Men #1",
+    "first_year": 1963,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#1a237e",
+    "origin": "Scott Summers fires powerful beams of force from his eyes that he cannot turn off, so he must always wear a ruby-quartz visor or glasses. Charles Xavier's first student, he becomes the field leader of the X-Men.",
+    "powers": [
+      "Optic blasts",
+      "Master tactician"
+    ],
+    "teams": [
+      "X-Men"
+    ],
+    "relationships": [
+      [
+        "Jean Grey",
+        "romance"
+      ],
+      [
+        "Professor X",
+        "mentor"
+      ],
+      [
+        "Wolverine",
+        "ally"
+      ],
+      [
+        "Magneto",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The X-Men #1",
+        1963,
+        "First appearance"
+      ],
+      [
+        "animation",
+        "X-Men: The Animated Series",
+        1992,
+        "Leads the team"
+      ],
+      [
+        "film",
+        "X-Men",
+        2000,
+        "Played by James Marsden"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Jean Grey",
+    "real_name": "Jean Grey",
+    "alignment": "hero",
+    "first_appearance": "The X-Men #1",
+    "first_year": 1963,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#d84315",
+    "origin": "A founding X-Man with telepathy and telekinesis, Jean Grey becomes host to the cosmic Phoenix Force, which makes her one of the most powerful beings in the universe. Her fall and sacrifice in \"The Dark Phoenix Saga\" is one of the most famous stories in comics.",
+    "powers": [
+      "Telepathy",
+      "Telekinesis",
+      "Phoenix Force"
+    ],
+    "teams": [
+      "X-Men"
+    ],
+    "relationships": [
+      [
+        "Cyclops",
+        "romance"
+      ],
+      [
+        "Professor X",
+        "mentor"
+      ],
+      [
+        "Wolverine",
+        "ally"
+      ],
+      [
+        "Storm",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The X-Men #1",
+        1963,
+        "First appearance"
+      ],
+      [
+        "comic",
+        "The Uncanny X-Men #137",
+        1980,
+        "The Dark Phoenix Saga ends"
+      ],
+      [
+        "film",
+        "X-Men",
+        2000,
+        "Played by Famke Janssen"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Professor X",
+    "real_name": "Charles Xavier",
+    "alignment": "hero",
+    "first_appearance": "The X-Men #1",
+    "first_year": 1963,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#4527a0",
+    "origin": "The world's most powerful telepath, Charles Xavier dreams of peace between mutants and humans. He opens a school in his mansion to train young mutants to control their powers, and founds the X-Men to protect a world that fears them.",
+    "powers": [
+      "Telepathy",
+      "Genius-level intellect",
+      "Astral projection"
+    ],
+    "teams": [
+      "X-Men",
+      "Illuminati"
+    ],
+    "relationships": [
+      [
+        "Magneto",
+        "ally"
+      ],
+      [
+        "Cyclops",
+        "mentor"
+      ],
+      [
+        "Jean Grey",
+        "mentor"
+      ],
+      [
+        "Storm",
+        "mentor"
+      ],
+      [
+        "Wolverine",
+        "mentor"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The X-Men #1",
+        1963,
+        "First appearance"
+      ],
+      [
+        "film",
+        "X-Men",
+        2000,
+        "Played by Patrick Stewart"
+      ],
+      [
+        "film",
+        "X-Men: First Class",
+        2011,
+        "Played by James McAvoy"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Galactus",
+    "real_name": "Galan",
+    "alignment": "villain",
+    "first_appearance": "Fantastic Four #48",
+    "first_year": 1966,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#4a148c",
+    "origin": "The last survivor of the universe that existed before ours, Galan of Taa becomes Galactus, a cosmic giant who must consume the energy of living planets to survive. He sees himself as a force of nature beyond good and evil.",
+    "powers": [
+      "Power Cosmic",
+      "Near-immortality",
+      "Energy projection",
+      "Matter manipulation"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Silver Surfer",
+        "enemy"
+      ],
+      [
+        "Mister Fantastic",
+        "enemy"
+      ],
+      [
+        "Thor",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Fantastic Four #48",
+        1966,
+        "First appearance in the Galactus Trilogy"
+      ],
+      [
+        "film",
+        "The Fantastic Four: First Steps",
+        2025,
+        "Played by Ralph Ineson"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Mystique",
+    "real_name": "Raven Darkholme",
+    "alignment": "villain",
+    "first_appearance": "Ms. Marvel #16",
+    "first_year": 1978,
+    "creators": "Chris Claremont, Dave Cockrum",
+    "color": "#283593",
+    "origin": "A blue-skinned mutant shapeshifter who can mimic anyone's appearance, Mystique has spent more than a century as a spy, assassin and leader of the Brotherhood of Mutants. She is the mother of the X-Man Nightcrawler.",
+    "powers": [
+      "Shapeshifting",
+      "Expert hand-to-hand combat",
+      "Master spy",
+      "Slowed aging"
+    ],
+    "teams": [
+      "Brotherhood of Mutants"
+    ],
+    "relationships": [
+      [
+        "Nightcrawler",
+        "family"
+      ],
+      [
+        "Magneto",
+        "ally"
+      ],
+      [
+        "Wolverine",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Ms. Marvel #16",
+        1978,
+        "First appearance"
+      ],
+      [
+        "film",
+        "X-Men",
+        2000,
+        "Played by Rebecca Romijn"
+      ],
+      [
+        "film",
+        "X-Men: First Class",
+        2011,
+        "Played by Jennifer Lawrence"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Apocalypse",
+    "real_name": "En Sabah Nur",
+    "alignment": "villain",
+    "first_appearance": "X-Factor #5",
+    "first_year": 1986,
+    "creators": "Louise Simonson, Jackson Guice",
+    "color": "#6a1b9a",
+    "origin": "Born in ancient Egypt thousands of years ago, En Sabah Nur is one of the first mutants. Believing only the strongest should survive, he has spent millennia testing and culling humanity, recruiting powerful mutants as his Four Horsemen.",
+    "powers": [
+      "Shapeshifting",
+      "Superhuman strength",
+      "Near-immortality",
+      "Durability"
+    ],
+    "teams": [
+      "Horsemen of Apocalypse"
+    ],
+    "relationships": [
+      [
+        "Cyclops",
+        "enemy"
+      ],
+      [
+        "Wolverine",
+        "enemy"
+      ],
+      [
+        "Storm",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "X-Factor #5",
+        1986,
+        "First appearance"
+      ],
+      [
+        "animation",
+        "X-Men: The Animated Series",
+        1992,
+        "A recurring threat"
+      ],
+      [
+        "film",
+        "X-Men: Apocalypse",
+        2016,
+        "Played by Oscar Isaac"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Kang the Conqueror",
+    "real_name": "Nathaniel Richards",
+    "alignment": "villain",
+    "first_appearance": "Avengers #8",
+    "first_year": 1964,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#00695c",
+    "origin": "A man from the 30th century who masters time travel, Kang sets out to rule every era of history. Countless versions of him exist across time, and some battle each other as often as they battle the Avengers.",
+    "powers": [
+      "Time travel",
+      "Genius-level intellect",
+      "Powered armor",
+      "Master tactician"
+    ],
+    "teams": [
+      "Council of Kangs"
+    ],
+    "relationships": [
+      [
+        "Mister Fantastic",
+        "family"
+      ],
+      [
+        "Iron Man",
+        "enemy"
+      ],
+      [
+        "Captain America",
+        "enemy"
+      ],
+      [
+        "Loki",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Avengers #8",
+        1964,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Loki",
+        2021,
+        "A version called He Who Remains appears"
+      ],
+      [
+        "film",
+        "Ant-Man and the Wasp: Quantumania",
+        2023,
+        "Kang the Conqueror appears"
+      ]
+    ]
   }
 ]
