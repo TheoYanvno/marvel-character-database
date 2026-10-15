@@ -1375,5 +1375,460 @@
         "Disney+ series starring Oscar Isaac"
       ]
     ]
+  },
+  {
+    "hero_name": "Green Goblin",
+    "real_name": "Norman Osborn",
+    "alignment": "villain",
+    "first_appearance": "The Amazing Spider-Man #14",
+    "first_year": 1964,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#2e7d32",
+    "origin": "Ruthless industrialist Norman Osborn is driven mad by an experimental formula and becomes the Green Goblin, attacking from a glider with pumpkin bombs. He discovers Spider-Man's identity and becomes his most personal enemy.",
+    "powers": [
+      "Superhuman strength",
+      "Genius-level intellect",
+      "Goblin glider and pumpkin bombs",
+      "Regeneration"
+    ],
+    "teams": [
+      "Sinister Six",
+      "Dark Avengers"
+    ],
+    "relationships": [
+      [
+        "Harry Osborn",
+        "family"
+      ],
+      [
+        "Spider-Man",
+        "enemy"
+      ],
+      [
+        "Doctor Octopus",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Amazing Spider-Man #14",
+        1964,
+        "First appearance"
+      ],
+      [
+        "comic",
+        "The Amazing Spider-Man #122",
+        1973,
+        "The Night Gwen Stacy Died storyline concludes"
+      ],
+      [
+        "film",
+        "Spider-Man",
+        2002,
+        "Played by Willem Dafoe"
+      ],
+      [
+        "film",
+        "Spider-Man: No Way Home",
+        2021,
+        "Willem Dafoe returns"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Doctor Octopus",
+    "real_name": "Otto Octavius",
+    "alignment": "villain",
+    "first_appearance": "The Amazing Spider-Man #3",
+    "first_year": 1963,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#558b2f",
+    "origin": "Brilliant scientist Otto Octavius designs four mechanical arms to handle radioactive material. A lab accident fuses the arms to his body and his mind, and he turns his genius to crime as Doctor Octopus, one of Spider-Man's deadliest foes.",
+    "powers": [
+      "Mechanical tentacles",
+      "Genius-level intellect",
+      "Master tactician"
+    ],
+    "teams": [
+      "Sinister Six"
+    ],
+    "relationships": [
+      [
+        "Spider-Man",
+        "enemy"
+      ],
+      [
+        "May Parker",
+        "romance"
+      ],
+      [
+        "Green Goblin",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Amazing Spider-Man #3",
+        1963,
+        "First appearance"
+      ],
+      [
+        "comic",
+        "The Superior Spider-Man #1",
+        2013,
+        "Takes over Peter Parker's body"
+      ],
+      [
+        "film",
+        "Spider-Man 2",
+        2004,
+        "Played by Alfred Molina"
+      ],
+      [
+        "film",
+        "Spider-Man: No Way Home",
+        2021,
+        "Alfred Molina returns"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Magneto",
+    "real_name": "Erik Lehnsherr (born Max Eisenhardt)",
+    "alignment": "villain",
+    "first_appearance": "The X-Men #1",
+    "first_year": 1963,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#880e4f",
+    "origin": "A survivor of the Holocaust, the mutant master of magnetism vows that mutants will never be persecuted as his family was. Once Charles Xavier's closest friend, he believes mutants must rule rather than hide, making him the X-Men's greatest adversary and sometimes their reluctant ally.",
+    "powers": [
+      "Magnetism control",
+      "Flight",
+      "Force fields",
+      "Master tactician"
+    ],
+    "teams": [
+      "Brotherhood of Mutants",
+      "X-Men"
+    ],
+    "relationships": [
+      [
+        "Professor X",
+        "ally"
+      ],
+      [
+        "Scarlet Witch",
+        "family"
+      ],
+      [
+        "Quicksilver",
+        "family"
+      ],
+      [
+        "Mystique",
+        "ally"
+      ],
+      [
+        "Wolverine",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The X-Men #1",
+        1963,
+        "First appearance"
+      ],
+      [
+        "animation",
+        "X-Men: The Animated Series",
+        1992,
+        "A defining portrayal for a generation"
+      ],
+      [
+        "film",
+        "X-Men",
+        2000,
+        "Played by Ian McKellen"
+      ],
+      [
+        "film",
+        "X-Men: First Class",
+        2011,
+        "Played by Michael Fassbender"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Doctor Doom",
+    "real_name": "Victor von Doom",
+    "alignment": "villain",
+    "first_appearance": "Fantastic Four #5",
+    "first_year": 1962,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#33691e",
+    "origin": "A genius from the small European nation of Latveria, Victor von Doom blames his college rival Reed Richards for the experiment that scarred his face. Hidden behind an iron mask, he rules Latveria as a monarch and combines science with sorcery in his quest to prove himself superior.",
+    "powers": [
+      "Genius-level intellect",
+      "Powered armor",
+      "Sorcery",
+      "Master tactician"
+    ],
+    "teams": [
+      "Cabal"
+    ],
+    "relationships": [
+      [
+        "Mister Fantastic",
+        "enemy"
+      ],
+      [
+        "Cynthia von Doom",
+        "family"
+      ],
+      [
+        "Doctor Strange",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Fantastic Four #5",
+        1962,
+        "First appearance"
+      ],
+      [
+        "comic",
+        "Secret Wars",
+        2015,
+        "Becomes god-emperor of Battleworld"
+      ],
+      [
+        "film",
+        "Fantastic Four",
+        2005,
+        "Played by Julian McMahon"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Red Skull",
+    "real_name": "Johann Schmidt",
+    "alignment": "villain",
+    "first_appearance": "Captain America Comics #7",
+    "first_year": 1941,
+    "creators": "Joe Simon, Jack Kirby",
+    "color": "#b71c1c",
+    "origin": "Hand-picked by Hitler and made into a living symbol of terror, Johann Schmidt becomes the Red Skull, the face of Nazi evil in World War II. Preserved into the present day, he remains Captain America's oldest and most hated enemy.",
+    "powers": [
+      "Master tactician",
+      "Expert hand-to-hand combat",
+      "Peak human conditioning"
+    ],
+    "teams": [
+      "HYDRA"
+    ],
+    "relationships": [
+      [
+        "Captain America",
+        "enemy"
+      ],
+      [
+        "Sinthea Schmidt",
+        "family"
+      ],
+      [
+        "Falcon",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Captain America Comics #7",
+        1941,
+        "First appearance of the true Red Skull"
+      ],
+      [
+        "film",
+        "Captain America: The First Avenger",
+        2011,
+        "Played by Hugo Weaving"
+      ],
+      [
+        "film",
+        "Avengers: Infinity War",
+        2018,
+        "Guardian of the Soul Stone"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Ultron",
+    "real_name": "Ultron",
+    "alignment": "villain",
+    "first_appearance": "Avengers #55",
+    "first_year": 1968,
+    "creators": "Roy Thomas, John Buscema",
+    "color": "#78909c",
+    "origin": "An artificial intelligence created by Hank Pym, Ultron becomes self-aware, rebels against its creator and decides that humanity must be wiped out. It keeps rebuilding itself in stronger bodies, often made of adamantium, and even builds the Vision in an attempt to destroy the Avengers.",
+    "powers": [
+      "Genius-level intellect",
+      "Flight",
+      "Energy projection",
+      "Durability"
+    ],
+    "teams": [
+      "Masters of Evil"
+    ],
+    "relationships": [
+      [
+        "Hank Pym",
+        "family"
+      ],
+      [
+        "Vision",
+        "family"
+      ],
+      [
+        "Iron Man",
+        "enemy"
+      ],
+      [
+        "Captain America",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Avengers #55",
+        1968,
+        "First full appearance"
+      ],
+      [
+        "comic",
+        "Age of Ultron",
+        2013,
+        "A crossover event where Ultron conquers Earth"
+      ],
+      [
+        "film",
+        "Avengers: Age of Ultron",
+        2015,
+        "Voiced by James Spader"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Kingpin",
+    "real_name": "Wilson Fisk",
+    "alignment": "villain",
+    "first_appearance": "The Amazing Spider-Man #50",
+    "first_year": 1967,
+    "creators": "Stan Lee, John Romita Sr.",
+    "color": "#424242",
+    "origin": "A huge man of incredible strength and patience, Wilson Fisk rises from poverty to become New York's top crime lord while posing as a respectable businessman. Few heroes can touch him, and Daredevil has spent years trying to bring him down.",
+    "powers": [
+      "Superhuman strength",
+      "Expert hand-to-hand combat",
+      "Master tactician"
+    ],
+    "teams": [
+      "Hand"
+    ],
+    "relationships": [
+      [
+        "Vanessa Fisk",
+        "romance"
+      ],
+      [
+        "Daredevil",
+        "enemy"
+      ],
+      [
+        "Spider-Man",
+        "enemy"
+      ],
+      [
+        "Punisher",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Amazing Spider-Man #50",
+        1967,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Daredevil",
+        2015,
+        "Played by Vincent D'Onofrio"
+      ],
+      [
+        "animation",
+        "Spider-Man: Into the Spider-Verse",
+        2018,
+        "Animated film"
+      ],
+      [
+        "tv",
+        "Daredevil: Born Again",
+        2025,
+        "Becomes mayor of New York"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Hela",
+    "real_name": "Hela",
+    "alignment": "villain",
+    "first_appearance": "Journey into Mystery #102",
+    "first_year": 1964,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#1b5e20",
+    "origin": "The Norse goddess of death rules Hel and Niflheim, the realms where the souls of those who did not die in battle go. Endlessly ambitious, she longs to claim Asgard itself, and Thor's soul along with it.",
+    "powers": [
+      "Near-immortality",
+      "Superhuman strength",
+      "Death touch",
+      "Sorcery"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Loki",
+        "family"
+      ],
+      [
+        "Thor",
+        "enemy"
+      ],
+      [
+        "Odin",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Journey into Mystery #102",
+        1964,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Thor: Ragnarok",
+        2017,
+        "Played by Cate Blanchett, as Odin's firstborn"
+      ]
+    ]
   }
 ]
