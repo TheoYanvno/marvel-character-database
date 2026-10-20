@@ -2725,5 +2725,428 @@
         "Played by Woody Harrelson"
       ]
     ]
+  },
+  {
+    "hero_name": "Sabretooth",
+    "real_name": "Victor Creed",
+    "alignment": "villain",
+    "first_appearance": "Iron Fist #14",
+    "first_year": 1977,
+    "creators": "Chris Claremont, John Byrne",
+    "color": "#a1662f",
+    "origin": "A mutant with claws, fangs and a healing factor like Wolverine's, Victor Creed loves the hunt more than any cause. His long, bitter history with Logan goes back decades.",
+    "powers": [
+      "Healing factor",
+      "Superhuman senses",
+      "Claws",
+      "Superhuman strength"
+    ],
+    "teams": [
+      "Brotherhood of Mutants"
+    ],
+    "relationships": [
+      [
+        "Wolverine",
+        "enemy"
+      ],
+      [
+        "Mystique",
+        "romance"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Iron Fist #14",
+        1977,
+        "First appearance"
+      ],
+      [
+        "film",
+        "X-Men",
+        2000,
+        "Played by Tyler Mane"
+      ],
+      [
+        "film",
+        "X-Men Origins: Wolverine",
+        2009,
+        "Played by Liev Schreiber"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Juggernaut",
+    "real_name": "Cain Marko",
+    "alignment": "villain",
+    "first_appearance": "X-Men #12",
+    "first_year": 1965,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#9e2b25",
+    "origin": "Charles Xavier's resentful stepbrother finds the mystical Gem of Cyttorak in a hidden temple and becomes an unstoppable force: once he starts moving, almost nothing can stop him.",
+    "powers": [
+      "Superhuman strength",
+      "Invulnerability",
+      "Unstoppable momentum"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Professor X",
+        "family"
+      ],
+      [
+        "Black Tom Cassidy",
+        "ally"
+      ],
+      [
+        "Colossus",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "X-Men #12",
+        1965,
+        "First appearance"
+      ],
+      [
+        "film",
+        "X-Men: The Last Stand",
+        2006,
+        "Played by Vinnie Jones"
+      ],
+      [
+        "film",
+        "Deadpool 2",
+        2018,
+        "A CGI Juggernaut"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Kraven the Hunter",
+    "real_name": "Sergei Kravinoff",
+    "alignment": "villain",
+    "first_appearance": "The Amazing Spider-Man #15",
+    "first_year": 1964,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#8d6e63",
+    "origin": "A world-famous big-game hunter who drinks jungle potions for strength and speed. Bored of ordinary prey, he sets out to prove he can hunt the most dangerous game of all: Spider-Man.",
+    "powers": [
+      "Superhuman strength",
+      "Superhuman speed",
+      "Expert tracker",
+      "Hand-to-hand combat"
+    ],
+    "teams": [
+      "Sinister Six"
+    ],
+    "relationships": [
+      [
+        "Spider-Man",
+        "enemy"
+      ],
+      [
+        "Chameleon",
+        "family"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Amazing Spider-Man #15",
+        1964,
+        "First appearance"
+      ],
+      [
+        "comic",
+        "Kraven's Last Hunt",
+        1987,
+        "One of Spider-Man's darkest stories"
+      ],
+      [
+        "film",
+        "Kraven the Hunter",
+        2024,
+        "Played by Aaron Taylor-Johnson"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Electro",
+    "real_name": "Maxwell Dillon",
+    "alignment": "villain",
+    "first_appearance": "The Amazing Spider-Man #9",
+    "first_year": 1964,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#00b0ff",
+    "origin": "A power-line worker is struck by lightning while repairing a cable and finds he can store and fire electricity. He turns to crime and becomes one of Spider-Man's most frequent foes.",
+    "powers": [
+      "Electricity generation",
+      "Energy absorption",
+      "Travel through power lines"
+    ],
+    "teams": [
+      "Sinister Six"
+    ],
+    "relationships": [
+      [
+        "Spider-Man",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Amazing Spider-Man #9",
+        1964,
+        "First appearance"
+      ],
+      [
+        "film",
+        "The Amazing Spider-Man 2",
+        2014,
+        "Played by Jamie Foxx"
+      ],
+      [
+        "film",
+        "Spider-Man: No Way Home",
+        2021,
+        "Jamie Foxx returns"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Vulture",
+    "real_name": "Adrian Toomes",
+    "alignment": "villain",
+    "first_appearance": "The Amazing Spider-Man #2",
+    "first_year": 1963,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#558b2f",
+    "origin": "An engineer cheated out of his company by his business partner builds an electromagnetic flying harness and uses it for revenge, then for a career in crime.",
+    "powers": [
+      "Flight (harness)",
+      "Enhanced strength (harness)",
+      "Engineering genius"
+    ],
+    "teams": [
+      "Sinister Six"
+    ],
+    "relationships": [
+      [
+        "Spider-Man",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Amazing Spider-Man #2",
+        1963,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Spider-Man: Homecoming",
+        2017,
+        "Played by Michael Keaton"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Baron Zemo",
+    "real_name": "Helmut Zemo",
+    "alignment": "villain",
+    "first_appearance": "Captain America #168",
+    "first_year": 1973,
+    "creators": "Roy Thomas, Tony Isabella, Sal Buscema",
+    "color": "#6a1b9a",
+    "origin": "The son of the Nazi scientist Baron Heinrich Zemo blames Captain America for his father's death. Scarred and patient, he wins with planning rather than powers, and leads the Masters of Evil.",
+    "powers": [
+      "Master strategist",
+      "Expert swordsman",
+      "Peak human conditioning"
+    ],
+    "teams": [
+      "Masters of Evil",
+      "Thunderbolts"
+    ],
+    "relationships": [
+      [
+        "Captain America",
+        "enemy"
+      ],
+      [
+        "Heinrich Zemo",
+        "family"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Captain America #168",
+        1973,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Captain America: Civil War",
+        2016,
+        "Played by Daniel Brühl"
+      ],
+      [
+        "tv",
+        "The Falcon and the Winter Soldier",
+        2021,
+        "Daniel Brühl returns"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Dormammu",
+    "real_name": "Dormammu",
+    "alignment": "villain",
+    "first_appearance": "Strange Tales #126",
+    "first_year": 1964,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#ff6d00",
+    "origin": "A being of pure mystical energy who rules the Dark Dimension and hungers to conquer Earth. Doctor Strange has turned him back again and again, sometimes with wits rather than magic.",
+    "powers": [
+      "Magic",
+      "Energy manipulation",
+      "Shapeshifting",
+      "Dimensional travel"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Doctor Strange",
+        "enemy"
+      ],
+      [
+        "Umar",
+        "family"
+      ],
+      [
+        "Clea",
+        "family"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Strange Tales #126",
+        1964,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Doctor Strange",
+        2016,
+        "Bargained with in a time loop"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Abomination",
+    "real_name": "Emil Blonsky",
+    "alignment": "villain",
+    "first_appearance": "Tales to Astonish #90",
+    "first_year": 1967,
+    "creators": "Stan Lee, Gil Kane",
+    "color": "#2e7d32",
+    "origin": "A spy exposed to the same gamma radiation that created the Hulk becomes an even larger, scaled monster, but unlike Bruce Banner he can't change back.",
+    "powers": [
+      "Superhuman strength",
+      "Superhuman durability",
+      "Gamma regeneration"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Hulk",
+        "enemy"
+      ],
+      [
+        "She-Hulk",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Tales to Astonish #90",
+        1967,
+        "First appearance"
+      ],
+      [
+        "film",
+        "The Incredible Hulk",
+        2008,
+        "Played by Tim Roth"
+      ],
+      [
+        "tv",
+        "She-Hulk: Attorney at Law",
+        2022,
+        "Tim Roth returns"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Bullseye",
+    "real_name": "Unknown (has used the name Lester)",
+    "alignment": "villain",
+    "first_appearance": "Daredevil #131",
+    "first_year": 1976,
+    "creators": "Marv Wolfman, John Romita Sr.",
+    "color": "#37474f",
+    "origin": "An assassin with no powers and perfect aim who can kill with a playing card or a paper clip. He works for the Kingpin and has a deep obsession with Daredevil.",
+    "powers": [
+      "Perfect accuracy",
+      "Expert assassin",
+      "Hand-to-hand combat"
+    ],
+    "teams": [
+      "Thunderbolts",
+      "Dark Avengers"
+    ],
+    "relationships": [
+      [
+        "Daredevil",
+        "enemy"
+      ],
+      [
+        "Kingpin",
+        "ally"
+      ],
+      [
+        "Elektra",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Daredevil #131",
+        1976,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Daredevil",
+        2003,
+        "Played by Colin Farrell"
+      ],
+      [
+        "tv",
+        "Daredevil",
+        2018,
+        "Played by Wilson Bethel in season 3"
+      ]
+    ]
   }
 ]
