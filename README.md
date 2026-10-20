@@ -2,7 +2,7 @@
 
 **▶ [Live demo](https://theoyanvno.github.io/marvel-character-database/)**
 
-A Python + SQL web app for exploring 47 Marvel characters, grouped into **Heroes**, **Villains** and **Antiheroes**. Type a name, real name or power (try "flight"), switch between sections, or click a card. The selected card slides to the side and the character's profile appears next to it: origin, powers, teams, relationships, and a timeline of pop culture highlights.
+A Python + SQL web app for exploring 56 Marvel characters (25 heroes, 25 villains and 6 antiheroes), grouped into **Heroes**, **Villains** and **Antiheroes**. Type a name, real name or power (try "flight"), switch between sections, or click a card. The selected card slides to the side and the character's profile appears next to it: origin, powers, teams, relationships, and a timeline of pop culture highlights.
 
 **Tech:** Python · Flask · SQLite (`sqlite3`) · SQL · vanilla JavaScript · CSS animations · `unittest`
 
@@ -63,7 +63,7 @@ The front end calls one small data layer (`api.cards()`, `api.sides()`, `api.cha
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python -m app.main                                  # http://localhost:5000
-python -m unittest discover -s tests -t .           # 12 tests
+python -m unittest discover -s tests -t .           # 15 tests
 python build_db.py                                  # optional: writes marvel.db to explore in DB Browser for SQLite
 python build_site.py                                # rebuilds the live demo in docs/
 ```
