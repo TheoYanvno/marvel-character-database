@@ -6611,5 +6611,1982 @@
         "Played by Sylvester Stallone"
       ]
     ]
+  },
+  {
+    "hero_name": "Yelena Belova",
+    "real_name": "Yelena Belova",
+    "alignment": "antihero",
+    "first_appearance": "Inhumans #5 (vol. 2)",
+    "first_year": 1999,
+    "creators": "Devin Grayson, J. G. Jones",
+    "color": "#558b2f",
+    "origin": "A Red Room-trained assassin raised alongside Natasha Romanoff as her 'sister', who later leads the Thunderbolts.",
+    "powers": [
+      "Assassin training",
+      "Hand-to-hand combat",
+      "Marksmanship"
+    ],
+    "teams": [
+      "Thunderbolts"
+    ],
+    "relationships": [
+      [
+        "Black Widow",
+        "family"
+      ],
+      [
+        "Red Guardian",
+        "family"
+      ],
+      [
+        "Valentina Allegra de Fontaine",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Inhumans #5 (vol. 2)",
+        1999,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Black Widow",
+        2021,
+        "Played by Florence Pugh"
+      ],
+      [
+        "film",
+        "Thunderbolts*",
+        2025,
+        "Leads the Thunderbolts"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Red Guardian",
+    "real_name": "Alexei Shostakov",
+    "alignment": "antihero",
+    "first_appearance": "Avengers #43",
+    "first_year": 1967,
+    "creators": "Roy Thomas, John Buscema",
+    "color": "#c62828",
+    "origin": "The Soviet Union's answer to Captain America. In the comics he's Natasha's husband; in the MCU her stand-in father.",
+    "powers": [
+      "Super-soldier strength",
+      "Hand-to-hand combat",
+      "Shield"
+    ],
+    "teams": [
+      "Thunderbolts"
+    ],
+    "relationships": [
+      [
+        "Black Widow",
+        "family"
+      ],
+      [
+        "Yelena Belova",
+        "family"
+      ],
+      [
+        "Captain America",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Avengers #43",
+        1967,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Black Widow",
+        2021,
+        "Played by David Harbour"
+      ],
+      [
+        "film",
+        "Thunderbolts*",
+        2025,
+        "Joins the Thunderbolts"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Taskmaster",
+    "real_name": "Antonia Dreykov",
+    "alignment": "villain",
+    "first_appearance": "Avengers #195",
+    "first_year": 1980,
+    "creators": "David Michelinie, George Pérez",
+    "color": "#455a64",
+    "origin": "In the comics a mercenary, Tony Masters, who can copy any fighting style he sees. The MCU's Taskmaster is Antonia Dreykov, controlled by the Red Room.",
+    "powers": [
+      "Photographic reflexes",
+      "Weapons mastery",
+      "Hand-to-hand combat"
+    ],
+    "teams": [
+      "Thunderbolts"
+    ],
+    "relationships": [
+      [
+        "Black Widow",
+        "enemy"
+      ],
+      [
+        "Yelena Belova",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Avengers #195",
+        1980,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Black Widow",
+        2021,
+        "Played by Olga Kurylenko"
+      ],
+      [
+        "film",
+        "Thunderbolts*",
+        2025,
+        "Killed early in the film"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Iron Maiden",
+    "real_name": "Melina Vostokoff",
+    "alignment": "antihero",
+    "first_appearance": "Marvel Team-Up #82",
+    "first_year": 1979,
+    "creators": "Chris Claremont, Sal Buscema",
+    "color": "#6d4c41",
+    "origin": "A Soviet assassin and rival of Black Widow. The MCU's Melina is a Red Room scientist who helped raise Natasha and Yelena.",
+    "powers": [
+      "Espionage",
+      "Hand-to-hand combat",
+      "Scientific expertise (MCU)"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Black Widow",
+        "family"
+      ],
+      [
+        "Yelena Belova",
+        "family"
+      ],
+      [
+        "Red Guardian",
+        "romance"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Marvel Team-Up #82",
+        1979,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Black Widow",
+        2021,
+        "Played by Rachel Weisz"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Razor Fist",
+    "real_name": "Razor Fist",
+    "alignment": "villain",
+    "first_appearance": "Master of Kung Fu #29",
+    "first_year": 1975,
+    "creators": "Doug Moench, Paul Gulacy",
+    "color": "#607d8b",
+    "origin": "An enforcer with blades in place of hands who works for Shang-Chi's father.",
+    "powers": [
+      "Blade arm",
+      "Martial arts",
+      "Superhuman strength"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Shang-Chi",
+        "enemy"
+      ],
+      [
+        "Mandarin",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Master of Kung Fu #29",
+        1975,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Shang-Chi and the Legend of the Ten Rings",
+        2021,
+        "Played by Florian Munteanu"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Ikaris",
+    "real_name": "Ikaris",
+    "alignment": "villain",
+    "first_appearance": "The Eternals #1",
+    "first_year": 1976,
+    "creators": "Jack Kirby",
+    "color": "#1565c0",
+    "origin": "One of the immortal Eternals, a powerful flier who fires energy from his eyes. In the MCU he betrays his team to obey the Celestials.",
+    "powers": [
+      "Flight",
+      "Eye beams",
+      "Superhuman strength",
+      "Immortality"
+    ],
+    "teams": [
+      "Eternals"
+    ],
+    "relationships": [
+      [
+        "Sersi",
+        "romance"
+      ],
+      [
+        "Ajak",
+        "mentor"
+      ],
+      [
+        "Arishem",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Eternals #1",
+        1976,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Eternals",
+        2021,
+        "Played by Richard Madden"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Sersi",
+    "real_name": "Sersi",
+    "alignment": "hero",
+    "first_appearance": "The Eternals #3",
+    "first_year": 1976,
+    "creators": "Jack Kirby",
+    "color": "#2e7d32",
+    "origin": "An Eternal who loves humanity and can transform matter, later the Eternals' leader in the MCU.",
+    "powers": [
+      "Matter transmutation",
+      "Immortality",
+      "Illusions (comics)"
+    ],
+    "teams": [
+      "Eternals",
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Ikaris",
+        "romance"
+      ],
+      [
+        "Black Knight",
+        "romance"
+      ],
+      [
+        "Ajak",
+        "mentor"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Eternals #3",
+        1976,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Eternals",
+        2021,
+        "Played by Gemma Chan"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Thena",
+    "real_name": "Thena",
+    "alignment": "hero",
+    "first_appearance": "The Eternals #5",
+    "first_year": 1976,
+    "creators": "Jack Kirby",
+    "color": "#b0bec5",
+    "origin": "A fierce Eternal warrior who forms weapons out of cosmic energy.",
+    "powers": [
+      "Cosmic weapon creation",
+      "Immortality",
+      "Combat mastery"
+    ],
+    "teams": [
+      "Eternals"
+    ],
+    "relationships": [
+      [
+        "Gilgamesh",
+        "ally"
+      ],
+      [
+        "Kro",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Eternals #5",
+        1976,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Eternals",
+        2021,
+        "Played by Angelina Jolie"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Ajak",
+    "real_name": "Ajak",
+    "alignment": "hero",
+    "first_appearance": "The Eternals #2",
+    "first_year": 1976,
+    "creators": "Jack Kirby",
+    "color": "#ffb300",
+    "origin": "The Eternal who speaks with the Celestials and, in the MCU, the team's original leader and healer.",
+    "powers": [
+      "Communicating with Celestials",
+      "Healing (MCU)",
+      "Immortality"
+    ],
+    "teams": [
+      "Eternals"
+    ],
+    "relationships": [
+      [
+        "Arishem",
+        "ally"
+      ],
+      [
+        "Ikaris",
+        "mentor"
+      ],
+      [
+        "Sersi",
+        "mentor"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Eternals #2",
+        1976,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Eternals",
+        2021,
+        "Played by Salma Hayek"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Kingo",
+    "real_name": "Kingo Sunen",
+    "alignment": "hero",
+    "first_appearance": "The Eternals #11",
+    "first_year": 1977,
+    "creators": "Jack Kirby",
+    "color": "#f57c00",
+    "origin": "An Eternal swordsman in the comics; in the MCU a cosmic-energy blaster who became a Bollywood star.",
+    "powers": [
+      "Energy projectiles",
+      "Swordsmanship (comics)",
+      "Immortality"
+    ],
+    "teams": [
+      "Eternals"
+    ],
+    "relationships": [
+      [
+        "Sersi",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Eternals #11",
+        1977,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Eternals",
+        2021,
+        "Played by Kumail Nanjiani"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Sprite",
+    "real_name": "Sprite",
+    "alignment": "antihero",
+    "first_appearance": "The Eternals #9",
+    "first_year": 1977,
+    "creators": "Jack Kirby",
+    "color": "#8e24aa",
+    "origin": "An Eternal trickster who looks like a child forever and casts illusions.",
+    "powers": [
+      "Illusions",
+      "Immortality"
+    ],
+    "teams": [
+      "Eternals"
+    ],
+    "relationships": [
+      [
+        "Ikaris",
+        "romance"
+      ],
+      [
+        "Sersi",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Eternals #9",
+        1977,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Eternals",
+        2021,
+        "Played by Lia McHugh"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Phastos",
+    "real_name": "Phastos",
+    "alignment": "hero",
+    "first_appearance": "The Eternals #1 (vol. 2)",
+    "first_year": 1985,
+    "creators": "Peter B. Gillis, Sal Buscema",
+    "color": "#00838f",
+    "origin": "The Eternals' inventor and weapons maker.",
+    "powers": [
+      "Technopathy",
+      "Invention",
+      "Immortality"
+    ],
+    "teams": [
+      "Eternals"
+    ],
+    "relationships": [
+      [
+        "Sersi",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Eternals #1 (vol. 2)",
+        1985,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Eternals",
+        2021,
+        "Played by Brian Tyree Henry"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Makkari",
+    "real_name": "Makkari",
+    "alignment": "hero",
+    "first_appearance": "The Eternals #5",
+    "first_year": 1976,
+    "creators": "Jack Kirby",
+    "color": "#e53935",
+    "origin": "The fastest of the Eternals. Through later stories, Jack Kirby's 1940s heroes Mercury and Hurricane were revealed to be Makkari.",
+    "powers": [
+      "Superhuman speed",
+      "Immortality"
+    ],
+    "teams": [
+      "Eternals"
+    ],
+    "relationships": [
+      [
+        "Druig",
+        "romance"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Eternals #5",
+        1976,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Eternals",
+        2021,
+        "Played by Lauren Ridloff"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Druig",
+    "real_name": "Druig",
+    "alignment": "antihero",
+    "first_appearance": "The Eternals #11",
+    "first_year": 1977,
+    "creators": "Jack Kirby",
+    "color": "#4e342e",
+    "origin": "An Eternal who can control minds, a villain in the comics and a reluctant ally in the MCU.",
+    "powers": [
+      "Mind control",
+      "Immortality"
+    ],
+    "teams": [
+      "Eternals"
+    ],
+    "relationships": [
+      [
+        "Makkari",
+        "romance"
+      ],
+      [
+        "Ikaris",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Eternals #11",
+        1977,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Eternals",
+        2021,
+        "Played by Barry Keoghan"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Gilgamesh",
+    "real_name": "Gilgamesh",
+    "alignment": "hero",
+    "first_appearance": "The Eternals #13",
+    "first_year": 1977,
+    "creators": "Jack Kirby",
+    "color": "#795548",
+    "origin": "The strongest Eternal, known in the comics as the Forgotten One.",
+    "powers": [
+      "Superhuman strength",
+      "Energy-powered fists",
+      "Immortality"
+    ],
+    "teams": [
+      "Eternals",
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Thena",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Eternals #13",
+        1977,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Eternals",
+        2021,
+        "Played by Ma Dong-seok"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Kro",
+    "real_name": "Kro",
+    "alignment": "villain",
+    "first_appearance": "The Eternals #1",
+    "first_year": 1976,
+    "creators": "Jack Kirby",
+    "color": "#33691e",
+    "origin": "A Deviant warlord, the Eternals' ancient enemy.",
+    "powers": [
+      "Shape-shifting",
+      "Absorbing powers (MCU)",
+      "Longevity"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Thena",
+        "enemy"
+      ],
+      [
+        "Ikaris",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Eternals #1",
+        1976,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Eternals",
+        2021,
+        "Voiced by Bill Skarsgård"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Arishem",
+    "real_name": "Arishem the Judge",
+    "alignment": "villain",
+    "first_appearance": "The Eternals #2",
+    "first_year": 1976,
+    "creators": "Jack Kirby",
+    "color": "#d32f2f",
+    "origin": "A towering Celestial who judges whether a world will live, and who created the Eternals in the MCU.",
+    "powers": [
+      "Cosmic power",
+      "Planet creation",
+      "Size"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Ajak",
+        "ally"
+      ],
+      [
+        "Sersi",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Eternals #2",
+        1976,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Eternals",
+        2021,
+        "Voiced by David Kaye"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Starfox",
+    "real_name": "Eros",
+    "alignment": "hero",
+    "first_appearance": "Iron Man #55",
+    "first_year": 1973,
+    "creators": "Jim Starlin, Mike Friedrich",
+    "color": "#ad1457",
+    "origin": "Thanos' charming younger brother, an Eternal of Titan who can stir others' feelings.",
+    "powers": [
+      "Pleasure stimulation",
+      "Flight",
+      "Immortality"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Thanos",
+        "family"
+      ],
+      [
+        "Pip the Troll",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Iron Man #55",
+        1973,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Eternals",
+        2021,
+        "Played by Harry Styles (post-credits)"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Black Knight",
+    "real_name": "Dane Whitman",
+    "alignment": "hero",
+    "first_appearance": "Avengers #47",
+    "first_year": 1967,
+    "creators": "Roy Thomas, John Buscema",
+    "color": "#263238",
+    "origin": "A scientist who inherits the cursed Ebony Blade and his family's legacy as the Black Knight.",
+    "powers": [
+      "Ebony Blade",
+      "Swordsmanship",
+      "Scientific expertise"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Sersi",
+        "romance"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Avengers #47",
+        1967,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Eternals",
+        2021,
+        "Played by Kit Harington"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Pip the Troll",
+    "real_name": "Pip",
+    "alignment": "hero",
+    "first_appearance": "Strange Tales #179",
+    "first_year": 1975,
+    "creators": "Jim Starlin",
+    "color": "#a1887f",
+    "origin": "A wisecracking troll and frequent sidekick to Adam Warlock and Eros.",
+    "powers": [
+      "Teleportation",
+      "Longevity"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Starfox",
+        "ally"
+      ],
+      [
+        "Adam Warlock",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Strange Tales #179",
+        1975,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Eternals",
+        2021,
+        "Voiced by Patton Oswalt (post-credits)"
+      ]
+    ]
+  },
+  {
+    "hero_name": "America Chavez",
+    "real_name": "America Chavez",
+    "alignment": "hero",
+    "first_appearance": "Vengeance #1",
+    "first_year": 2011,
+    "creators": "Joe Casey, Nick Dragotta",
+    "color": "#1e88e5",
+    "origin": "A teenager from another reality who can punch star-shaped holes between universes.",
+    "powers": [
+      "Opening portals across the multiverse",
+      "Superhuman strength (comics)",
+      "Flight (comics)"
+    ],
+    "teams": [
+      "Young Avengers"
+    ],
+    "relationships": [
+      [
+        "Doctor Strange",
+        "ally"
+      ],
+      [
+        "Scarlet Witch",
+        "enemy"
+      ],
+      [
+        "Wong",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Vengeance #1",
+        2011,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Doctor Strange in the Multiverse of Madness",
+        2022,
+        "Played by Xochitl Gomez"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Clea",
+    "real_name": "Clea",
+    "alignment": "hero",
+    "first_appearance": "Strange Tales #126",
+    "first_year": 1964,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#7e57c2",
+    "origin": "A sorceress from the Dark Dimension, Dormammu's niece, and Stephen Strange's great love.",
+    "powers": [
+      "Mystic arts",
+      "Dimensional travel"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Doctor Strange",
+        "romance"
+      ],
+      [
+        "Dormammu",
+        "family"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Strange Tales #126",
+        1964,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Doctor Strange in the Multiverse of Madness",
+        2022,
+        "Played by Charlize Theron (post-credits)"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Black Bolt",
+    "real_name": "Blackagar Boltagon",
+    "alignment": "hero",
+    "first_appearance": "Fantastic Four #45",
+    "first_year": 1965,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#212121",
+    "origin": "King of the Inhumans, whose voice is so destructive that a whisper can level a city.",
+    "powers": [
+      "Destructive voice",
+      "Flight",
+      "Energy manipulation"
+    ],
+    "teams": [
+      "Inhumans",
+      "Illuminati"
+    ],
+    "relationships": [
+      [
+        "Mister Fantastic",
+        "ally"
+      ],
+      [
+        "Professor X",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Fantastic Four #45",
+        1965,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Doctor Strange in the Multiverse of Madness",
+        2022,
+        "Played by Anson Mount; a member of Earth-838's Illuminati"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Gorr the God Butcher",
+    "real_name": "Gorr",
+    "alignment": "villain",
+    "first_appearance": "Thor: God of Thunder #2",
+    "first_year": 2013,
+    "creators": "Jason Aaron, Esad Ribić",
+    "color": "#424242",
+    "origin": "An alien whose gods let his family die, who then sets out to kill every god with the living Necrosword.",
+    "powers": [
+      "Necrosword",
+      "Shadow constructs",
+      "Durability"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Thor",
+        "enemy"
+      ],
+      [
+        "Jane Foster",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Thor: God of Thunder #2",
+        2013,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Thor: Love and Thunder",
+        2022,
+        "Played by Christian Bale"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Hercules",
+    "real_name": "Heracles",
+    "alignment": "hero",
+    "first_appearance": "Journey into Mystery Annual #1",
+    "first_year": 1965,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#ffa000",
+    "origin": "The legendary Greek demigod, a boisterous strongman and longtime Avenger in the comics.",
+    "powers": [
+      "Superhuman strength",
+      "Immortality",
+      "Durability"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Thor",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Journey into Mystery Annual #1",
+        1965,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Thor: Love and Thunder",
+        2022,
+        "Played by Brett Goldstein (post-credits)"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Namor",
+    "real_name": "Namor",
+    "alignment": "antihero",
+    "first_appearance": "Motion Picture Funnies Weekly #1",
+    "first_year": 1939,
+    "creators": "Bill Everett",
+    "color": "#00897b",
+    "origin": "The half-human king of an undersea nation, one of Marvel's very first characters. The MCU makes him the ruler of Talokan.",
+    "powers": [
+      "Superhuman strength",
+      "Flight (ankle wings)",
+      "Underwater breathing",
+      "Longevity"
+    ],
+    "teams": [
+      "Illuminati",
+      "Defenders"
+    ],
+    "relationships": [
+      [
+        "Shuri",
+        "enemy"
+      ],
+      [
+        "Attuma",
+        "ally"
+      ],
+      [
+        "Namora",
+        "family"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Motion Picture Funnies Weekly #1",
+        1939,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Black Panther: Wakanda Forever",
+        2022,
+        "Played by Tenoch Huerta Mejía"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Ironheart",
+    "real_name": "Riri Williams",
+    "alignment": "hero",
+    "first_appearance": "Invincible Iron Man #7 (vol. 3)",
+    "first_year": 2016,
+    "creators": "Brian Michael Bendis, Mike Deodato",
+    "color": "#c62828",
+    "origin": "A teenage genius from Chicago who builds her own suit of armor in her dorm room.",
+    "powers": [
+      "Engineering genius",
+      "Powered armor",
+      "Flight"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Iron Man",
+        "mentor"
+      ],
+      [
+        "Shuri",
+        "ally"
+      ],
+      [
+        "The Hood",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Invincible Iron Man #7 (vol. 3)",
+        2016,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Black Panther: Wakanda Forever",
+        2022,
+        "Played by Dominique Thorne"
+      ],
+      [
+        "tv",
+        "Ironheart",
+        2025,
+        "Her own series"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Attuma",
+    "real_name": "Attuma",
+    "alignment": "villain",
+    "first_appearance": "Fantastic Four #33",
+    "first_year": 1964,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#004d40",
+    "origin": "A savage warlord of the deep who wants to conquer the surface. In the MCU he's a Talokan warrior.",
+    "powers": [
+      "Superhuman strength",
+      "Underwater breathing"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Namor",
+        "ally"
+      ],
+      [
+        "Okoye",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Fantastic Four #33",
+        1964,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Black Panther: Wakanda Forever",
+        2022,
+        "Played by Alex Livinalli"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Namora",
+    "real_name": "Namora",
+    "alignment": "hero",
+    "first_appearance": "Marvel Mystery Comics #82",
+    "first_year": 1947,
+    "creators": "Bill Everett",
+    "color": "#26a69a",
+    "origin": "Namor's cousin, a superpowered undersea heroine since the 1940s.",
+    "powers": [
+      "Superhuman strength",
+      "Flight",
+      "Underwater breathing"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Namor",
+        "family"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Marvel Mystery Comics #82",
+        1947,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Black Panther: Wakanda Forever",
+        2022,
+        "Played by Mabel Cadena"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Aneka",
+    "real_name": "Aneka",
+    "alignment": "hero",
+    "first_appearance": "Black Panther #1 (vol. 6)",
+    "first_year": 2016,
+    "creators": "Ta-Nehisi Coates, Brian Stelfreeze",
+    "color": "#8e24aa",
+    "origin": "A captain of the Dora Milaje who becomes one of the Midnight Angels.",
+    "powers": [
+      "Hand-to-hand combat",
+      "Midnight Angel armor"
+    ],
+    "teams": [
+      "Dora Milaje"
+    ],
+    "relationships": [
+      [
+        "Okoye",
+        "ally"
+      ],
+      [
+        "Shuri",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Black Panther #1 (vol. 6)",
+        2016,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Black Panther: Wakanda Forever",
+        2022,
+        "Played by Michaela Coel"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Adam Warlock",
+    "real_name": "Adam Warlock",
+    "alignment": "antihero",
+    "first_appearance": "Fantastic Four #66",
+    "first_year": 1967,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#ffb300",
+    "origin": "An artificial being created to be the perfect human, first known simply as 'Him'.",
+    "powers": [
+      "Cosmic energy",
+      "Flight",
+      "Regeneration (cocoon)"
+    ],
+    "teams": [
+      "Guardians of the Galaxy"
+    ],
+    "relationships": [
+      [
+        "Thanos",
+        "enemy"
+      ],
+      [
+        "Pip the Troll",
+        "ally"
+      ],
+      [
+        "Star-Lord",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Fantastic Four #66",
+        1967,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Guardians of the Galaxy Vol. 2",
+        2017,
+        "Teased in a post-credits scene"
+      ],
+      [
+        "film",
+        "Guardians of the Galaxy Vol. 3",
+        2023,
+        "Played by Will Poulter"
+      ]
+    ]
+  },
+  {
+    "hero_name": "High Evolutionary",
+    "real_name": "Herbert Wyndham",
+    "alignment": "villain",
+    "first_appearance": "Thor #134",
+    "first_year": 1966,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#7b1fa2",
+    "origin": "A geneticist obsessed with creating a perfect species, who experimented on Rocket.",
+    "powers": [
+      "Genetic engineering",
+      "Genius-level intellect",
+      "Self-evolved body"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Rocket",
+        "enemy"
+      ],
+      [
+        "Adam Warlock",
+        "family"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Thor #134",
+        1966,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Guardians of the Galaxy Vol. 3",
+        2023,
+        "Played by Chukwudi Iwuji"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Cosmo the Spacedog",
+    "real_name": "Cosmo",
+    "alignment": "hero",
+    "first_appearance": "Nova #8 (vol. 4)",
+    "first_year": 2008,
+    "creators": "Dan Abnett, Andy Lanning, Wellinton Alves",
+    "color": "#d4a373",
+    "origin": "A Soviet space dog left in orbit who gained telepathic powers and became security chief of Knowhere.",
+    "powers": [
+      "Telepathy",
+      "Telekinesis"
+    ],
+    "teams": [
+      "Guardians of the Galaxy"
+    ],
+    "relationships": [
+      [
+        "Rocket",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Nova #8 (vol. 4)",
+        2008,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Guardians of the Galaxy Vol. 3",
+        2023,
+        "Voiced by Maria Bakalova"
+      ]
+    ]
+  },
+  {
+    "hero_name": "X-23",
+    "real_name": "Laura Kinney",
+    "alignment": "hero",
+    "first_appearance": "NYX #3",
+    "first_year": 2004,
+    "creators": "Craig Kyle, Christopher Yost",
+    "color": "#455a64",
+    "origin": "A teenage clone of Wolverine with claws of her own. She first appeared on the X-Men: Evolution cartoon before the comics.",
+    "powers": [
+      "Adamantium claws",
+      "Healing factor",
+      "Enhanced senses"
+    ],
+    "teams": [
+      "X-Men",
+      "X-Force"
+    ],
+    "relationships": [
+      [
+        "Wolverine",
+        "family"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "NYX #3",
+        2004,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Deadpool & Wolverine",
+        2024,
+        "Played by Dafne Keen"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Cassandra Nova",
+    "real_name": "Cassandra Nova",
+    "alignment": "villain",
+    "first_appearance": "New X-Men #114",
+    "first_year": 2001,
+    "creators": "Grant Morrison, Frank Quitely",
+    "color": "#bdbdbd",
+    "origin": "Charles Xavier's evil twin, a being of pure telepathic power, who rules the Void.",
+    "powers": [
+      "Telepathy",
+      "Telekinesis",
+      "Molecular control"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Professor X",
+        "family"
+      ],
+      [
+        "Deadpool",
+        "enemy"
+      ],
+      [
+        "Wolverine",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "New X-Men #114",
+        2001,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Deadpool & Wolverine",
+        2024,
+        "Played by Emma Corrin"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Elektra",
+    "real_name": "Elektra Natchios",
+    "alignment": "antihero",
+    "first_appearance": "Daredevil #168",
+    "first_year": 1981,
+    "creators": "Frank Miller",
+    "color": "#b71c1c",
+    "origin": "A deadly assassin with sai and Matt Murdock's first love.",
+    "powers": [
+      "Martial arts",
+      "Sai",
+      "Ninja training"
+    ],
+    "teams": [
+      "Hand"
+    ],
+    "relationships": [
+      [
+        "Daredevil",
+        "romance"
+      ],
+      [
+        "Bullseye",
+        "enemy"
+      ],
+      [
+        "Kingpin",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Daredevil #168",
+        1981,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Deadpool & Wolverine",
+        2024,
+        "Played by Jennifer Garner, returning from 2003's Daredevil"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Blade",
+    "real_name": "Eric Brooks",
+    "alignment": "antihero",
+    "first_appearance": "The Tomb of Dracula #10",
+    "first_year": 1973,
+    "creators": "Marv Wolfman, Gene Colan",
+    "color": "#212121",
+    "origin": "A half-vampire hunter who wants to wipe out every vampire.",
+    "powers": [
+      "Vampire strength",
+      "Swordsmanship",
+      "Healing factor",
+      "Daylight immunity"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Deadpool",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Tomb of Dracula #10",
+        1973,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Eternals",
+        2021,
+        "Voiced by Mahershala Ali (post-credits)"
+      ],
+      [
+        "film",
+        "Deadpool & Wolverine",
+        2024,
+        "Played by Wesley Snipes"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Gambit",
+    "real_name": "Remy LeBeau",
+    "alignment": "antihero",
+    "first_appearance": "Uncanny X-Men Annual #14",
+    "first_year": 1990,
+    "creators": "Chris Claremont, Jim Lee",
+    "color": "#880e4f",
+    "origin": "A Cajun thief who charges playing cards with explosive energy.",
+    "powers": [
+      "Kinetic charging",
+      "Bo staff",
+      "Thievery"
+    ],
+    "teams": [
+      "X-Men"
+    ],
+    "relationships": [
+      [
+        "Wolverine",
+        "ally"
+      ],
+      [
+        "Deadpool",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Uncanny X-Men Annual #14",
+        1990,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Deadpool & Wolverine",
+        2024,
+        "Played by Channing Tatum"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Human Torch",
+    "real_name": "Johnny Storm",
+    "alignment": "hero",
+    "first_appearance": "Fantastic Four #1",
+    "first_year": 1961,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#ff6f00",
+    "origin": "Sue Storm's hotheaded younger brother, who can burst into flame and fly ('Flame on!').",
+    "powers": [
+      "Flame body",
+      "Flight",
+      "Fire blasts"
+    ],
+    "teams": [
+      "Fantastic Four"
+    ],
+    "relationships": [
+      [
+        "Invisible Woman",
+        "family"
+      ],
+      [
+        "The Thing",
+        "ally"
+      ],
+      [
+        "Mister Fantastic",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Fantastic Four #1",
+        1961,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Deadpool & Wolverine",
+        2024,
+        "A variant played by Chris Evans"
+      ],
+      [
+        "film",
+        "The Fantastic Four: First Steps",
+        2025,
+        "Played by Joseph Quinn"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Sidewinder",
+    "real_name": "Seth Voelker",
+    "alignment": "villain",
+    "first_appearance": "Marvel Two-in-One #64",
+    "first_year": 1980,
+    "creators": "Mark Gruenwald, Ralph Macchio, George Pérez",
+    "color": "#33691e",
+    "origin": "A mercenary and founder of the Serpent Society.",
+    "powers": [
+      "Teleportation cloak (comics)",
+      "Mercenary tactics"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Falcon",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Marvel Two-in-One #64",
+        1980,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Captain America: Brave New World",
+        2025,
+        "Played by Giancarlo Esposito"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Sentry",
+    "real_name": "Robert Reynolds",
+    "alignment": "antihero",
+    "first_appearance": "The Sentry #1",
+    "first_year": 2000,
+    "creators": "Paul Jenkins, Jae Lee",
+    "color": "#fdd835",
+    "origin": "A hero with 'the power of a million exploding suns' whose dark side is the Void.",
+    "powers": [
+      "Superhuman strength",
+      "Flight",
+      "Light projection",
+      "The Void"
+    ],
+    "teams": [
+      "Avengers",
+      "Thunderbolts"
+    ],
+    "relationships": [
+      [
+        "Yelena Belova",
+        "ally"
+      ],
+      [
+        "Valentina Allegra de Fontaine",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Sentry #1",
+        2000,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Thunderbolts*",
+        2025,
+        "Played by Lewis Pullman"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Mole Man",
+    "real_name": "Harvey Elder",
+    "alignment": "antihero",
+    "first_appearance": "Fantastic Four #1",
+    "first_year": 1961,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#6d4c41",
+    "origin": "A man shunned by the surface world who rules the Subterraneans beneath the Earth. He was the Fantastic Four's very first foe.",
+    "powers": [
+      "Command of Subterranean monsters",
+      "Underground navigation"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Mister Fantastic",
+        "enemy"
+      ],
+      [
+        "The Thing",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Fantastic Four #1",
+        1961,
+        "First appearance"
+      ],
+      [
+        "film",
+        "The Fantastic Four: First Steps",
+        2025,
+        "Played by Paul Walter Hauser"
+      ]
+    ]
+  },
+  {
+    "hero_name": "H.E.R.B.I.E.",
+    "real_name": "H.E.R.B.I.E.",
+    "alignment": "hero",
+    "first_appearance": "Fantastic Four #209",
+    "first_year": 1979,
+    "creators": "Marv Wolfman, John Byrne",
+    "color": "#90a4ae",
+    "origin": "The Fantastic Four's helpful robot. He was created for the 1978 cartoon and joined the comics a year later.",
+    "powers": [
+      "Flight",
+      "Computer systems"
+    ],
+    "teams": [
+      "Fantastic Four"
+    ],
+    "relationships": [
+      [
+        "Mister Fantastic",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Fantastic Four #209",
+        1979,
+        "First appearance"
+      ],
+      [
+        "film",
+        "The Fantastic Four: First Steps",
+        2025,
+        "Voiced by Matthew Wood"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Tombstone",
+    "real_name": "Lonnie Lincoln",
+    "alignment": "villain",
+    "first_appearance": "Web of Spider-Man #36",
+    "first_year": 1988,
+    "creators": "Gerry Conway, Alex Saviuk",
+    "color": "#e0e0e0",
+    "origin": "A chalk-white crime boss with filed teeth and skin like stone.",
+    "powers": [
+      "Superhuman strength",
+      "Tough skin",
+      "Crime boss"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Spider-Man",
+        "enemy"
+      ],
+      [
+        "Kingpin",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Web of Spider-Man #36",
+        1988,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Spider-Man: Brand New Day",
+        2026,
+        "Played by Marvin Jones III"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Mandarin",
+    "real_name": "Xu Wenwu",
+    "alignment": "villain",
+    "first_appearance": "Tales of Suspense #50",
+    "first_year": 1964,
+    "creators": "Stan Lee, Don Heck",
+    "color": "#1565c0",
+    "origin": "In the comics the Mandarin is a warlord who draws power from ten alien rings. The MCU's Xu Wenwu leads the Ten Rings organization for a thousand years using ten mystical rings.",
+    "powers": [
+      "Ten Rings",
+      "Immortality",
+      "Martial arts"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Shang-Chi",
+        "family"
+      ],
+      [
+        "Iron Man",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Tales of Suspense #50",
+        1964,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Shang-Chi and the Legend of the Ten Rings",
+        2021,
+        "Played by Tony Leung"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Sandman",
+    "real_name": "Flint Marko",
+    "alignment": "villain",
+    "first_appearance": "The Amazing Spider-Man #4",
+    "first_year": 1963,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#d7ccc8",
+    "origin": "A criminal whose body turns to living sand after a nuclear test accident.",
+    "powers": [
+      "Sand body",
+      "Shape-shifting",
+      "Size-changing"
+    ],
+    "teams": [
+      "Sinister Six"
+    ],
+    "relationships": [
+      [
+        "Spider-Man",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Amazing Spider-Man #4",
+        1963,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Spider-Man: No Way Home",
+        2021,
+        "Played by Thomas Haden Church, from the Raimi films"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Lizard",
+    "real_name": "Curt Connors",
+    "alignment": "villain",
+    "first_appearance": "The Amazing Spider-Man #6",
+    "first_year": 1963,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#2e7d32",
+    "origin": "A one-armed scientist whose reptile-based serum regrows his arm but turns him into a savage lizard.",
+    "powers": [
+      "Superhuman strength",
+      "Regeneration",
+      "Tail"
+    ],
+    "teams": [
+      "Sinister Six"
+    ],
+    "relationships": [
+      [
+        "Spider-Man",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Amazing Spider-Man #6",
+        1963,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Spider-Man: No Way Home",
+        2021,
+        "Played by Rhys Ifans, from The Amazing Spider-Man"
+      ]
+    ]
   }
 ]
