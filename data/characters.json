@@ -3148,5 +3148,3468 @@
         "Played by Wilson Bethel in season 3"
       ]
     ]
+  },
+  {
+    "hero_name": "Pepper Potts",
+    "real_name": "Virginia Potts",
+    "alignment": "hero",
+    "first_appearance": "Tales of Suspense #45",
+    "first_year": 1963,
+    "creators": "Stan Lee, Don Heck",
+    "color": "#d84315",
+    "origin": "Tony Stark's sharp, unflappable assistant who becomes CEO of Stark Industries. In later stories she suits up in her own armor as Rescue.",
+    "powers": [
+      "Genius-level business mind",
+      "Powered armor (Rescue)"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Iron Man",
+        "romance"
+      ],
+      [
+        "Happy Hogan",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Tales of Suspense #45",
+        1963,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Iron Man",
+        2008,
+        "Played by Gwyneth Paltrow"
+      ],
+      [
+        "film",
+        "Avengers: Endgame",
+        2019,
+        "Fights in the Rescue armor"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Happy Hogan",
+    "real_name": "Harold Hogan",
+    "alignment": "hero",
+    "first_appearance": "Tales of Suspense #45",
+    "first_year": 1963,
+    "creators": "Stan Lee, Don Heck",
+    "color": "#5d4037",
+    "origin": "A former boxer who becomes Tony Stark's chauffeur, bodyguard and closest friend, and later looks out for Peter Parker.",
+    "powers": [
+      "Boxing",
+      "Bodyguard training"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Iron Man",
+        "ally"
+      ],
+      [
+        "Pepper Potts",
+        "ally"
+      ],
+      [
+        "Spider-Man",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Tales of Suspense #45",
+        1963,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Iron Man",
+        2008,
+        "Played by Jon Favreau"
+      ],
+      [
+        "film",
+        "Spider-Man: Homecoming",
+        2017,
+        "Watches over Peter for Tony"
+      ]
+    ]
+  },
+  {
+    "hero_name": "War Machine",
+    "real_name": "James Rhodes",
+    "alignment": "hero",
+    "first_appearance": "Iron Man #118",
+    "first_year": 1979,
+    "creators": "David Michelinie, John Byrne, Bob Layton",
+    "color": "#455a64",
+    "origin": "A U.S. Air Force pilot and Tony Stark's best friend who takes up a heavily armed suit of armor of his own.",
+    "powers": [
+      "Powered armor",
+      "Heavy weapons",
+      "Flight",
+      "Military pilot"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Iron Man",
+        "ally"
+      ],
+      [
+        "Falcon",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Iron Man #118",
+        1979,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Iron Man",
+        2008,
+        "Played by Terrence Howard"
+      ],
+      [
+        "film",
+        "Iron Man 2",
+        2010,
+        "Played by Don Cheadle from here on; first wears the War Machine armor"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Iron Monger",
+    "real_name": "Obadiah Stane",
+    "alignment": "villain",
+    "first_appearance": "Iron Man #163",
+    "first_year": 1982,
+    "creators": "Dennis O'Neil, Luke McDonnell",
+    "color": "#37474f",
+    "origin": "A ruthless businessman who schemes to take Stark Industries for himself and builds a giant armor to destroy Iron Man.",
+    "powers": [
+      "Genius-level intellect",
+      "Powered armor",
+      "Superhuman strength (armor)"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Iron Man",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Iron Man #163",
+        1982,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Iron Man",
+        2008,
+        "Played by Jeff Bridges"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Whiplash",
+    "real_name": "Ivan Vanko",
+    "alignment": "villain",
+    "first_appearance": "Tales of Suspense #97",
+    "first_year": 1968,
+    "creators": "Stan Lee, Gene Colan",
+    "color": "#bf360c",
+    "origin": "In the comics Whiplash is Mark Scarlotti, an engineer with energy whips. The MCU version, Ivan Vanko, is a Russian physicist who blames the Starks for his family's ruin.",
+    "powers": [
+      "Energy whips",
+      "Arc reactor technology",
+      "Genius-level intellect"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Iron Man",
+        "enemy"
+      ],
+      [
+        "Justin Hammer",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Tales of Suspense #97",
+        1968,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Iron Man 2",
+        2010,
+        "Played by Mickey Rourke"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Justin Hammer",
+    "real_name": "Justin Hammer",
+    "alignment": "villain",
+    "first_appearance": "Iron Man #120",
+    "first_year": 1979,
+    "creators": "David Michelinie, Bob Layton, John Romita Jr.",
+    "color": "#6a1b9a",
+    "origin": "A rival arms dealer who will do anything to outdo Tony Stark, funding supervillains and building knockoff armor.",
+    "powers": [
+      "Wealth",
+      "Weapons manufacturing"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Iron Man",
+        "enemy"
+      ],
+      [
+        "Whiplash",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Iron Man #120",
+        1979,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Iron Man 2",
+        2010,
+        "Played by Sam Rockwell"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Aldrich Killian",
+    "real_name": "Aldrich Killian",
+    "alignment": "villain",
+    "first_appearance": "Iron Man #1 (vol. 4)",
+    "first_year": 2005,
+    "creators": "Warren Ellis, Adi Granov",
+    "color": "#ff6f00",
+    "origin": "A scientist behind the Extremis virus, which rewrites the human body and can make it burn from within.",
+    "powers": [
+      "Extremis enhancement",
+      "Regeneration",
+      "Generating extreme heat"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Iron Man",
+        "enemy"
+      ],
+      [
+        "Pepper Potts",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Iron Man #1 (vol. 4)",
+        2005,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Iron Man 3",
+        2013,
+        "Played by Guy Pearce"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Betty Ross",
+    "real_name": "Elizabeth Ross",
+    "alignment": "hero",
+    "first_appearance": "The Incredible Hulk #1",
+    "first_year": 1962,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#ad1457",
+    "origin": "A scientist and the daughter of General Ross who loves Bruce Banner. In the comics she later becomes the Red She-Hulk.",
+    "powers": [
+      "Scientific expertise"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Hulk",
+        "romance"
+      ],
+      [
+        "Red Hulk",
+        "family"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Incredible Hulk #1",
+        1962,
+        "First appearance"
+      ],
+      [
+        "film",
+        "The Incredible Hulk",
+        2008,
+        "Played by Liv Tyler"
+      ],
+      [
+        "film",
+        "Captain America: Brave New World",
+        2025,
+        "Returns"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Red Hulk",
+    "real_name": "Thaddeus Ross",
+    "alignment": "antihero",
+    "first_appearance": "The Incredible Hulk #1",
+    "first_year": 1962,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#c62828",
+    "origin": "General 'Thunderbolt' Ross spends years hunting the Hulk, then becomes a red Hulk himself (first seen as Red Hulk in Hulk #1, 2008).",
+    "powers": [
+      "Superhuman strength",
+      "Heat generation (Red Hulk)",
+      "Military strategy"
+    ],
+    "teams": [
+      "Thunderbolts"
+    ],
+    "relationships": [
+      [
+        "Hulk",
+        "enemy"
+      ],
+      [
+        "Betty Ross",
+        "family"
+      ],
+      [
+        "Leader",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Incredible Hulk #1",
+        1962,
+        "First appearance"
+      ],
+      [
+        "film",
+        "The Incredible Hulk",
+        2008,
+        "Played by William Hurt"
+      ],
+      [
+        "film",
+        "Captain America: Brave New World",
+        2025,
+        "Played by Harrison Ford; becomes Red Hulk as President"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Leader",
+    "real_name": "Samuel Sterns",
+    "alignment": "villain",
+    "first_appearance": "Tales to Astonish #62",
+    "first_year": 1964,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#2e7d32",
+    "origin": "A worker exposed to gamma radiation who gains a vast intellect and a swollen green head, and plots against the Hulk.",
+    "powers": [
+      "Super-genius intellect",
+      "Strategy",
+      "Mind control (some stories)"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Hulk",
+        "enemy"
+      ],
+      [
+        "Red Hulk",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Tales to Astonish #62",
+        1964,
+        "First appearance"
+      ],
+      [
+        "film",
+        "The Incredible Hulk",
+        2008,
+        "Played by Tim Blake Nelson"
+      ],
+      [
+        "film",
+        "Captain America: Brave New World",
+        2025,
+        "Returns as the Leader"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Odin",
+    "real_name": "Odin Borson",
+    "alignment": "hero",
+    "first_appearance": "Journey into Mystery #86",
+    "first_year": 1962,
+    "creators": "Stan Lee, Larry Lieber, Jack Kirby",
+    "color": "#f9a825",
+    "origin": "The All-Father, king of Asgard and father of Thor, who wields the Odinforce and rules the Nine Realms.",
+    "powers": [
+      "Odinforce",
+      "Immortality",
+      "Magic",
+      "Superhuman strength"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Thor",
+        "family"
+      ],
+      [
+        "Loki",
+        "family"
+      ],
+      [
+        "Hela",
+        "family"
+      ],
+      [
+        "Frigga",
+        "romance"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Journey into Mystery #86",
+        1962,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Thor",
+        2011,
+        "Played by Anthony Hopkins"
+      ],
+      [
+        "film",
+        "Thor: Ragnarok",
+        2017,
+        "His death frees Hela"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Frigga",
+    "real_name": "Frigga",
+    "alignment": "hero",
+    "first_appearance": "Journey into Mystery #92",
+    "first_year": 1963,
+    "creators": "Stan Lee, Robert Bernstein, Joe Sinnott",
+    "color": "#7b1fa2",
+    "origin": "Queen of Asgard, Odin's wife and mother to Thor and Loki, skilled in magic and combat.",
+    "powers": [
+      "Magic",
+      "Immortality",
+      "Swordsmanship"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Odin",
+        "romance"
+      ],
+      [
+        "Thor",
+        "family"
+      ],
+      [
+        "Loki",
+        "family"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Journey into Mystery #92",
+        1963,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Thor",
+        2011,
+        "Played by Rene Russo"
+      ],
+      [
+        "film",
+        "Thor: The Dark World",
+        2013,
+        "Dies protecting Jane Foster"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Heimdall",
+    "real_name": "Heimdall",
+    "alignment": "hero",
+    "first_appearance": "Journey into Mystery #85",
+    "first_year": 1962,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#ff8f00",
+    "origin": "The all-seeing guardian of the Bifrost bridge who watches over the Nine Realms.",
+    "powers": [
+      "Cosmic sight and hearing",
+      "Swordsmanship",
+      "Immortality"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Thor",
+        "ally"
+      ],
+      [
+        "Odin",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Journey into Mystery #85",
+        1962,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Thor",
+        2011,
+        "Played by Idris Elba"
+      ],
+      [
+        "film",
+        "Avengers: Infinity War",
+        2018,
+        "Sends Hulk to Earth"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Sif",
+    "real_name": "Sif",
+    "alignment": "hero",
+    "first_appearance": "Journey into Mystery #102",
+    "first_year": 1964,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#4e342e",
+    "origin": "An Asgardian warrior goddess and lifelong friend of Thor.",
+    "powers": [
+      "Superhuman strength",
+      "Swordsmanship",
+      "Immortality"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Thor",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Journey into Mystery #102",
+        1964,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Thor",
+        2011,
+        "Played by Jaimie Alexander"
+      ],
+      [
+        "tv",
+        "Loki",
+        2021,
+        "Appears in season 1"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Laufey",
+    "real_name": "Laufey",
+    "alignment": "villain",
+    "first_appearance": "Journey into Mystery #112",
+    "first_year": 1965,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#0277bd",
+    "origin": "King of the Frost Giants of Jotunheim and Loki's birth father.",
+    "powers": [
+      "Ice manipulation",
+      "Superhuman strength",
+      "Size"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Loki",
+        "family"
+      ],
+      [
+        "Odin",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Journey into Mystery #112",
+        1965,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Thor",
+        2011,
+        "Played by Colm Feore"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Malekith",
+    "real_name": "Malekith",
+    "alignment": "villain",
+    "first_appearance": "Thor #344",
+    "first_year": 1984,
+    "creators": "Walt Simonson",
+    "color": "#263238",
+    "origin": "The ruler of the Dark Elves of Svartalfheim, bent on plunging the universe back into darkness.",
+    "powers": [
+      "Magic",
+      "Dark Elf longevity",
+      "Swordsmanship"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Thor",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Thor #344",
+        1984,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Thor: The Dark World",
+        2013,
+        "Played by Christopher Eccleston"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Jane Foster",
+    "real_name": "Jane Foster",
+    "alignment": "hero",
+    "first_appearance": "Journey into Mystery #84",
+    "first_year": 1962,
+    "creators": "Stan Lee, Larry Lieber, Jack Kirby",
+    "color": "#1e88e5",
+    "origin": "An astrophysicist (a nurse, then doctor, in the first comics) who falls for Thor and later lifts Mjolnir to become the Mighty Thor.",
+    "powers": [
+      "Astrophysics",
+      "Mjolnir (as Mighty Thor)",
+      "Flight",
+      "Lightning"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Thor",
+        "romance"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Journey into Mystery #84",
+        1962,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Thor",
+        2011,
+        "Played by Natalie Portman"
+      ],
+      [
+        "film",
+        "Thor: Love and Thunder",
+        2022,
+        "Becomes the Mighty Thor"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Valkyrie",
+    "real_name": "Brunnhilde",
+    "alignment": "hero",
+    "first_appearance": "Avengers #83",
+    "first_year": 1970,
+    "creators": "Roy Thomas, John Buscema",
+    "color": "#00838f",
+    "origin": "Leader of Odin's shieldmaidens who carry fallen warriors to Valhalla, and in the MCU the king of New Asgard.",
+    "powers": [
+      "Superhuman strength",
+      "Swordsmanship",
+      "Flight on her winged horse",
+      "Immortality"
+    ],
+    "teams": [
+      "Defenders"
+    ],
+    "relationships": [
+      [
+        "Thor",
+        "ally"
+      ],
+      [
+        "Hulk",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Avengers #83",
+        1970,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Thor: Ragnarok",
+        2017,
+        "Played by Tessa Thompson"
+      ],
+      [
+        "film",
+        "Thor: Love and Thunder",
+        2022,
+        "Rules New Asgard"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Korg",
+    "real_name": "Korg",
+    "alignment": "hero",
+    "first_appearance": "The Incredible Hulk #93 (vol. 2)",
+    "first_year": 2006,
+    "creators": "Greg Pak, Carlo Pagulayan",
+    "color": "#8d6e63",
+    "origin": "A rock-skinned Kronan who fights alongside the Hulk as a gladiator in Planet Hulk. A later retcon made him one of the stone men Thor fought in Journey into Mystery #83 (1962).",
+    "powers": [
+      "Stone body",
+      "Superhuman strength",
+      "Durability"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Thor",
+        "ally"
+      ],
+      [
+        "Hulk",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Incredible Hulk #93 (vol. 2)",
+        2006,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Thor: Ragnarok",
+        2017,
+        "Voiced by Taika Waititi"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Grandmaster",
+    "real_name": "En Dwi Gast",
+    "alignment": "villain",
+    "first_appearance": "Avengers #69",
+    "first_year": 1969,
+    "creators": "Roy Thomas, Sal Buscema",
+    "color": "#ffb300",
+    "origin": "One of the Elders of the Universe, an ancient being obsessed with games who rules the junk planet Sakaar.",
+    "powers": [
+      "Immortality",
+      "Cosmic power",
+      "Game strategy"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Collector",
+        "family"
+      ],
+      [
+        "Thor",
+        "enemy"
+      ],
+      [
+        "Hulk",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Avengers #69",
+        1969,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Thor: Ragnarok",
+        2017,
+        "Played by Jeff Goldblum"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Skurge",
+    "real_name": "Skurge",
+    "alignment": "antihero",
+    "first_appearance": "Journey into Mystery #103",
+    "first_year": 1964,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#6d4c41",
+    "origin": "Asgard's executioner, a hulking warrior who serves villains but dies a hero.",
+    "powers": [
+      "Superhuman strength",
+      "Enchanted axe",
+      "Durability"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Hela",
+        "ally"
+      ],
+      [
+        "Thor",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Journey into Mystery #103",
+        1964,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Thor: Ragnarok",
+        2017,
+        "Played by Karl Urban"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Surtur",
+    "real_name": "Surtur",
+    "alignment": "villain",
+    "first_appearance": "Journey into Mystery #97",
+    "first_year": 1963,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#e65100",
+    "origin": "A towering fire demon from Muspelheim, destined to destroy Asgard at Ragnarok.",
+    "powers": [
+      "Fire generation",
+      "Size",
+      "Twilight Sword"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Thor",
+        "enemy"
+      ],
+      [
+        "Odin",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Journey into Mystery #97",
+        1963,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Thor: Ragnarok",
+        2017,
+        "Voiced by Clancy Brown"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Winter Soldier",
+    "real_name": "James \"Bucky\" Barnes",
+    "alignment": "antihero",
+    "first_appearance": "Captain America Comics #1",
+    "first_year": 1941,
+    "creators": "Joe Simon, Jack Kirby",
+    "color": "#37474f",
+    "origin": "Steve Rogers' best friend, presumed dead in World War II, rebuilt and brainwashed into the assassin known as the Winter Soldier before he breaks free.",
+    "powers": [
+      "Cybernetic arm",
+      "Enhanced strength",
+      "Marksmanship",
+      "Hand-to-hand combat"
+    ],
+    "teams": [
+      "Avengers",
+      "Thunderbolts",
+      "HYDRA"
+    ],
+    "relationships": [
+      [
+        "Captain America",
+        "ally"
+      ],
+      [
+        "Falcon",
+        "ally"
+      ],
+      [
+        "Baron Zemo",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Captain America Comics #1",
+        1941,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Captain America: The First Avenger",
+        2011,
+        "Played by Sebastian Stan"
+      ],
+      [
+        "film",
+        "Captain America: The Winter Soldier",
+        2014,
+        "Revealed as the Winter Soldier"
+      ],
+      [
+        "film",
+        "Thunderbolts*",
+        2025,
+        "Joins the Thunderbolts"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Peggy Carter",
+    "real_name": "Margaret Carter",
+    "alignment": "hero",
+    "first_appearance": "Tales of Suspense #77",
+    "first_year": 1966,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#c62828",
+    "origin": "A British agent who fights beside Steve Rogers in World War II and later helps found S.H.I.E.L.D.",
+    "powers": [
+      "Espionage",
+      "Marksmanship",
+      "Hand-to-hand combat"
+    ],
+    "teams": [
+      "S.H.I.E.L.D."
+    ],
+    "relationships": [
+      [
+        "Captain America",
+        "romance"
+      ],
+      [
+        "Sharon Carter",
+        "family"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Tales of Suspense #77",
+        1966,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Captain America: The First Avenger",
+        2011,
+        "Played by Hayley Atwell"
+      ],
+      [
+        "film",
+        "Avengers: Endgame",
+        2019,
+        "Reunites with Steve"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Sharon Carter",
+    "real_name": "Sharon Carter",
+    "alignment": "antihero",
+    "first_appearance": "Tales of Suspense #75",
+    "first_year": 1966,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#ef6c00",
+    "origin": "S.H.I.E.L.D.'s Agent 13 and Peggy Carter's relative. In the MCU she becomes a fugitive and secretly the Power Broker.",
+    "powers": [
+      "Espionage",
+      "Marksmanship",
+      "Hand-to-hand combat"
+    ],
+    "teams": [
+      "S.H.I.E.L.D."
+    ],
+    "relationships": [
+      [
+        "Peggy Carter",
+        "family"
+      ],
+      [
+        "Captain America",
+        "romance"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Tales of Suspense #75",
+        1966,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Captain America: The Winter Soldier",
+        2014,
+        "Played by Emily VanCamp"
+      ],
+      [
+        "tv",
+        "The Falcon and the Winter Soldier",
+        2021,
+        "Revealed as the Power Broker"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Arnim Zola",
+    "real_name": "Arnim Zola",
+    "alignment": "villain",
+    "first_appearance": "Captain America #208",
+    "first_year": 1977,
+    "creators": "Jack Kirby",
+    "color": "#558b2f",
+    "origin": "A HYDRA scientist who escapes death by uploading his mind into machines.",
+    "powers": [
+      "Genius-level intellect",
+      "Digital consciousness",
+      "Genetic engineering"
+    ],
+    "teams": [
+      "HYDRA"
+    ],
+    "relationships": [
+      [
+        "Red Skull",
+        "ally"
+      ],
+      [
+        "Captain America",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Captain America #208",
+        1977,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Captain America: The First Avenger",
+        2011,
+        "Played by Toby Jones"
+      ],
+      [
+        "film",
+        "Captain America: The Winter Soldier",
+        2014,
+        "Lives on as a computer"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Dum Dum Dugan",
+    "real_name": "Timothy Dugan",
+    "alignment": "hero",
+    "first_appearance": "Sgt. Fury and His Howling Commandos #1",
+    "first_year": 1963,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#795548",
+    "origin": "A burly, bowler-hatted soldier in the Howling Commandos who later serves in S.H.I.E.L.D.",
+    "powers": [
+      "Hand-to-hand combat",
+      "Military training",
+      "Marksmanship"
+    ],
+    "teams": [
+      "S.H.I.E.L.D."
+    ],
+    "relationships": [
+      [
+        "Captain America",
+        "ally"
+      ],
+      [
+        "Nick Fury",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Sgt. Fury and His Howling Commandos #1",
+        1963,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Captain America: The First Avenger",
+        2011,
+        "Played by Neal McDonough"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Crossbones",
+    "real_name": "Brock Rumlow",
+    "alignment": "villain",
+    "first_appearance": "Captain America #359",
+    "first_year": 1989,
+    "creators": "Mark Gruenwald, Kieron Dwyer",
+    "color": "#212121",
+    "origin": "A brutal mercenary and HYDRA agent, scarred and hardened into the skull-masked Crossbones.",
+    "powers": [
+      "Hand-to-hand combat",
+      "Marksmanship",
+      "Weapons expertise"
+    ],
+    "teams": [
+      "HYDRA"
+    ],
+    "relationships": [
+      [
+        "Captain America",
+        "enemy"
+      ],
+      [
+        "Red Skull",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Captain America #359",
+        1989,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Captain America: The Winter Soldier",
+        2014,
+        "Played by Frank Grillo"
+      ],
+      [
+        "film",
+        "Captain America: Civil War",
+        2016,
+        "Becomes Crossbones"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Batroc",
+    "real_name": "Georges Batroc",
+    "alignment": "villain",
+    "first_appearance": "Tales of Suspense #75",
+    "first_year": 1966,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#3949ab",
+    "origin": "A French mercenary and master of savate kickboxing.",
+    "powers": [
+      "Savate",
+      "Acrobatics",
+      "Mercenary tactics"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Captain America",
+        "enemy"
+      ],
+      [
+        "Falcon",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Tales of Suspense #75",
+        1966,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Captain America: The Winter Soldier",
+        2014,
+        "Played by Georges St-Pierre"
+      ],
+      [
+        "tv",
+        "The Falcon and the Winter Soldier",
+        2021,
+        "Returns"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Nick Fury",
+    "real_name": "Nicholas Fury",
+    "alignment": "hero",
+    "first_appearance": "Sgt. Fury and His Howling Commandos #1",
+    "first_year": 1963,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#263238",
+    "origin": "A World War II commando turned director of S.H.I.E.L.D. The MCU's Fury, based on the Ultimate version, brings the Avengers together.",
+    "powers": [
+      "Espionage",
+      "Military strategy",
+      "Marksmanship"
+    ],
+    "teams": [
+      "S.H.I.E.L.D."
+    ],
+    "relationships": [
+      [
+        "Captain Marvel",
+        "ally"
+      ],
+      [
+        "Maria Hill",
+        "ally"
+      ],
+      [
+        "Talos",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Sgt. Fury and His Howling Commandos #1",
+        1963,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Iron Man",
+        2008,
+        "Played by Samuel L. Jackson (post-credits)"
+      ],
+      [
+        "film",
+        "The Avengers",
+        2012,
+        "Assembles the team"
+      ],
+      [
+        "tv",
+        "Secret Invasion",
+        2023,
+        "Leads the series"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Maria Hill",
+    "real_name": "Maria Hill",
+    "alignment": "hero",
+    "first_appearance": "New Avengers #4",
+    "first_year": 2005,
+    "creators": "Brian Michael Bendis, David Finch",
+    "color": "#1565c0",
+    "origin": "A tough, by-the-book S.H.I.E.L.D. commander who serves as Nick Fury's right hand.",
+    "powers": [
+      "Espionage",
+      "Marksmanship",
+      "Leadership"
+    ],
+    "teams": [
+      "S.H.I.E.L.D."
+    ],
+    "relationships": [
+      [
+        "Nick Fury",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "New Avengers #4",
+        2005,
+        "First appearance"
+      ],
+      [
+        "film",
+        "The Avengers",
+        2012,
+        "Played by Cobie Smulders"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Star-Lord",
+    "real_name": "Peter Quill",
+    "alignment": "hero",
+    "first_appearance": "Marvel Preview #4",
+    "first_year": 1976,
+    "creators": "Steve Englehart, Steve Gan",
+    "color": "#c62828",
+    "origin": "A half-human, half-alien outlaw taken from Earth as a boy, who becomes the leader of the Guardians of the Galaxy.",
+    "powers": [
+      "Element guns",
+      "Jet boots",
+      "Marksmanship",
+      "Half-Celestial heritage (MCU)"
+    ],
+    "teams": [
+      "Guardians of the Galaxy"
+    ],
+    "relationships": [
+      [
+        "Gamora",
+        "romance"
+      ],
+      [
+        "Ego",
+        "family"
+      ],
+      [
+        "Yondu",
+        "family"
+      ],
+      [
+        "Rocket",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Marvel Preview #4",
+        1976,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Guardians of the Galaxy",
+        2014,
+        "Played by Chris Pratt"
+      ],
+      [
+        "film",
+        "Guardians of the Galaxy Vol. 3",
+        2023,
+        "Returns to Earth"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Gamora",
+    "real_name": "Gamora",
+    "alignment": "antihero",
+    "first_appearance": "Strange Tales #180",
+    "first_year": 1975,
+    "creators": "Jim Starlin",
+    "color": "#2e7d32",
+    "origin": "The last of her people, raised by Thanos as a living weapon, who turns against him and joins the Guardians.",
+    "powers": [
+      "Assassin training",
+      "Enhanced strength and healing",
+      "Swordsmanship"
+    ],
+    "teams": [
+      "Guardians of the Galaxy"
+    ],
+    "relationships": [
+      [
+        "Thanos",
+        "family"
+      ],
+      [
+        "Nebula",
+        "family"
+      ],
+      [
+        "Star-Lord",
+        "romance"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Strange Tales #180",
+        1975,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Guardians of the Galaxy",
+        2014,
+        "Played by Zoe Saldaña"
+      ],
+      [
+        "film",
+        "Avengers: Infinity War",
+        2018,
+        "Sacrificed by Thanos"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Drax the Destroyer",
+    "real_name": "Drax",
+    "alignment": "hero",
+    "first_appearance": "Iron Man #55",
+    "first_year": 1973,
+    "creators": "Jim Starlin, Mike Friedrich",
+    "color": "#00695c",
+    "origin": "A warrior bent on revenge against Thanos for the murder of his family. In the comics he began as a human, Arthur Douglas.",
+    "powers": [
+      "Superhuman strength",
+      "Durability",
+      "Knives"
+    ],
+    "teams": [
+      "Guardians of the Galaxy"
+    ],
+    "relationships": [
+      [
+        "Thanos",
+        "enemy"
+      ],
+      [
+        "Mantis",
+        "ally"
+      ],
+      [
+        "Star-Lord",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Iron Man #55",
+        1973,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Guardians of the Galaxy",
+        2014,
+        "Played by Dave Bautista"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Rocket",
+    "real_name": "Rocket Raccoon",
+    "alignment": "hero",
+    "first_appearance": "Marvel Preview #7",
+    "first_year": 1976,
+    "creators": "Bill Mantlo, Keith Giffen",
+    "color": "#6d4c41",
+    "origin": "A genetically and cybernetically altered raccoon, a genius with guns and gadgets, and a founding Guardian.",
+    "powers": [
+      "Engineering genius",
+      "Marksmanship",
+      "Piloting"
+    ],
+    "teams": [
+      "Guardians of the Galaxy",
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Groot",
+        "ally"
+      ],
+      [
+        "High Evolutionary",
+        "enemy"
+      ],
+      [
+        "Star-Lord",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Marvel Preview #7",
+        1976,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Guardians of the Galaxy",
+        2014,
+        "Voiced by Bradley Cooper"
+      ],
+      [
+        "film",
+        "Guardians of the Galaxy Vol. 3",
+        2023,
+        "His origin is told"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Groot",
+    "real_name": "Groot",
+    "alignment": "hero",
+    "first_appearance": "Tales to Astonish #13",
+    "first_year": 1960,
+    "creators": "Stan Lee, Jack Kirby, Dick Ayers",
+    "color": "#558b2f",
+    "origin": "A tree-like Flora colossus who can only say 'I am Groot', and Rocket's loyal partner. He first appeared as a monster invading Earth.",
+    "powers": [
+      "Regrowth",
+      "Plant growth",
+      "Superhuman strength"
+    ],
+    "teams": [
+      "Guardians of the Galaxy",
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Rocket",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Tales to Astonish #13",
+        1960,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Guardians of the Galaxy",
+        2014,
+        "Voiced by Vin Diesel"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Nebula",
+    "real_name": "Nebula",
+    "alignment": "antihero",
+    "first_appearance": "Avengers #257",
+    "first_year": 1985,
+    "creators": "Roger Stern, John Buscema",
+    "color": "#1976d2",
+    "origin": "A ruthless space pirate (in the MCU, Thanos' adopted daughter rebuilt with cybernetic parts) who turns against him.",
+    "powers": [
+      "Cybernetic body",
+      "Combat training",
+      "Piloting"
+    ],
+    "teams": [
+      "Guardians of the Galaxy",
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Gamora",
+        "family"
+      ],
+      [
+        "Thanos",
+        "family"
+      ],
+      [
+        "Iron Man",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Avengers #257",
+        1985,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Guardians of the Galaxy",
+        2014,
+        "Played by Karen Gillan"
+      ],
+      [
+        "film",
+        "Avengers: Endgame",
+        2019,
+        "Helps defeat Thanos"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Yondu",
+    "real_name": "Yondu Udonta",
+    "alignment": "antihero",
+    "first_appearance": "Marvel Super-Heroes #18",
+    "first_year": 1969,
+    "creators": "Arnold Drake, Gene Colan",
+    "color": "#1565c0",
+    "origin": "In the comics a founding Guardian from the 31st century. In the MCU he's the Ravager captain who raised Peter Quill, steering a deadly arrow by whistling.",
+    "powers": [
+      "Whistle-controlled arrow",
+      "Leadership",
+      "Piloting"
+    ],
+    "teams": [
+      "Guardians of the Galaxy"
+    ],
+    "relationships": [
+      [
+        "Star-Lord",
+        "family"
+      ],
+      [
+        "Ego",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Marvel Super-Heroes #18",
+        1969,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Guardians of the Galaxy",
+        2014,
+        "Played by Michael Rooker"
+      ],
+      [
+        "film",
+        "Guardians of the Galaxy Vol. 2",
+        2017,
+        "Sacrifices himself for Peter"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Ronan the Accuser",
+    "real_name": "Ronan",
+    "alignment": "villain",
+    "first_appearance": "Fantastic Four #65",
+    "first_year": 1967,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#283593",
+    "origin": "A Kree Accuser, judge and executioner of the Kree Empire, armed with the Universal Weapon.",
+    "powers": [
+      "Universal Weapon",
+      "Superhuman strength",
+      "Kree military training"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Captain Marvel",
+        "enemy"
+      ],
+      [
+        "Thanos",
+        "ally"
+      ],
+      [
+        "Star-Lord",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Fantastic Four #65",
+        1967,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Guardians of the Galaxy",
+        2014,
+        "Played by Lee Pace"
+      ],
+      [
+        "film",
+        "Captain Marvel",
+        2019,
+        "Appears in the 1990s"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Collector",
+    "real_name": "Taneleer Tivan",
+    "alignment": "villain",
+    "first_appearance": "Avengers #28",
+    "first_year": 1966,
+    "creators": "Stan Lee, Don Heck",
+    "color": "#8e24aa",
+    "origin": "One of the Elders of the Universe, who obsessively collects rare creatures and objects across the cosmos.",
+    "powers": [
+      "Immortality",
+      "Vast knowledge",
+      "Collection of alien weapons"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Grandmaster",
+        "family"
+      ],
+      [
+        "Thanos",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Avengers #28",
+        1966,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Thor: The Dark World",
+        2013,
+        "Played by Benicio del Toro (post-credits)"
+      ],
+      [
+        "film",
+        "Guardians of the Galaxy",
+        2014,
+        "Keeps the Power Stone briefly"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Mantis",
+    "real_name": "Mantis",
+    "alignment": "hero",
+    "first_appearance": "Avengers #112",
+    "first_year": 1973,
+    "creators": "Steve Englehart, Don Heck",
+    "color": "#43a047",
+    "origin": "An empath with antennae who can sense and change others' feelings, raised by Ego in the MCU.",
+    "powers": [
+      "Empathy",
+      "Putting people to sleep",
+      "Martial arts (comics)"
+    ],
+    "teams": [
+      "Guardians of the Galaxy",
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Drax the Destroyer",
+        "ally"
+      ],
+      [
+        "Ego",
+        "enemy"
+      ],
+      [
+        "Star-Lord",
+        "family"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Avengers #112",
+        1973,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Guardians of the Galaxy Vol. 2",
+        2017,
+        "Played by Pom Klementieff"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Ego",
+    "real_name": "Ego",
+    "alignment": "villain",
+    "first_appearance": "Thor #132",
+    "first_year": 1966,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#7cb342",
+    "origin": "A sentient planet. The MCU makes him a Celestial who takes human form as Peter Quill's father.",
+    "powers": [
+      "Planet-sized body",
+      "Cosmic power",
+      "Shape-shifting"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Star-Lord",
+        "family"
+      ],
+      [
+        "Mantis",
+        "enemy"
+      ],
+      [
+        "Yondu",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Thor #132",
+        1966,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Guardians of the Galaxy Vol. 2",
+        2017,
+        "Played by Kurt Russell"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Hank Pym",
+    "real_name": "Henry Pym",
+    "alignment": "hero",
+    "first_appearance": "Tales to Astonish #27",
+    "first_year": 1962,
+    "creators": "Stan Lee, Larry Lieber, Jack Kirby",
+    "color": "#c62828",
+    "origin": "The scientist who discovered the size-changing Pym Particles, the original Ant-Man and a founding Avenger in the comics.",
+    "powers": [
+      "Pym Particles",
+      "Size-changing",
+      "Super-genius intellect"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Janet van Dyne",
+        "romance"
+      ],
+      [
+        "Wasp",
+        "family"
+      ],
+      [
+        "Ant-Man",
+        "mentor"
+      ],
+      [
+        "Ultron",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Tales to Astonish #27",
+        1962,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Ant-Man",
+        2015,
+        "Played by Michael Douglas"
+      ],
+      [
+        "film",
+        "Ant-Man and the Wasp: Quantumania",
+        2023,
+        "Returns"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Wasp",
+    "real_name": "Hope van Dyne",
+    "alignment": "hero",
+    "first_appearance": "A-Next #7",
+    "first_year": 1999,
+    "creators": "Tom DeFalco, Ron Frenz",
+    "color": "#f9a825",
+    "origin": "Hank Pym and Janet van Dyne's daughter. In the comics' MC2 future she was the villain Red Queen; in the MCU she's the new Wasp.",
+    "powers": [
+      "Size-changing",
+      "Flight",
+      "Bio-electric blasts",
+      "Hand-to-hand combat"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Hank Pym",
+        "family"
+      ],
+      [
+        "Janet van Dyne",
+        "family"
+      ],
+      [
+        "Ant-Man",
+        "romance"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "A-Next #7",
+        1999,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Ant-Man",
+        2015,
+        "Played by Evangeline Lilly"
+      ],
+      [
+        "film",
+        "Ant-Man and the Wasp",
+        2018,
+        "Suits up as the Wasp"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Janet van Dyne",
+    "real_name": "Janet van Dyne",
+    "alignment": "hero",
+    "first_appearance": "Tales to Astonish #44",
+    "first_year": 1963,
+    "creators": "Stan Lee, H. E. Huntley, Jack Kirby",
+    "color": "#fbc02d",
+    "origin": "The original Wasp, a founding Avenger who named the team. In the MCU she is lost in the Quantum Realm for 30 years.",
+    "powers": [
+      "Size-changing",
+      "Flight",
+      "Bio-electric blasts"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Hank Pym",
+        "romance"
+      ],
+      [
+        "Wasp",
+        "family"
+      ],
+      [
+        "Kang the Conqueror",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Tales to Astonish #44",
+        1963,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Ant-Man and the Wasp",
+        2018,
+        "Played by Michelle Pfeiffer"
+      ],
+      [
+        "film",
+        "Ant-Man and the Wasp: Quantumania",
+        2023,
+        "Her past with Kang is revealed"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Yellowjacket",
+    "real_name": "Darren Cross",
+    "alignment": "villain",
+    "first_appearance": "Marvel Premiere #47",
+    "first_year": 1979,
+    "creators": "David Michelinie, John Byrne",
+    "color": "#fdd835",
+    "origin": "Hank Pym's ruthless former protégé who builds the armed Yellowjacket suit. The MCU later turns him into M.O.D.O.K.",
+    "powers": [
+      "Size-changing",
+      "Plasma blasters",
+      "Genius-level intellect"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Ant-Man",
+        "enemy"
+      ],
+      [
+        "Hank Pym",
+        "enemy"
+      ],
+      [
+        "Kang the Conqueror",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Marvel Premiere #47",
+        1979,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Ant-Man",
+        2015,
+        "Played by Corey Stoll"
+      ],
+      [
+        "film",
+        "Ant-Man and the Wasp: Quantumania",
+        2023,
+        "Returns as M.O.D.O.K."
+      ]
+    ]
+  },
+  {
+    "hero_name": "Cassie Lang",
+    "real_name": "Cassandra Lang",
+    "alignment": "hero",
+    "first_appearance": "Marvel Premiere #47",
+    "first_year": 1979,
+    "creators": "David Michelinie, John Byrne",
+    "color": "#e91e63",
+    "origin": "Scott Lang's daughter, who grows up to be a size-changing hero herself (Stature in the comics).",
+    "powers": [
+      "Size-changing",
+      "Scientific talent"
+    ],
+    "teams": [
+      "Young Avengers"
+    ],
+    "relationships": [
+      [
+        "Ant-Man",
+        "family"
+      ],
+      [
+        "Hank Pym",
+        "mentor"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Marvel Premiere #47",
+        1979,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Ant-Man",
+        2015,
+        "Played by Abby Ryder Fortson"
+      ],
+      [
+        "film",
+        "Ant-Man and the Wasp: Quantumania",
+        2023,
+        "Played by Kathryn Newton; gets her own suit"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Ghost",
+    "real_name": "Ava Starr",
+    "alignment": "antihero",
+    "first_appearance": "Iron Man #219",
+    "first_year": 1987,
+    "creators": "David Michelinie, Bob Layton",
+    "color": "#78909c",
+    "origin": "In the comics a paranoid hacker who can turn intangible. The MCU's Ava Starr phases in and out of reality after a lab accident.",
+    "powers": [
+      "Intangibility",
+      "Phasing",
+      "Combat training"
+    ],
+    "teams": [
+      "Thunderbolts"
+    ],
+    "relationships": [
+      [
+        "Goliath",
+        "mentor"
+      ],
+      [
+        "Ant-Man",
+        "enemy"
+      ],
+      [
+        "Yelena Belova",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Iron Man #219",
+        1987,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Ant-Man and the Wasp",
+        2018,
+        "Played by Hannah John-Kamen"
+      ],
+      [
+        "film",
+        "Thunderbolts*",
+        2025,
+        "Joins the Thunderbolts"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Goliath",
+    "real_name": "Bill Foster",
+    "alignment": "hero",
+    "first_appearance": "Avengers #32",
+    "first_year": 1966,
+    "creators": "Stan Lee, Don Heck",
+    "color": "#6a1b9a",
+    "origin": "A biochemist who worked with Hank Pym and became the giant hero Black Goliath.",
+    "powers": [
+      "Growing to giant size (comics)",
+      "Biochemistry"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Hank Pym",
+        "enemy"
+      ],
+      [
+        "Ghost",
+        "family"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Avengers #32",
+        1966,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Ant-Man and the Wasp",
+        2018,
+        "Played by Laurence Fishburne"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Jimmy Woo",
+    "real_name": "James Woo",
+    "alignment": "hero",
+    "first_appearance": "Yellow Claw #1",
+    "first_year": 1956,
+    "creators": "Al Feldstein, Joe Maneely",
+    "color": "#00897b",
+    "origin": "An FBI agent (later S.H.I.E.L.D. in the comics) who keeps turning up whenever something strange happens.",
+    "powers": [
+      "Investigation",
+      "Espionage",
+      "Close-up magic (MCU)"
+    ],
+    "teams": [
+      "S.H.I.E.L.D."
+    ],
+    "relationships": [
+      [
+        "Ant-Man",
+        "ally"
+      ],
+      [
+        "Scarlet Witch",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Yellow Claw #1",
+        1956,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Ant-Man and the Wasp",
+        2018,
+        "Played by Randall Park"
+      ],
+      [
+        "tv",
+        "WandaVision",
+        2021,
+        "Investigates Westview"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Ancient One",
+    "real_name": "Ancient One",
+    "alignment": "hero",
+    "first_appearance": "Strange Tales #110",
+    "first_year": 1963,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#ff8f00",
+    "origin": "The Sorcerer Supreme before Stephen Strange, who teaches him the mystic arts at Kamar-Taj.",
+    "powers": [
+      "Mystic arts",
+      "Astral projection",
+      "Longevity"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Doctor Strange",
+        "mentor"
+      ],
+      [
+        "Dormammu",
+        "enemy"
+      ],
+      [
+        "Mordo",
+        "mentor"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Strange Tales #110",
+        1963,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Doctor Strange",
+        2016,
+        "Played by Tilda Swinton"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Mordo",
+    "real_name": "Karl Mordo",
+    "alignment": "villain",
+    "first_appearance": "Strange Tales #111",
+    "first_year": 1963,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#4a148c",
+    "origin": "A fellow student of the Ancient One who turns against Stephen Strange and the sorcerers.",
+    "powers": [
+      "Mystic arts",
+      "Astral projection"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Doctor Strange",
+        "enemy"
+      ],
+      [
+        "Ancient One",
+        "mentor"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Strange Tales #111",
+        1963,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Doctor Strange",
+        2016,
+        "Played by Chiwetel Ejiofor"
+      ],
+      [
+        "film",
+        "Doctor Strange in the Multiverse of Madness",
+        2022,
+        "A variant leads the Illuminati's sorcerers"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Wong",
+    "real_name": "Wong",
+    "alignment": "hero",
+    "first_appearance": "Strange Tales #110",
+    "first_year": 1963,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#ef6c00",
+    "origin": "Stephen Strange's loyal friend, a master of the mystic arts who becomes Sorcerer Supreme in the MCU.",
+    "powers": [
+      "Mystic arts",
+      "Martial arts"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Doctor Strange",
+        "ally"
+      ],
+      [
+        "She-Hulk",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Strange Tales #110",
+        1963,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Doctor Strange",
+        2016,
+        "Played by Benedict Wong"
+      ],
+      [
+        "tv",
+        "She-Hulk: Attorney at Law",
+        2022,
+        "Recurring"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Kaecilius",
+    "real_name": "Kaecilius",
+    "alignment": "villain",
+    "first_appearance": "Strange Tales #130",
+    "first_year": 1965,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#311b92",
+    "origin": "A rogue sorcerer who wants to bring Dormammu's Dark Dimension to Earth.",
+    "powers": [
+      "Mystic arts",
+      "Mirror Dimension manipulation"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Dormammu",
+        "ally"
+      ],
+      [
+        "Doctor Strange",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Strange Tales #130",
+        1965,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Doctor Strange",
+        2016,
+        "Played by Mads Mikkelsen"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Christine Palmer",
+    "real_name": "Christine Palmer",
+    "alignment": "hero",
+    "first_appearance": "Night Nurse #1",
+    "first_year": 1972,
+    "creators": "Jean Thomas, Win Mortimer",
+    "color": "#d81b60",
+    "origin": "A doctor and Stephen Strange's colleague and former love. In the comics she's one of the original Night Nurses.",
+    "powers": [
+      "Medical expertise"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Doctor Strange",
+        "romance"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Night Nurse #1",
+        1972,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Doctor Strange",
+        2016,
+        "Played by Rachel McAdams"
+      ]
+    ]
+  },
+  {
+    "hero_name": "May Parker",
+    "real_name": "May Parker",
+    "alignment": "hero",
+    "first_appearance": "Amazing Fantasy #15",
+    "first_year": 1962,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#8e24aa",
+    "origin": "Peter Parker's beloved aunt, who raised him after his parents died.",
+    "powers": [
+      "Compassion",
+      "Wisdom"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Spider-Man",
+        "family"
+      ],
+      [
+        "Happy Hogan",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Amazing Fantasy #15",
+        1962,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Captain America: Civil War",
+        2016,
+        "Played by Marisa Tomei"
+      ],
+      [
+        "film",
+        "Spider-Man: No Way Home",
+        2021,
+        "Her death teaches Peter about responsibility"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Shocker",
+    "real_name": "Herman Schultz",
+    "alignment": "villain",
+    "first_appearance": "The Amazing Spider-Man #46",
+    "first_year": 1967,
+    "creators": "Stan Lee, John Romita Sr.",
+    "color": "#f9a825",
+    "origin": "A safecracker who builds gauntlets that fire powerful shockwaves.",
+    "powers": [
+      "Vibro-shock gauntlets",
+      "Padded suit"
+    ],
+    "teams": [
+      "Sinister Six"
+    ],
+    "relationships": [
+      [
+        "Spider-Man",
+        "enemy"
+      ],
+      [
+        "Vulture",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Amazing Spider-Man #46",
+        1967,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Spider-Man: Homecoming",
+        2017,
+        "Played by Bokeem Woodbine"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Tinkerer",
+    "real_name": "Phineas Mason",
+    "alignment": "villain",
+    "first_appearance": "The Amazing Spider-Man #2",
+    "first_year": 1963,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#6d4c41",
+    "origin": "A gifted inventor who builds weapons and gadgets for criminals.",
+    "powers": [
+      "Engineering genius",
+      "Weapon building"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Vulture",
+        "ally"
+      ],
+      [
+        "Spider-Man",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Amazing Spider-Man #2",
+        1963,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Spider-Man: Homecoming",
+        2017,
+        "Played by Michael Chernus"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Ned Leeds",
+    "real_name": "Ned Leeds",
+    "alignment": "hero",
+    "first_appearance": "The Amazing Spider-Man #18",
+    "first_year": 1964,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#fbc02d",
+    "origin": "In the comics a Daily Bugle reporter. The MCU's Ned is Peter Parker's best friend and 'guy in the chair'.",
+    "powers": [
+      "Hacking",
+      "Sorcery (briefly, MCU)"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Spider-Man",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Amazing Spider-Man #18",
+        1964,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Spider-Man: Homecoming",
+        2017,
+        "Played by Jacob Batalon"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Liz Allan",
+    "real_name": "Elizabeth Allan",
+    "alignment": "hero",
+    "first_appearance": "Amazing Fantasy #15",
+    "first_year": 1962,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#ec407a",
+    "origin": "A popular classmate of Peter Parker's at Midtown High.",
+    "powers": [
+      "Leadership"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Spider-Man",
+        "romance"
+      ],
+      [
+        "Vulture",
+        "family"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Amazing Fantasy #15",
+        1962,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Spider-Man: Homecoming",
+        2017,
+        "Played by Laura Harrier"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Flash Thompson",
+    "real_name": "Eugene Thompson",
+    "alignment": "hero",
+    "first_appearance": "Amazing Fantasy #15",
+    "first_year": 1962,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#1976d2",
+    "origin": "Peter Parker's school bully and Spider-Man's biggest fan. In the comics he later becomes Agent Venom.",
+    "powers": [
+      "Athletics"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Spider-Man",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Amazing Fantasy #15",
+        1962,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Spider-Man: Homecoming",
+        2017,
+        "Played by Tony Revolori"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Scorpion",
+    "real_name": "Mac Gargan",
+    "alignment": "villain",
+    "first_appearance": "The Amazing Spider-Man #19",
+    "first_year": 1964,
+    "creators": "Stan Lee, Steve Ditko",
+    "color": "#388e3c",
+    "origin": "A private investigator who undergoes an experiment to beat Spider-Man and becomes the Scorpion, with a powered suit and tail.",
+    "powers": [
+      "Superhuman strength",
+      "Mechanical tail",
+      "Wall-climbing"
+    ],
+    "teams": [
+      "Sinister Six"
+    ],
+    "relationships": [
+      [
+        "Spider-Man",
+        "enemy"
+      ],
+      [
+        "Vulture",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Amazing Spider-Man #19",
+        1964,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Spider-Man: Homecoming",
+        2017,
+        "Played by Michael Mando"
+      ],
+      [
+        "film",
+        "Spider-Man: Brand New Day",
+        2026,
+        "Returns"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Prowler",
+    "real_name": "Aaron Davis",
+    "alignment": "antihero",
+    "first_appearance": "Ultimate Comics: Spider-Man #1",
+    "first_year": 2011,
+    "creators": "Brian Michael Bendis, Sara Pichelli",
+    "color": "#4a148c",
+    "origin": "Miles Morales' uncle, a career thief who becomes the Prowler in the Ultimate comics. (The original Prowler, Hobie Brown, dates back to 1969.)",
+    "powers": [
+      "Gadgets",
+      "Stealth"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Spider-Man",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Ultimate Comics: Spider-Man #1",
+        2011,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Spider-Man: Homecoming",
+        2017,
+        "Played by Donald Glover"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Shuri",
+    "real_name": "Shuri",
+    "alignment": "hero",
+    "first_appearance": "Black Panther #2 (vol. 4)",
+    "first_year": 2005,
+    "creators": "Reginald Hudlin, John Romita Jr.",
+    "color": "#6a1b9a",
+    "origin": "T'Challa's brilliant younger sister, Wakanda's top inventor, who becomes the Black Panther herself.",
+    "powers": [
+      "Genius-level intellect",
+      "Vibranium technology",
+      "Black Panther powers (heart-shaped herb)"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Black Panther",
+        "family"
+      ],
+      [
+        "Okoye",
+        "ally"
+      ],
+      [
+        "Namor",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Black Panther #2 (vol. 4)",
+        2005,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Black Panther",
+        2018,
+        "Played by Letitia Wright"
+      ],
+      [
+        "film",
+        "Black Panther: Wakanda Forever",
+        2022,
+        "Becomes Black Panther"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Okoye",
+    "real_name": "Okoye",
+    "alignment": "hero",
+    "first_appearance": "Black Panther #1 (vol. 3)",
+    "first_year": 1998,
+    "creators": "Christopher Priest, Mark Texeira",
+    "color": "#b71c1c",
+    "origin": "General of the Dora Milaje, the elite all-women guard of Wakanda's king.",
+    "powers": [
+      "Spear fighting",
+      "Hand-to-hand combat",
+      "Leadership"
+    ],
+    "teams": [
+      "Dora Milaje"
+    ],
+    "relationships": [
+      [
+        "Black Panther",
+        "ally"
+      ],
+      [
+        "Shuri",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Black Panther #1 (vol. 3)",
+        1998,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Black Panther",
+        2018,
+        "Played by Danai Gurira"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Nakia",
+    "real_name": "Nakia",
+    "alignment": "hero",
+    "first_appearance": "Black Panther #1 (vol. 3)",
+    "first_year": 1998,
+    "creators": "Christopher Priest, Mark Texeira",
+    "color": "#00695c",
+    "origin": "A Wakandan spy. In the comics she was a Dora Milaje who turned on T'Challa; in the MCU she's his love and a War Dog agent.",
+    "powers": [
+      "Espionage",
+      "Hand-to-hand combat"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Black Panther",
+        "romance"
+      ],
+      [
+        "Shuri",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Black Panther #1 (vol. 3)",
+        1998,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Black Panther",
+        2018,
+        "Played by Lupita Nyong'o"
+      ]
+    ]
+  },
+  {
+    "hero_name": "M'Baku",
+    "real_name": "M'Baku",
+    "alignment": "antihero",
+    "first_appearance": "Avengers #62",
+    "first_year": 1969,
+    "creators": "Roy Thomas, John Buscema",
+    "color": "#5d4037",
+    "origin": "Leader of Wakanda's mountain Jabari tribe, a rival of T'Challa (the villain Man-Ape in the comics) who becomes an ally.",
+    "powers": [
+      "Superhuman strength",
+      "Hand-to-hand combat",
+      "Leadership"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Black Panther",
+        "ally"
+      ],
+      [
+        "Shuri",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Avengers #62",
+        1969,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Black Panther",
+        2018,
+        "Played by Winston Duke"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Klaue",
+    "real_name": "Ulysses Klaue",
+    "alignment": "villain",
+    "first_appearance": "Fantastic Four #53",
+    "first_year": 1966,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#bf360c",
+    "origin": "A black-market arms dealer who steals vibranium from Wakanda. In the comics he becomes a being of living sound.",
+    "powers": [
+      "Sonic cannon arm",
+      "Arms dealing"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Black Panther",
+        "enemy"
+      ],
+      [
+        "Killmonger",
+        "ally"
+      ],
+      [
+        "Ultron",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Fantastic Four #53",
+        1966,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Avengers: Age of Ultron",
+        2015,
+        "Played by Andy Serkis"
+      ],
+      [
+        "film",
+        "Black Panther",
+        2018,
+        "Killed by Killmonger"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Ebony Maw",
+    "real_name": "Ebony Maw",
+    "alignment": "villain",
+    "first_appearance": "New Avengers #8 (vol. 3)",
+    "first_year": 2013,
+    "creators": "Jonathan Hickman, Jerome Opeña",
+    "color": "#5e35b1",
+    "origin": "Thanos' silver-tongued herald in the Black Order, a master manipulator.",
+    "powers": [
+      "Telekinesis",
+      "Manipulation",
+      "Genius-level intellect"
+    ],
+    "teams": [
+      "Black Order"
+    ],
+    "relationships": [
+      [
+        "Thanos",
+        "ally"
+      ],
+      [
+        "Doctor Strange",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "New Avengers #8 (vol. 3)",
+        2013,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Avengers: Infinity War",
+        2018,
+        "Played by Tom Vaughan-Lawlor"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Proxima Midnight",
+    "real_name": "Proxima Midnight",
+    "alignment": "villain",
+    "first_appearance": "New Avengers #8 (vol. 3)",
+    "first_year": 2013,
+    "creators": "Jonathan Hickman, Jerome Opeña",
+    "color": "#283593",
+    "origin": "A deadly warrior of the Black Order who wields a spear made from a captured star.",
+    "powers": [
+      "Superhuman strength",
+      "Spear combat",
+      "Agility"
+    ],
+    "teams": [
+      "Black Order"
+    ],
+    "relationships": [
+      [
+        "Thanos",
+        "ally"
+      ],
+      [
+        "Corvus Glaive",
+        "romance"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "New Avengers #8 (vol. 3)",
+        2013,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Avengers: Infinity War",
+        2018,
+        "Played by Carrie Coon"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Corvus Glaive",
+    "real_name": "Corvus Glaive",
+    "alignment": "villain",
+    "first_appearance": "New Avengers #8 (vol. 3)",
+    "first_year": 2013,
+    "creators": "Jonathan Hickman, Jerome Opeña",
+    "color": "#311b92",
+    "origin": "Thanos' merciless right hand, whose glaive is bound to his own life.",
+    "powers": [
+      "Glaive combat",
+      "Superhuman strength",
+      "Teleportation"
+    ],
+    "teams": [
+      "Black Order"
+    ],
+    "relationships": [
+      [
+        "Thanos",
+        "ally"
+      ],
+      [
+        "Proxima Midnight",
+        "romance"
+      ],
+      [
+        "Vision",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "New Avengers #8 (vol. 3)",
+        2013,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Avengers: Infinity War",
+        2018,
+        "Played by Michael James Shaw"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Cull Obsidian",
+    "real_name": "Black Dwarf",
+    "alignment": "villain",
+    "first_appearance": "New Avengers #8 (vol. 3)",
+    "first_year": 2013,
+    "creators": "Jonathan Hickman, Jerome Opeña",
+    "color": "#424242",
+    "origin": "The Black Order's brute force, known as Black Dwarf in the comics, with near-impenetrable skin.",
+    "powers": [
+      "Superhuman strength",
+      "Impenetrable skin",
+      "Hammer"
+    ],
+    "teams": [
+      "Black Order"
+    ],
+    "relationships": [
+      [
+        "Thanos",
+        "ally"
+      ],
+      [
+        "Hulk",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "New Avengers #8 (vol. 3)",
+        2013,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Avengers: Infinity War",
+        2018,
+        "Played by Terry Notary"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Talos",
+    "real_name": "Talos",
+    "alignment": "antihero",
+    "first_appearance": "The Incredible Hulk #418",
+    "first_year": 1994,
+    "creators": "Peter David, Gary Frank",
+    "color": "#33691e",
+    "origin": "In the comics a Skrull warrior shamed for refusing ritual suicide. In the MCU he's a refugee Skrull leader and Nick Fury's friend.",
+    "powers": [
+      "Shape-shifting",
+      "Military strategy"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Nick Fury",
+        "ally"
+      ],
+      [
+        "Captain Marvel",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Incredible Hulk #418",
+        1994,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Captain Marvel",
+        2019,
+        "Played by Ben Mendelsohn"
+      ],
+      [
+        "tv",
+        "Secret Invasion",
+        2023,
+        "Killed by Gravik"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Supreme Intelligence",
+    "real_name": "Supreme Intelligence",
+    "alignment": "villain",
+    "first_appearance": "Fantastic Four #65",
+    "first_year": 1967,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#00838f",
+    "origin": "An artificial intelligence made of the greatest Kree minds, which rules the Kree Empire.",
+    "powers": [
+      "Vast intellect",
+      "Telepathy",
+      "Manipulation"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Captain Marvel",
+        "enemy"
+      ],
+      [
+        "Ronan the Accuser",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Fantastic Four #65",
+        1967,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Captain Marvel",
+        2019,
+        "Played by Annette Bening"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Mar-Vell",
+    "real_name": "Mar-Vell",
+    "alignment": "hero",
+    "first_appearance": "Marvel Super-Heroes #12",
+    "first_year": 1967,
+    "creators": "Stan Lee, Gene Colan",
+    "color": "#1565c0",
+    "origin": "A Kree officer who defects to protect Earth as the original Captain Marvel. The MCU version, Dr. Wendy Lawson, is the woman who gives Carol Danvers her start.",
+    "powers": [
+      "Kree physiology",
+      "Cosmic awareness (comics)",
+      "Scientific genius"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Captain Marvel",
+        "mentor"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Marvel Super-Heroes #12",
+        1967,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Captain Marvel",
+        2019,
+        "Played by Annette Bening"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Quicksilver",
+    "real_name": "Pietro Maximoff",
+    "alignment": "antihero",
+    "first_appearance": "The X-Men #4",
+    "first_year": 1964,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#90caf9",
+    "origin": "Wanda Maximoff's twin brother, a speedster who starts as Magneto's follower and joins the Avengers.",
+    "powers": [
+      "Superhuman speed",
+      "Fast reflexes"
+    ],
+    "teams": [
+      "Avengers",
+      "Brotherhood of Mutants"
+    ],
+    "relationships": [
+      [
+        "Scarlet Witch",
+        "family"
+      ],
+      [
+        "Magneto",
+        "family"
+      ],
+      [
+        "Hawkeye",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The X-Men #4",
+        1964,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Captain America: The Winter Soldier",
+        2014,
+        "Played by Aaron Taylor-Johnson (post-credits)"
+      ],
+      [
+        "film",
+        "Avengers: Age of Ultron",
+        2015,
+        "Dies saving Hawkeye"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Starhawk",
+    "real_name": "Stakar Ogord",
+    "alignment": "hero",
+    "first_appearance": "The Defenders #27",
+    "first_year": 1975,
+    "creators": "Steve Gerber, Sal Buscema",
+    "color": "#ffca28",
+    "origin": "A founding member of the original 31st-century Guardians. In the MCU, the Ravager leader who exiled Yondu.",
+    "powers": [
+      "Light manipulation",
+      "Flight",
+      "Precognition (comics)"
+    ],
+    "teams": [
+      "Guardians of the Galaxy"
+    ],
+    "relationships": [
+      [
+        "Yondu",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Defenders #27",
+        1975,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Guardians of the Galaxy Vol. 2",
+        2017,
+        "Played by Sylvester Stallone"
+      ]
+    ]
   }
 ]

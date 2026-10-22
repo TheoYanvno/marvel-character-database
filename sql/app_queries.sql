@@ -5,14 +5,21 @@
 
 -- name: search
 -- Card list. Matches hero name, real name or a power, optionally only one side
--- (hero, villain or antihero; an empty string means all). Params: like, like, like, side, side
-SELECT DISTINCT c.id, c.hero_name, c.real_name, c.alignment, c.first_year, c.color
+-- (hero, villain or antihero; an empty string means all). Characters whose hero name starts with the
+-- search come first, then other name matches, then power matches.
+-- Params: like, like, like, side, side, prefix, like, like
+SELECT c.id, c.hero_name, c.real_name, c.alignment, c.first_year, c.color
 FROM characters c
-LEFT JOIN character_powers cp ON cp.character_id = c.id
-LEFT JOIN powers p            ON p.id = cp.power_id
-WHERE (c.hero_name LIKE ? OR c.real_name LIKE ? OR p.name LIKE ?)
-  AND (? = '' OR c.alignment = ?)
-ORDER BY c.hero_name;
+WHERE EXISTS (
+        SELECT 1 FROM character_powers cp JOIN powers p ON p.id = cp.power_id
+        WHERE cp.character_id = c.id AND p.name LIKE ?
+      ) OR c.hero_name LIKE ? OR c.real_name LIKE ?
+GROUP BY c.id
+HAVING (? = '' OR c.alignment = ?)
+ORDER BY CASE WHEN c.hero_name LIKE ? THEN 0
+              WHEN c.hero_name LIKE ? OR c.real_name LIKE ? THEN 1
+              ELSE 2 END,
+         c.hero_name;
 
 -- name: side_counts
 -- How many characters are on each side, for the section tabs

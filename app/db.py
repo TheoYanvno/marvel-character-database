@@ -86,8 +86,9 @@ SIDES = ("hero", "villain", "antihero")
 def search(conn, text="", side=""):
     """Card list. Matches hero name, real name or a power; side limits it to heroes, villains or antiheroes."""
     like = f"%{text.strip()}%"
+    prefix = f"{text.strip()}%"
     side = side if side in SIDES else ""
-    return _rows(conn, "search", like, like, like, side, side)
+    return _rows(conn, "search", like, like, like, side, side, prefix, like, like)
 
 
 def side_counts(conn):

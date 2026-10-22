@@ -41,7 +41,8 @@ window.staticApi = {
     const { db, Q } = await ready;
     const like = `%${q.trim()}%`;
     side = ['hero', 'villain', 'antihero'].includes(side) ? side : '';
-    return rows(db, Q.search, [like, like, like, side, side]);
+    const prefix = `${q.trim()}%`;
+    return rows(db, Q.search, [like, like, like, side, side, prefix, like, like]);
   },
   async sides() {
     const { db, Q } = await ready;
