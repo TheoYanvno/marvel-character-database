@@ -8588,5 +8588,1469 @@
         "Played by Rhys Ifans, from The Amazing Spider-Man"
       ]
     ]
+  },
+  {
+    "hero_name": "Agatha Harkness",
+    "real_name": "Agatha Harkness",
+    "alignment": "antihero",
+    "first_appearance": "Fantastic Four #94",
+    "first_year": 1970,
+    "creators": "Stan Lee, Jack Kirby",
+    "color": "#4a148c",
+    "origin": "A centuries-old witch who was once the Fantastic Four's nanny and Wanda Maximoff's teacher. In the MCU she schemes to steal Wanda's power.",
+    "powers": [
+      "Witchcraft",
+      "Absorbing magic (MCU)",
+      "Longevity"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Scarlet Witch",
+        "enemy"
+      ],
+      [
+        "Wiccan",
+        "mentor"
+      ],
+      [
+        "Death",
+        "romance"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Fantastic Four #94",
+        1970,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "WandaVision",
+        2021,
+        "Played by Kathryn Hahn"
+      ],
+      [
+        "tv",
+        "Agatha All Along",
+        2024,
+        "Her own series"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Monica Rambeau",
+    "real_name": "Monica Rambeau",
+    "alignment": "hero",
+    "first_appearance": "The Amazing Spider-Man Annual #16",
+    "first_year": 1982,
+    "creators": "Roger Stern, John Romita Jr.",
+    "color": "#fbc02d",
+    "origin": "A New Orleans harbor patrol lieutenant who gained light-energy powers and was the second Captain Marvel. In the MCU she grows up as Carol Danvers' 'niece'.",
+    "powers": [
+      "Energy absorption",
+      "Seeing the energy spectrum",
+      "Intangibility",
+      "Flight (comics)"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Captain Marvel",
+        "family"
+      ],
+      [
+        "Ms. Marvel",
+        "ally"
+      ],
+      [
+        "Scarlet Witch",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Amazing Spider-Man Annual #16",
+        1982,
+        "First appearance"
+      ],
+      [
+        "film",
+        "Captain Marvel",
+        2019,
+        "Played by Akira Akbar as a child"
+      ],
+      [
+        "tv",
+        "WandaVision",
+        2021,
+        "Played by Teyonah Parris; gains her powers"
+      ],
+      [
+        "film",
+        "The Marvels",
+        2023,
+        "Teams with Carol and Kamala"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Wiccan",
+    "real_name": "Billy Kaplan",
+    "alignment": "hero",
+    "first_appearance": "Young Avengers #1",
+    "first_year": 2005,
+    "creators": "Allan Heinberg, Jim Cheung",
+    "color": "#1565c0",
+    "origin": "A teen sorcerer and reincarnated son of Wanda Maximoff, founder of the Young Avengers.",
+    "powers": [
+      "Spellcasting",
+      "Flight",
+      "Reality warping"
+    ],
+    "teams": [
+      "Young Avengers"
+    ],
+    "relationships": [
+      [
+        "Scarlet Witch",
+        "family"
+      ],
+      [
+        "Speed",
+        "family"
+      ],
+      [
+        "Agatha Harkness",
+        "mentor"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Young Avengers #1",
+        2005,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "WandaVision",
+        2021,
+        "Played by Julian Hilliard as Wanda's son Billy"
+      ],
+      [
+        "tv",
+        "Agatha All Along",
+        2024,
+        "Played by Joe Locke"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Speed",
+    "real_name": "Tommy Shepherd",
+    "alignment": "hero",
+    "first_appearance": "Young Avengers #10",
+    "first_year": 2006,
+    "creators": "Allan Heinberg, Jim Cheung",
+    "color": "#b0bec5",
+    "origin": "Billy's twin brother, a speedster and member of the Young Avengers.",
+    "powers": [
+      "Superhuman speed",
+      "Vibrating matter"
+    ],
+    "teams": [
+      "Young Avengers"
+    ],
+    "relationships": [
+      [
+        "Wiccan",
+        "family"
+      ],
+      [
+        "Scarlet Witch",
+        "family"
+      ],
+      [
+        "Quicksilver",
+        "family"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Young Avengers #10",
+        2006,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "WandaVision",
+        2021,
+        "Played by Jett Klyne as Wanda's son Tommy"
+      ]
+    ]
+  },
+  {
+    "hero_name": "U.S. Agent",
+    "real_name": "John Walker",
+    "alignment": "antihero",
+    "first_appearance": "Captain America #323",
+    "first_year": 1986,
+    "creators": "Mark Gruenwald, Paul Neary",
+    "color": "#0d47a1",
+    "origin": "A soldier picked to replace Captain America (first as Super-Patriot in the comics) who disgraces the shield and becomes U.S. Agent.",
+    "powers": [
+      "Super-soldier strength",
+      "Military training",
+      "Shield"
+    ],
+    "teams": [
+      "Thunderbolts"
+    ],
+    "relationships": [
+      [
+        "Falcon",
+        "enemy"
+      ],
+      [
+        "Winter Soldier",
+        "enemy"
+      ],
+      [
+        "Valentina Allegra de Fontaine",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Captain America #323",
+        1986,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "The Falcon and the Winter Soldier",
+        2021,
+        "Played by Wyatt Russell"
+      ],
+      [
+        "film",
+        "Thunderbolts*",
+        2025,
+        "Joins the Thunderbolts"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Isaiah Bradley",
+    "real_name": "Isaiah Bradley",
+    "alignment": "hero",
+    "first_appearance": "Truth: Red, White & Black #1",
+    "first_year": 2003,
+    "creators": "Robert Morales, Kyle Baker",
+    "color": "#8d6e63",
+    "origin": "A Black soldier who was experimented on to recreate the super-soldier serum, then imprisoned and erased from history.",
+    "powers": [
+      "Super-soldier strength",
+      "Durability"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Falcon",
+        "ally"
+      ],
+      [
+        "Captain America",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Truth: Red, White & Black #1",
+        2003,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "The Falcon and the Winter Soldier",
+        2021,
+        "Played by Carl Lumbly"
+      ],
+      [
+        "film",
+        "Captain America: Brave New World",
+        2025,
+        "Returns"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Flag-Smasher",
+    "real_name": "Karli Morgenthau",
+    "alignment": "villain",
+    "first_appearance": "Captain America #312",
+    "first_year": 1985,
+    "creators": "Mark Gruenwald, Paul Neary",
+    "color": "#37474f",
+    "origin": "In the comics, Karl Morgenthau is an anti-nationalist terrorist. The MCU's Karli leads a movement against borders after the Blip, using a stolen super-soldier serum.",
+    "powers": [
+      "Super-soldier strength",
+      "Leadership"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Falcon",
+        "enemy"
+      ],
+      [
+        "Winter Soldier",
+        "enemy"
+      ],
+      [
+        "Sharon Carter",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Captain America #312",
+        1985,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "The Falcon and the Winter Soldier",
+        2021,
+        "Played by Erin Kellyman"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Valentina Allegra de Fontaine",
+    "real_name": "Valentina Allegra de Fontaine",
+    "alignment": "villain",
+    "first_appearance": "Strange Tales #159",
+    "first_year": 1967,
+    "creators": "Jim Steranko",
+    "color": "#d81b60",
+    "origin": "A S.H.I.E.L.D. agent and Nick Fury's lover who turns traitor in the comics. In the MCU she's the CIA director who assembles the Thunderbolts.",
+    "powers": [
+      "Espionage",
+      "Manipulation",
+      "Political power"
+    ],
+    "teams": [
+      "S.H.I.E.L.D."
+    ],
+    "relationships": [
+      [
+        "Nick Fury",
+        "romance"
+      ],
+      [
+        "U.S. Agent",
+        "ally"
+      ],
+      [
+        "Yelena Belova",
+        "ally"
+      ],
+      [
+        "Sentry",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Strange Tales #159",
+        1967,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "The Falcon and the Winter Soldier",
+        2021,
+        "Played by Julia Louis-Dreyfus"
+      ],
+      [
+        "film",
+        "Thunderbolts*",
+        2025,
+        "Behind the team"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Joaquin Torres",
+    "real_name": "Joaquin Torres",
+    "alignment": "hero",
+    "first_appearance": "Sam Wilson: Captain America #1",
+    "first_year": 2015,
+    "creators": "Nick Spencer, Daniel Acuña",
+    "color": "#ff7043",
+    "origin": "A young man who becomes the new Falcon when Sam Wilson takes up the shield.",
+    "powers": [
+      "Flight (wings)",
+      "Drone Redwing",
+      "Military training"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Falcon",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Sam Wilson: Captain America #1",
+        2015,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "The Falcon and the Winter Soldier",
+        2021,
+        "Played by Danny Ramirez"
+      ],
+      [
+        "film",
+        "Captain America: Brave New World",
+        2025,
+        "The new Falcon"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Sylvie",
+    "real_name": "Sylvie",
+    "alignment": "antihero",
+    "first_appearance": "Dark Reign: Young Avengers #1",
+    "first_year": 2009,
+    "creators": "Paul Cornell, Mark Brooks",
+    "color": "#2e7d32",
+    "origin": "The MCU's Sylvie, a female variant of Loki, blends Lady Loki with Sylvie Lushton, a young sorceress who calls herself the Enchantress.",
+    "powers": [
+      "Enchantment",
+      "Magic",
+      "Swordsmanship"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Loki",
+        "romance"
+      ],
+      [
+        "Kang the Conqueror",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Dark Reign: Young Avengers #1",
+        2009,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Loki",
+        2021,
+        "Played by Sophia Di Martino"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Mobius M. Mobius",
+    "real_name": "Mobius M. Mobius",
+    "alignment": "hero",
+    "first_appearance": "Fantastic Four #353",
+    "first_year": 1991,
+    "creators": "Walt Simonson",
+    "color": "#795548",
+    "origin": "A bureaucrat of the Time Variance Authority, which polices the timeline.",
+    "powers": [
+      "Investigation",
+      "TVA technology"
+    ],
+    "teams": [
+      "Time Variance Authority"
+    ],
+    "relationships": [
+      [
+        "Loki",
+        "ally"
+      ],
+      [
+        "Ravonna Renslayer",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Fantastic Four #353",
+        1991,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Loki",
+        2021,
+        "Played by Owen Wilson"
+      ],
+      [
+        "film",
+        "Deadpool & Wolverine",
+        2024,
+        "Briefly appears"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Ravonna Renslayer",
+    "real_name": "Ravonna Renslayer",
+    "alignment": "antihero",
+    "first_appearance": "Avengers #23",
+    "first_year": 1965,
+    "creators": "Stan Lee, Don Heck",
+    "color": "#424242",
+    "origin": "A princess of the 40th century and Kang's love in the comics. In the MCU she's a TVA judge with a hidden past.",
+    "powers": [
+      "Leadership",
+      "TVA technology"
+    ],
+    "teams": [
+      "Time Variance Authority"
+    ],
+    "relationships": [
+      [
+        "Kang the Conqueror",
+        "romance"
+      ],
+      [
+        "Mobius M. Mobius",
+        "ally"
+      ],
+      [
+        "Loki",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Avengers #23",
+        1965,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Loki",
+        2021,
+        "Played by Gugu Mbatha-Raw"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Kate Bishop",
+    "real_name": "Kate Bishop",
+    "alignment": "hero",
+    "first_appearance": "Young Avengers #1",
+    "first_year": 2005,
+    "creators": "Allan Heinberg, Jim Cheung",
+    "color": "#6a1b9a",
+    "origin": "A wealthy young archer who idolizes Clint Barton and takes up the name Hawkeye.",
+    "powers": [
+      "Archery",
+      "Martial arts",
+      "Trick arrows"
+    ],
+    "teams": [
+      "Young Avengers"
+    ],
+    "relationships": [
+      [
+        "Hawkeye",
+        "mentor"
+      ],
+      [
+        "Yelena Belova",
+        "enemy"
+      ],
+      [
+        "Kingpin",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Young Avengers #1",
+        2005,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Hawkeye",
+        2021,
+        "Played by Hailee Steinfeld"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Echo",
+    "real_name": "Maya Lopez",
+    "alignment": "antihero",
+    "first_appearance": "Daredevil #9 (vol. 2)",
+    "first_year": 1999,
+    "creators": "David Mack, Joe Quesada",
+    "color": "#c62828",
+    "origin": "A deaf fighter who can perfectly copy anyone's movements, raised by the Kingpin.",
+    "powers": [
+      "Copying movements",
+      "Martial arts",
+      "Healing powers (MCU)"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Kingpin",
+        "family"
+      ],
+      [
+        "Daredevil",
+        "romance"
+      ],
+      [
+        "Hawkeye",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Daredevil #9 (vol. 2)",
+        1999,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Hawkeye",
+        2021,
+        "Played by Alaqua Cox"
+      ],
+      [
+        "tv",
+        "Echo",
+        2024,
+        "Her own series"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Lucky the Pizza Dog",
+    "real_name": "Lucky",
+    "alignment": "hero",
+    "first_appearance": "Hawkeye #1 (vol. 4)",
+    "first_year": 2012,
+    "creators": "Matt Fraction, David Aja",
+    "color": "#d4a373",
+    "origin": "A one-eyed golden retriever Clint Barton rescues, who loves pizza.",
+    "powers": [
+      "Loyalty",
+      "Good boy"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Hawkeye",
+        "ally"
+      ],
+      [
+        "Kate Bishop",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Hawkeye #1 (vol. 4)",
+        2012,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Hawkeye",
+        2021,
+        "Played by the dog Jolt"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Swordsman",
+    "real_name": "Jacques Duquesne",
+    "alignment": "antihero",
+    "first_appearance": "Avengers #19",
+    "first_year": 1965,
+    "creators": "Stan Lee, Don Heck",
+    "color": "#7b1fa2",
+    "origin": "A carnival swordsman who trained young Clint Barton, then became a villain. In the MCU, Jack Duquesne is Kate Bishop's mother's fiancé.",
+    "powers": [
+      "Swordsmanship",
+      "Acrobatics"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Hawkeye",
+        "mentor"
+      ],
+      [
+        "Kate Bishop",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Avengers #19",
+        1965,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Hawkeye",
+        2021,
+        "Played by Tony Dalton"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Khonshu",
+    "real_name": "Khonshu",
+    "alignment": "antihero",
+    "first_appearance": "Werewolf by Night #32",
+    "first_year": 1975,
+    "creators": "Doug Moench, Don Perlin",
+    "color": "#cfd8dc",
+    "origin": "The Egyptian god of the moon and vengeance, who makes Marc Spector his avatar.",
+    "powers": [
+      "Godly power",
+      "Controlling the night sky"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Moon Knight",
+        "ally"
+      ],
+      [
+        "Arthur Harrow",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Werewolf by Night #32",
+        1975,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Moon Knight",
+        2022,
+        "Voiced by F. Murray Abraham"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Arthur Harrow",
+    "real_name": "Arthur Harrow",
+    "alignment": "villain",
+    "first_appearance": "Moon Knight: Fist of Khonshu #2",
+    "first_year": 1985,
+    "creators": "Alan Zelenetz, Chris Warner",
+    "color": "#5d4037",
+    "origin": "In the comics a scientist experimenting on pain. In the MCU he's the cult leader and avatar of the goddess Ammit.",
+    "powers": [
+      "Ammit's scales of judgment (MCU)",
+      "Cult leadership"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Moon Knight",
+        "enemy"
+      ],
+      [
+        "Khonshu",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Moon Knight: Fist of Khonshu #2",
+        1985,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Moon Knight",
+        2022,
+        "Played by Ethan Hawke"
+      ]
+    ]
+  },
+  {
+    "hero_name": "She-Hulk",
+    "real_name": "Jennifer Walters",
+    "alignment": "hero",
+    "first_appearance": "The Savage She-Hulk #1",
+    "first_year": 1980,
+    "creators": "Stan Lee, John Buscema",
+    "color": "#43a047",
+    "origin": "Bruce Banner's cousin, a lawyer who gains Hulk powers through a blood transfusion and keeps her mind when she transforms.",
+    "powers": [
+      "Superhuman strength",
+      "Durability",
+      "Legal expertise",
+      "Breaking the fourth wall"
+    ],
+    "teams": [
+      "Avengers",
+      "Fantastic Four"
+    ],
+    "relationships": [
+      [
+        "Hulk",
+        "family"
+      ],
+      [
+        "Titania",
+        "enemy"
+      ],
+      [
+        "Daredevil",
+        "romance"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Savage She-Hulk #1",
+        1980,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "She-Hulk: Attorney at Law",
+        2022,
+        "Played by Tatiana Maslany"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Titania",
+    "real_name": "Mary MacPherran",
+    "alignment": "villain",
+    "first_appearance": "Secret Wars #3",
+    "first_year": 1984,
+    "creators": "Jim Shooter, Mike Zeck",
+    "color": "#ec407a",
+    "origin": "A woman given superhuman strength by Doctor Doom on Battleworld, She-Hulk's archrival.",
+    "powers": [
+      "Superhuman strength",
+      "Durability"
+    ],
+    "teams": [
+      "Masters of Evil"
+    ],
+    "relationships": [
+      [
+        "She-Hulk",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Secret Wars #3",
+        1984,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "She-Hulk: Attorney at Law",
+        2022,
+        "Played by Jameela Jamil"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Leap-Frog",
+    "real_name": "Vincent Patilio",
+    "alignment": "villain",
+    "first_appearance": "Daredevil #25",
+    "first_year": 1967,
+    "creators": "Stan Lee, Gene Colan",
+    "color": "#7cb342",
+    "origin": "A failed inventor who builds a frog suit with springs that let him leap great distances.",
+    "powers": [
+      "Spring-powered leaps",
+      "Frog suit"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Daredevil",
+        "enemy"
+      ],
+      [
+        "She-Hulk",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Daredevil #25",
+        1967,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "She-Hulk: Attorney at Law",
+        2022,
+        "Played by Brandon Stanley"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Mr. Immortal",
+    "real_name": "Craig Hollis",
+    "alignment": "hero",
+    "first_appearance": "West Coast Avengers #46 (vol. 2)",
+    "first_year": 1989,
+    "creators": "John Byrne",
+    "color": "#ffca28",
+    "origin": "A man who cannot stay dead, founder of the Great Lakes Avengers.",
+    "powers": [
+      "Resurrection",
+      "Immortality"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "She-Hulk",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "West Coast Avengers #46 (vol. 2)",
+        1989,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "She-Hulk: Attorney at Law",
+        2022,
+        "Played by David Pasquesi"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Werewolf by Night",
+    "real_name": "Jack Russell",
+    "alignment": "antihero",
+    "first_appearance": "Marvel Spotlight #2",
+    "first_year": 1972,
+    "creators": "Gerry Conway, Roy Thomas, Mike Ploog",
+    "color": "#6d4c41",
+    "origin": "A man cursed to turn into a werewolf, who keeps hold of his humanity. The MCU calls him Jack Russell too.",
+    "powers": [
+      "Werewolf transformation",
+      "Superhuman strength",
+      "Enhanced senses"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Elsa Bloodstone",
+        "ally"
+      ],
+      [
+        "Man-Thing",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Marvel Spotlight #2",
+        1972,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Werewolf by Night",
+        2022,
+        "Played by Gael García Bernal (TV special)"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Elsa Bloodstone",
+    "real_name": "Elsa Bloodstone",
+    "alignment": "hero",
+    "first_appearance": "Bloodstone #1",
+    "first_year": 2001,
+    "creators": "Dan Abnett, Andy Lanning, Michael Lopez",
+    "color": "#b71c1c",
+    "origin": "A monster hunter and daughter of the legendary hunter Ulysses Bloodstone.",
+    "powers": [
+      "Monster hunting",
+      "Marksmanship",
+      "Bloodstone powers"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Werewolf by Night",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Bloodstone #1",
+        2001,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Werewolf by Night",
+        2022,
+        "Played by Laura Donnelly (TV special)"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Man-Thing",
+    "real_name": "Ted Sallis",
+    "alignment": "hero",
+    "first_appearance": "Savage Tales #1",
+    "first_year": 1971,
+    "creators": "Stan Lee, Roy Thomas, Gerry Conway, Gray Morrow",
+    "color": "#33691e",
+    "origin": "A scientist transformed into a hulking swamp creature: 'Whatever knows fear burns at the touch of the Man-Thing!'",
+    "powers": [
+      "Burning touch",
+      "Empathy",
+      "Superhuman strength"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Werewolf by Night",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Savage Tales #1",
+        1971,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Werewolf by Night",
+        2022,
+        "TV special; called Ted"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Death",
+    "real_name": "Death",
+    "alignment": "antihero",
+    "first_appearance": "Captain Marvel #26",
+    "first_year": 1973,
+    "creators": "Jim Starlin, Mike Friedrich",
+    "color": "#37474f",
+    "origin": "The cosmic embodiment of death, whom Thanos loves in the comics. In the MCU she takes the form of the witch Rio Vidal.",
+    "powers": [
+      "Cosmic power",
+      "Ending life",
+      "Immortality"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Thanos",
+        "romance"
+      ],
+      [
+        "Agatha Harkness",
+        "romance"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Captain Marvel #26",
+        1973,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Agatha All Along",
+        2024,
+        "Played by Aubrey Plaza as Rio Vidal"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Karen Page",
+    "real_name": "Karen Page",
+    "alignment": "hero",
+    "first_appearance": "Daredevil #1",
+    "first_year": 1964,
+    "creators": "Stan Lee, Bill Everett",
+    "color": "#f48fb1",
+    "origin": "Matt Murdock's legal secretary, friend and love interest.",
+    "powers": [
+      "Investigative journalism"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Daredevil",
+        "romance"
+      ],
+      [
+        "Foggy Nelson",
+        "ally"
+      ],
+      [
+        "Punisher",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Daredevil #1",
+        1964,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Daredevil: Born Again",
+        2025,
+        "Played by Deborah Ann Woll, returning from Netflix's Daredevil"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Foggy Nelson",
+    "real_name": "Franklin Nelson",
+    "alignment": "hero",
+    "first_appearance": "Daredevil #1",
+    "first_year": 1964,
+    "creators": "Stan Lee, Bill Everett",
+    "color": "#90caf9",
+    "origin": "Matt Murdock's law partner and best friend.",
+    "powers": [
+      "Legal expertise"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Daredevil",
+        "ally"
+      ],
+      [
+        "Karen Page",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Daredevil #1",
+        1964,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Daredevil: Born Again",
+        2025,
+        "Played by Elden Henson, returning from Netflix's Daredevil"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Vanessa Fisk",
+    "real_name": "Vanessa Fisk",
+    "alignment": "villain",
+    "first_appearance": "The Amazing Spider-Man #70",
+    "first_year": 1969,
+    "creators": "Stan Lee, John Romita Sr.",
+    "color": "#880e4f",
+    "origin": "Wilson Fisk's wife, as shrewd and ruthless as the Kingpin himself.",
+    "powers": [
+      "Criminal leadership",
+      "Manipulation"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Kingpin",
+        "romance"
+      ],
+      [
+        "Daredevil",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Amazing Spider-Man #70",
+        1969,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Daredevil: Born Again",
+        2025,
+        "Played by Ayelet Zurer"
+      ]
+    ]
+  },
+  {
+    "hero_name": "White Tiger",
+    "real_name": "Hector Ayala",
+    "alignment": "hero",
+    "first_appearance": "The Deadly Hands of Kung Fu #19",
+    "first_year": 1975,
+    "creators": "Bill Mantlo, George Pérez",
+    "color": "#eceff1",
+    "origin": "Marvel's first Puerto Rican superhero, given martial arts mastery by the jade tiger amulets.",
+    "powers": [
+      "Martial arts",
+      "Jade tiger amulets",
+      "Enhanced strength"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Daredevil",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Deadly Hands of Kung Fu #19",
+        1975,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Daredevil: Born Again",
+        2025,
+        "Played by Kamar de los Reyes"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Muse",
+    "real_name": "Muse",
+    "alignment": "villain",
+    "first_appearance": "Daredevil #11 (vol. 5)",
+    "first_year": 2016,
+    "creators": "Charles Soule, Ron Garney",
+    "color": "#4a148c",
+    "origin": "A serial killer who treats murder as art, painting with his victims' blood.",
+    "powers": [
+      "Stealth",
+      "Enhanced strength (comics)"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Daredevil",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Daredevil #11 (vol. 5)",
+        2016,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Daredevil: Born Again",
+        2025,
+        "Played by Hunter Doohan"
+      ]
+    ]
+  },
+  {
+    "hero_name": "The Hood",
+    "real_name": "Parker Robbins",
+    "alignment": "villain",
+    "first_appearance": "The Hood #1",
+    "first_year": 2002,
+    "creators": "Brian K. Vaughan, Kyle Hotz",
+    "color": "#4e342e",
+    "origin": "A small-time crook who steals a demonic cloak that grants him dark powers, and becomes a crime boss.",
+    "powers": [
+      "Demonic cloak",
+      "Invisibility",
+      "Levitation",
+      "Dark magic"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Ironheart",
+        "enemy"
+      ],
+      [
+        "Mephisto",
+        "ally"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Hood #1",
+        2002,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Ironheart",
+        2025,
+        "Played by Anthony Ramos"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Mephisto",
+    "real_name": "Mephisto",
+    "alignment": "villain",
+    "first_appearance": "The Silver Surfer #3",
+    "first_year": 1968,
+    "creators": "Stan Lee, John Buscema",
+    "color": "#b71c1c",
+    "origin": "A demon lord who rules his own hell and trades in souls.",
+    "powers": [
+      "Dark magic",
+      "Shape-shifting",
+      "Soul bargains",
+      "Immortality"
+    ],
+    "teams": [],
+    "relationships": [
+      [
+        "Silver Surfer",
+        "enemy"
+      ],
+      [
+        "The Hood",
+        "ally"
+      ],
+      [
+        "Ironheart",
+        "enemy"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "The Silver Surfer #3",
+        1968,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Ironheart",
+        2025,
+        "Played by Sacha Baron Cohen"
+      ]
+    ]
+  },
+  {
+    "hero_name": "Wonder Man",
+    "real_name": "Simon Williams",
+    "alignment": "hero",
+    "first_appearance": "Avengers #9",
+    "first_year": 1964,
+    "creators": "Stan Lee, Jack Kirby, Don Heck",
+    "color": "#ad1457",
+    "origin": "A man charged with ionic energy, an Avenger and a would-be movie star. In the MCU he's an actor trying to land the role of Wonder Man.",
+    "powers": [
+      "Ionic energy",
+      "Superhuman strength",
+      "Flight",
+      "Acting"
+    ],
+    "teams": [
+      "Avengers"
+    ],
+    "relationships": [
+      [
+        "Baron Zemo",
+        "enemy"
+      ],
+      [
+        "Vision",
+        "family"
+      ]
+    ],
+    "appearances": [
+      [
+        "comic",
+        "Avengers #9",
+        1964,
+        "First appearance"
+      ],
+      [
+        "tv",
+        "Wonder Man",
+        2026,
+        "Played by Yahya Abdul-Mateen II"
+      ]
+    ]
   }
 ]

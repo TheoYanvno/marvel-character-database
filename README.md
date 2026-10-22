@@ -2,7 +2,7 @@
 
 **▶ [Live demo](https://theoyanvno.github.io/marvel-character-database/)**
 
-A Python + SQL web app for exploring 180 Marvel characters (84 heroes, 66 villains and 30 antiheroes), grouped into **Heroes**, **Villains** and **Antiheroes**. Type a name, real name or power (try "flight"), switch between sections, or click a card. The selected card slides to the side and the character's profile appears next to it: origin, powers, teams, relationships, and a timeline of pop culture highlights.
+A Python + SQL web app for exploring 214 Marvel characters (100 heroes, 75 villains and 39 antiheroes), grouped into **Heroes**, **Villains** and **Antiheroes**. Type a name, real name or power (try "flight"), switch between sections, or click a card. It includes every comic character with a real role in a Marvel Cinematic Universe film or Disney+ series, from Iron Man (2008) through Spider-Man: Brand New Day and Wonder Man (2026), plus classic characters from the comics. The selected card slides to the side and the character's profile appears next to it: origin, powers, teams, relationships, and a timeline of pop culture highlights.
 
 **Tech:** Python · Flask · SQLite (`sqlite3`) · SQL · vanilla JavaScript · CSS animations · `unittest`
 
@@ -29,12 +29,12 @@ characters ──< character_powers >── powers
 
 The app's queries live in [`sql/app_queries.sql`](sql/app_queries.sql), loaded by [`app/db.py`](app/db.py), and use parameterized statements (`?`) to prevent SQL injection. More to explore in [`sql/queries.sql`](sql/queries.sql):
 
-- Search across three tables with `LEFT JOIN` + `LIKE`
+- Search across three tables with `EXISTS` + `LIKE`, ranked with `ORDER BY CASE` so names that start with the search come before power matches
 - Powers shared by several characters with `GROUP BY`, `HAVING` and `GROUP_CONCAT`
 - Characters on no team with `LEFT JOIN … IS NULL`
 - Rivalries where both characters are in the database (joining `characters` twice)
 - Years between a character's comic debut and first film with a correlated subquery
-- Search plus an optional side filter in one query: `(name LIKE ? OR …) AND (? = '' OR alignment = ?)`, where an empty side means everyone
+- Search plus an optional side filter in one query: `HAVING (? = '' OR alignment = ?)`, where an empty side means everyone
 - Debuts per decade with integer math in `GROUP BY`
 
 ## API
@@ -74,5 +74,6 @@ Add an entry to `data/characters.json` (same fields as the others) and restart t
 
 ## Notes
 
+- Each character's first comic appearance and creators come from the comics; for characters the films changed (for example Whiplash, Taskmaster or Ghost), the origin explains how the MCU version differs.
 - Unofficial fan project for learning Python and SQL. Not affiliated with or endorsed by Marvel. Character summaries are written in my own words, and the cards use initials instead of artwork.
 - Built with help from AI coding tools for planning, code review and tests.
