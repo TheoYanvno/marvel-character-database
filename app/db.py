@@ -134,4 +134,5 @@ def stats(conn):
         "top_powers": _rows(conn, "stats_top_powers"),
         "by_decade": _rows(conn, "stats_by_decade"),
         "most_mcu_titles": _rows(conn, "stats_most_mcu_titles"),
+        "biggest_rogues_galleries": _rows(conn, "stats_biggest_rogues_galleries"),
     }

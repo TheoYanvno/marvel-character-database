@@ -14,7 +14,7 @@ class SharedQueryTests(unittest.TestCase):
         expected = {"search", "side_counts", "character", "character_powers", "character_teams",
                     "character_relationships", "character_appearances",
                     "character_mcu_titles", "stats_by_alignment", "stats_top_powers", "stats_by_decade",
-                    "stats_most_mcu_titles"}
+                    "stats_most_mcu_titles", "stats_biggest_rogues_galleries"}
         self.assertEqual(set(db.Q), expected)
         for name, sql in db.Q.items():
             params = (None,) * sql.count("?")

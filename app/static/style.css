@@ -62,6 +62,17 @@ footer { text-align: center; color: var(--muted); font-size: .8rem; padding: 24p
 .titles { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 6px 14px; font-size: .9rem; }
 .titles li { padding: 4px 0; border-bottom: 1px solid var(--line); }
 .titles .year { display: inline-block; min-width: 2.8em; color: var(--muted); font-variant-numeric: tabular-nums; }
+/* Rogues gallery */
+#info h3 .count { font-weight: 400; letter-spacing: 0; text-transform: none; }
+.rogues { display: grid; grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); gap: 10px; }
+.mini { position: relative; display: flex; flex-direction: column; justify-content: flex-end; gap: 2px; min-height: 120px; padding: 10px;
+        border: 0; border-radius: 10px; text-align: left; color: #fff; font: inherit; cursor: pointer; overflow: hidden;
+        background: linear-gradient(160deg, var(--accent, #444), #111 150%); transition: transform .2s ease; }
+.mini:hover, .mini:focus-visible { transform: translateY(-3px); outline: 2px solid rgba(255,255,255,.5); outline-offset: 2px; }
+.mini-mark { position: absolute; top: 8px; left: 10px; font-size: 1.8rem; font-weight: 800; opacity: .35; }
+.mini-name { font-weight: 700; font-size: .88rem; line-height: 1.2; }
+.mini-side { font-size: .65rem; text-transform: uppercase; letter-spacing: .08em; opacity: .8; }
+.mini-unlinked { cursor: default; background: #232836; }
 .timeline { list-style: none; padding: 0; margin: 0; border-left: 2px solid var(--line); }
 .timeline li { padding: 0 0 12px 14px; position: relative; }
 .timeline li::before { content: ""; position: absolute; left: -6px; top: 5px; width: 10px; height: 10px; border-radius: 50%; background: var(--accent); }

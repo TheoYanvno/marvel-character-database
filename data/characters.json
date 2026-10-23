@@ -126,6 +126,10 @@
       [
         "Hulk",
         "friend"
+      ],
+      [
+        "Thanos",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -205,6 +209,10 @@
       [
         "Red Skull",
         "enemy"
+      ],
+      [
+        "Thanos",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -278,6 +286,18 @@
       [
         "Hela",
         "family"
+      ],
+      [
+        "Loki",
+        "enemy"
+      ],
+      [
+        "Laufey",
+        "enemy"
+      ],
+      [
+        "Thanos",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -350,6 +370,10 @@
       [
         "Black Widow",
         "romantic"
+      ],
+      [
+        "Ultron",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -431,6 +455,10 @@
       [
         "Captain America",
         "friend"
+      ],
+      [
+        "Thanos",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -508,6 +536,14 @@
         "Killmonger",
         "family",
         "cousin"
+      ],
+      [
+        "Baron Zemo",
+        "enemy"
+      ],
+      [
+        "Thanos",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -750,6 +786,10 @@
       ],
       [
         "Mordo",
+        "enemy"
+      ],
+      [
+        "Scarlet Witch",
         "enemy"
       ]
     ],
@@ -1094,6 +1134,10 @@
       [
         "Kingpin",
         "enemy"
+      ],
+      [
+        "Swordsman",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -1170,6 +1214,10 @@
       [
         "Iron Man",
         "friend"
+      ],
+      [
+        "Kang the Conqueror",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -1317,6 +1365,18 @@
       [
         "Black Widow",
         "friend"
+      ],
+      [
+        "Red Hulk",
+        "enemy"
+      ],
+      [
+        "Leader",
+        "enemy"
+      ],
+      [
+        "Crossbones",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -1398,6 +1458,10 @@
       [
         "Kate Bishop",
         "friend"
+      ],
+      [
+        "Supreme Intelligence",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -1460,6 +1524,10 @@
       [
         "Wong",
         "friend"
+      ],
+      [
+        "Mandarin",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -2072,6 +2140,10 @@
       [
         "Human Torch",
         "family"
+      ],
+      [
+        "Silver Surfer",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -2704,6 +2776,14 @@
       [
         "Vanessa Carlysle",
         "romantic"
+      ],
+      [
+        "Sabretooth",
+        "enemy"
+      ],
+      [
+        "Juggernaut",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -4389,6 +4469,14 @@
       [
         "Korg",
         "friend"
+      ],
+      [
+        "Hela",
+        "enemy"
+      ],
+      [
+        "Gorr the God Butcher",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -4635,6 +4723,10 @@
     "relationships": [
       [
         "Baron Zemo",
+        "enemy"
+      ],
+      [
+        "Sentry",
         "enemy"
       ]
     ],
@@ -5030,6 +5122,10 @@
       [
         "Talos",
         "friend"
+      ],
+      [
+        "Talos",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -5155,6 +5251,22 @@
       [
         "Groot",
         "friend"
+      ],
+      [
+        "Ego",
+        "enemy"
+      ],
+      [
+        "High Evolutionary",
+        "enemy"
+      ],
+      [
+        "Thanos",
+        "enemy"
+      ],
+      [
+        "Collector",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -5220,6 +5332,10 @@
       [
         "Star-Lord",
         "romantic"
+      ],
+      [
+        "Thanos",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -5283,6 +5399,10 @@
       [
         "Star-Lord",
         "friend"
+      ],
+      [
+        "Ronan the Accuser",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -5449,6 +5569,10 @@
       [
         "Iron Man",
         "friend"
+      ],
+      [
+        "Thanos",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -5827,7 +5951,20 @@
     "teams": [
       "Avengers"
     ],
-    "relationships": [],
+    "relationships": [
+      [
+        "Yellowjacket",
+        "enemy"
+      ],
+      [
+        "Ghost",
+        "enemy"
+      ],
+      [
+        "Kang the Conqueror",
+        "enemy"
+      ]
+    ],
     "appearances": [
       [
         "comic",
@@ -6685,12 +6822,7 @@
       "Athletics"
     ],
     "teams": [],
-    "relationships": [
-      [
-        "Spider-Man",
-        "enemy"
-      ]
-    ],
+    "relationships": [],
     "appearances": [
       [
         "comic",
@@ -6828,7 +6960,12 @@
       "Black Panther powers (heart-shaped herb)"
     ],
     "teams": [],
-    "relationships": [],
+    "relationships": [
+      [
+        "Attuma",
+        "enemy"
+      ]
+    ],
     "appearances": [
       [
         "comic",
@@ -7526,6 +7663,14 @@
       [
         "Winter Soldier",
         "friend"
+      ],
+      [
+        "Valentina Allegra de Fontaine",
+        "enemy"
+      ],
+      [
+        "Taskmaster",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -7841,7 +7986,16 @@
       "Eternals",
       "Avengers"
     ],
-    "relationships": [],
+    "relationships": [
+      [
+        "Kro",
+        "enemy"
+      ],
+      [
+        "Ikaris",
+        "enemy"
+      ]
+    ],
     "appearances": [
       [
         "comic",
@@ -8780,6 +8934,10 @@
       [
         "The Hood",
         "friend"
+      ],
+      [
+        "Namor",
+        "enemy"
       ]
     ],
     "appearances": [
@@ -9909,6 +10067,10 @@
       [
         "Scarlet Witch",
         "family"
+      ],
+      [
+        "Death",
+        "enemy"
       ]
     ],
     "appearances": [

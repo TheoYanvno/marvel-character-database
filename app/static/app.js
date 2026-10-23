@@ -84,17 +84,34 @@ function mcuSection(c) {
   </section>`;
 }
 
-const GROUPS = [['family', 'Family'], ['romantic', 'Romantic'], ['friend', 'Friends'], ['enemy', 'Enemies']];
+const GROUPS = [['family', 'Family'], ['romantic', 'Romantic'], ['friend', 'Friends']];
 const person = (r) => (r.id ? `<a href="#${r.id}" data-id="${r.id}">${esc(r.name)}</a>` : esc(r.name))
   + (r.detail ? ` <span class="detail">${esc(r.detail)}</span>` : '');
 
 function relationshipGroups(c) {
-  const groups = GROUPS.map(([kind, title]) => [title, c.relationships.filter((r) => r.kind === kind)])
+  const groups = GROUPS.map(([kind, title]) => [kind === 'friend' && c.alignment === 'villain' ? 'Allies' : title,
+    c.relationships.filter((r) => r.kind === kind)])
     .filter(([, people]) => people.length);
   if (!groups.length) return '';
   return `<h3>Relationships</h3>
     <div class="rel-groups">${groups.map(([title, people]) => `
       <div class="rel-group"><h4>${title}</h4><ul>${people.map((r) => `<li>${person(r)}</li>`).join('')}</ul></div>`).join('')}
+    </div>`;
+}
+
+// Rogues gallery: a hero's enemies as small cards you can click through. Villains get the heroes they fight.
+function roguesGallery(c) {
+  const enemies = c.relationships.filter((r) => r.kind === 'enemy');
+  if (!enemies.length) return '';
+  const title = c.alignment === 'hero' ? 'Rogues gallery' : c.alignment === 'villain' ? 'Nemeses' : 'Enemies';
+  return `<h3>${title} <span class="count">${enemies.length}</span></h3>
+    <div class="rogues">${enemies.map((r) => r.id ? `
+      <button class="mini" data-id="${r.id}" style="--accent:${r.color}" aria-label="${esc(r.name)}">
+        <span class="mini-mark">${monogram(r.name)}</span>
+        <span class="mini-name">${esc(r.name)}</span>
+        <span class="mini-side">${r.alignment}</span>
+      </button>` : `
+      <div class="mini mini-unlinked"><span class="mini-mark">${monogram(r.name)}</span><span class="mini-name">${esc(r.name)}</span><span class="mini-side">not in the database</span></div>`).join('')}
     </div>`;
 }
 
@@ -120,6 +137,8 @@ async function showCharacter(id) {
     ${c.teams.length ? `<h3>Teams</h3><div class="chips">${c.teams.map((t) => `<span class="chip">${esc(t)}</span>`).join('')}</div>` : ''}
 
     ${relationshipGroups(c)}
+
+    ${roguesGallery(c)}
 
     <h3>Pop culture highlights</h3>
     <ul class="timeline">${c.appearances.map((a) => `

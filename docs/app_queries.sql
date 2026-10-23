@@ -43,19 +43,22 @@ WHERE ct.character_id = ? ORDER BY t.name;
 -- other person's record (UNION), so a relationship only has to be entered once.
 -- A mentor seen from the other side is a protégé.
 -- Params: id, id, id
-SELECT name, id, kind, detail FROM (
-  SELECT r.related_name AS name, r.related_id AS id, r.kind, r.detail
-  FROM relationships r
+-- alignment, color and real_name come along for linked people so enemies can be drawn as mini cards.
+SELECT name, id, kind, detail, alignment, color, real_name FROM (
+  SELECT r.related_name AS name, r.related_id AS id, r.kind, r.detail, rc.alignment, rc.color, rc.real_name
+  FROM relationships r LEFT JOIN characters rc ON rc.id = r.related_id
   WHERE r.character_id = ?
   UNION
   SELECT c.hero_name, c.id, r.kind,
-         CASE r.detail WHEN 'mentor' THEN 'protégé' WHEN 'protégé' THEN 'mentor' ELSE r.detail END
+         CASE r.detail WHEN 'mentor' THEN 'protégé' WHEN 'protégé' THEN 'mentor' ELSE r.detail END,
+         c.alignment, c.color, c.real_name
   FROM relationships r JOIN characters c ON c.id = r.character_id
   WHERE r.related_id = ?
     AND NOT EXISTS (SELECT 1 FROM relationships mine
                     WHERE mine.character_id = ? AND mine.related_id = c.id AND mine.kind = r.kind)
 )
-ORDER BY CASE kind WHEN 'family' THEN 1 WHEN 'romantic' THEN 2 WHEN 'friend' THEN 3 ELSE 4 END, name;
+ORDER BY CASE kind WHEN 'family' THEN 1 WHEN 'romantic' THEN 2 WHEN 'friend' THEN 3 ELSE 4 END,
+         CASE alignment WHEN 'villain' THEN 1 WHEN 'antihero' THEN 2 WHEN 'hero' THEN 3 ELSE 4 END, name;
 
 -- name: character_appearances
 SELECT medium, title, year, note FROM appearances
@@ -85,3 +88,12 @@ FROM characters GROUP BY decade ORDER BY decade;
 SELECT c.hero_name, COUNT(*) AS titles
 FROM characters c JOIN mcu_roles r ON r.character_id = c.id
 GROUP BY c.id ORDER BY titles DESC, c.hero_name LIMIT 5;
+
+-- name: stats_biggest_rogues_galleries
+-- Heroes with the most enemies, counting pairs stored on either side
+SELECT c.hero_name, COUNT(DISTINCT CASE WHEN r.character_id = c.id THEN 'n:' || r.related_name
+                                          ELSE 'id:' || r.character_id END) AS enemies
+FROM characters c
+JOIN relationships r ON r.kind = 'enemy' AND (r.character_id = c.id OR r.related_id = c.id)
+WHERE c.alignment = 'hero'
+GROUP BY c.id ORDER BY enemies DESC, c.hero_name LIMIT 5;

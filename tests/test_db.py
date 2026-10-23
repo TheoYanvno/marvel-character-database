@@ -90,6 +90,19 @@ class DatabaseTests(unittest.TestCase):
         for r in rels("Scarlet Witch"):                                     # no one listed twice
             self.assertEqual(sum(1 for x in rels("Scarlet Witch") if (x["name"], x["kind"]) == (r["name"], r["kind"])), 1)
 
+    def test_rogues_gallery(self):
+        spidey = db.get_character(self.conn, db.search(self.conn, "Peter Parker")[0]["id"])
+        rogues = [r for r in spidey["relationships"] if r["kind"] == "enemy"]
+        names = [r["name"] for r in rogues]
+        for villain in ("Green Goblin", "Vulture", "Mysterio", "Scorpion", "Tombstone"):
+            self.assertIn(villain, names)
+        self.assertTrue(all(r["id"] and r["color"] and r["alignment"] for r in rogues))  # drawn as mini cards
+        self.assertEqual(rogues[0]["alignment"], "villain")                            # villains first
+        vulture = db.get_character(self.conn, db.search(self.conn, "Adrian Toomes")[0]["id"])
+        self.assertIn("Spider-Man", [r["name"] for r in vulture["relationships"] if r["kind"] == "enemy"])
+        top = db.stats(self.conn)["biggest_rogues_galleries"][0]
+        self.assertEqual(top["hero_name"], "Spider-Man")
+
     def test_missing_character_returns_none(self):
         self.assertIsNone(db.get_character(self.conn, 999))
 
