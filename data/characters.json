@@ -76,7 +76,19 @@
         2021,
         "Brought together three generations of film Spider-Men"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Tom Holland",
+      "titles": [
+        "Captain America: Civil War",
+        "Spider-Man: Homecoming",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "Spider-Man: Far From Home",
+        "Spider-Man: No Way Home",
+        "Spider-Man: Brand New Day"
+      ]
+    }
   },
   {
     "hero_name": "Iron Man",
@@ -147,7 +159,22 @@
         2019,
         "One of the highest-grossing films of all time"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Robert Downey Jr.",
+      "titles": [
+        "Iron Man",
+        "The Incredible Hulk",
+        "Iron Man 2",
+        "The Avengers",
+        "Iron Man 3",
+        "Avengers: Age of Ultron",
+        "Captain America: Civil War",
+        "Spider-Man: Homecoming",
+        "Avengers: Infinity War",
+        "Avengers: Endgame"
+      ]
+    }
   },
   {
     "hero_name": "Captain America",
@@ -220,7 +247,21 @@
         2016,
         null
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Chris Evans",
+      "titles": [
+        "Captain America: The First Avenger",
+        "The Avengers",
+        "Captain America: The Winter Soldier",
+        "Avengers: Age of Ultron",
+        "Ant-Man",
+        "Captain America: Civil War",
+        "Spider-Man: Homecoming",
+        "Avengers: Infinity War",
+        "Avengers: Endgame"
+      ]
+    }
   },
   {
     "hero_name": "Thor",
@@ -282,7 +323,21 @@
         2017,
         null
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Chris Hemsworth",
+      "titles": [
+        "Thor",
+        "The Avengers",
+        "Thor: The Dark World",
+        "Avengers: Age of Ultron",
+        "Doctor Strange",
+        "Thor: Ragnarok",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "Thor: Love and Thunder"
+      ]
+    }
   },
   {
     "hero_name": "Hulk",
@@ -349,7 +404,23 @@
         2012,
         null
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Mark Ruffalo (Edward Norton in The Incredible Hulk)",
+      "titles": [
+        "The Incredible Hulk",
+        "The Avengers",
+        "Iron Man 3",
+        "Avengers: Age of Ultron",
+        "Thor: Ragnarok",
+        "Avengers: Infinity War",
+        "Captain Marvel",
+        "Avengers: Endgame",
+        "Shang-Chi and the Legend of the Ten Rings",
+        "She-Hulk: Attorney at Law",
+        "Spider-Man: Brand New Day"
+      ]
+    }
   },
   {
     "hero_name": "Black Widow",
@@ -407,7 +478,21 @@
         2021,
         null
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Scarlett Johansson",
+      "titles": [
+        "Iron Man 2",
+        "The Avengers",
+        "Captain America: The Winter Soldier",
+        "Avengers: Age of Ultron",
+        "Captain America: Civil War",
+        "Avengers: Infinity War",
+        "Captain Marvel",
+        "Avengers: Endgame",
+        "Black Widow"
+      ]
+    }
   },
   {
     "hero_name": "Black Panther",
@@ -464,7 +549,16 @@
         2018,
         "First superhero film nominated for the Academy Award for Best Picture"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Chadwick Boseman",
+      "titles": [
+        "Captain America: Civil War",
+        "Black Panther",
+        "Avengers: Infinity War",
+        "Avengers: Endgame"
+      ]
+    }
   },
   {
     "hero_name": "Captain Marvel",
@@ -521,7 +615,17 @@
         2019,
         "First female-led film in the Marvel Cinematic Universe"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Brie Larson",
+      "titles": [
+        "Captain Marvel",
+        "Avengers: Endgame",
+        "Shang-Chi and the Legend of the Ten Rings",
+        "Ms. Marvel",
+        "The Marvels"
+      ]
+    }
   },
   {
     "hero_name": "Wolverine",
@@ -589,7 +693,13 @@
         2024,
         null
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Hugh Jackman",
+      "titles": [
+        "Deadpool & Wolverine"
+      ]
+    }
   },
   {
     "hero_name": "Storm",
@@ -650,7 +760,10 @@
         2000,
         null
       ]
-    ]
+    ],
+    "mcu": {
+      "note": "Not in the MCU yet. The X-Men are expected to arrive after Avengers: Doomsday."
+    }
   },
   {
     "hero_name": "Doctor Strange",
@@ -712,7 +825,18 @@
         2022,
         null
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Benedict Cumberbatch",
+      "titles": [
+        "Doctor Strange",
+        "Thor: Ragnarok",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "Spider-Man: No Way Home",
+        "Doctor Strange in the Multiverse of Madness"
+      ]
+    }
   },
   {
     "hero_name": "Scarlet Witch",
@@ -769,7 +893,19 @@
         2021,
         null
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Elizabeth Olsen",
+      "titles": [
+        "Captain America: The Winter Soldier",
+        "Avengers: Age of Ultron",
+        "Captain America: Civil War",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "WandaVision",
+        "Doctor Strange in the Multiverse of Madness"
+      ]
+    }
   },
   {
     "hero_name": "Thanos",
@@ -826,7 +962,17 @@
         2018,
         null
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Josh Brolin (Damion Poitras in The Avengers)",
+      "titles": [
+        "The Avengers",
+        "Guardians of the Galaxy",
+        "Avengers: Age of Ultron",
+        "Avengers: Infinity War",
+        "Avengers: Endgame"
+      ]
+    }
   },
   {
     "hero_name": "Loki",
@@ -881,7 +1027,19 @@
         2021,
         null
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Tom Hiddleston",
+      "titles": [
+        "Thor",
+        "The Avengers",
+        "Thor: The Dark World",
+        "Thor: Ragnarok",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "Loki"
+      ]
+    }
   },
   {
     "hero_name": "Daredevil",
@@ -958,7 +1116,18 @@
         2025,
         "Charlie Cox returns in the Marvel Studios revival"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Charlie Cox",
+      "titles": [
+        "Daredevil",
+        "The Defenders",
+        "Spider-Man: No Way Home",
+        "She-Hulk: Attorney at Law",
+        "Echo",
+        "Daredevil: Born Again"
+      ]
+    }
   },
   {
     "hero_name": "Hawkeye",
@@ -1025,7 +1194,18 @@
         2021,
         "Disney+ series with Kate Bishop"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Jeremy Renner",
+      "titles": [
+        "Thor",
+        "The Avengers",
+        "Avengers: Age of Ultron",
+        "Captain America: Civil War",
+        "Avengers: Endgame",
+        "Hawkeye"
+      ]
+    }
   },
   {
     "hero_name": "Ant-Man",
@@ -1088,7 +1268,17 @@
         2019,
         "Escapes the Quantum Realm and helps plan the time heist"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Paul Rudd",
+      "titles": [
+        "Ant-Man",
+        "Captain America: Civil War",
+        "Ant-Man and the Wasp",
+        "Avengers: Endgame",
+        "Ant-Man and the Wasp: Quantumania"
+      ]
+    }
   },
   {
     "hero_name": "Vision",
@@ -1145,7 +1335,17 @@
         2021,
         "Disney+ series with Elizabeth Olsen"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Paul Bettany",
+      "titles": [
+        "Avengers: Age of Ultron",
+        "Captain America: Civil War",
+        "Avengers: Infinity War",
+        "WandaVision",
+        "VisionQuest"
+      ]
+    }
   },
   {
     "hero_name": "Falcon",
@@ -1208,7 +1408,20 @@
         2025,
         "First film as Captain America"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Anthony Mackie",
+      "titles": [
+        "Captain America: The Winter Soldier",
+        "Avengers: Age of Ultron",
+        "Ant-Man",
+        "Captain America: Civil War",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "The Falcon and the Winter Soldier",
+        "Captain America: Brave New World"
+      ]
+    }
   },
   {
     "hero_name": "Ms. Marvel",
@@ -1270,7 +1483,14 @@
         2023,
         "Teams up with Captain Marvel"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Iman Vellani",
+      "titles": [
+        "Ms. Marvel",
+        "The Marvels"
+      ]
+    }
   },
   {
     "hero_name": "Shang-Chi",
@@ -1322,7 +1542,13 @@
         2021,
         "Played by Simu Liu"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Simu Liu",
+      "titles": [
+        "Shang-Chi and the Legend of the Ten Rings"
+      ]
+    }
   },
   {
     "hero_name": "Moon Knight",
@@ -1374,7 +1600,13 @@
         2022,
         "Disney+ series starring Oscar Isaac"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Oscar Isaac",
+      "titles": [
+        "Moon Knight"
+      ]
+    }
   },
   {
     "hero_name": "Green Goblin",
@@ -1434,7 +1666,13 @@
         2021,
         "Willem Dafoe returns"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Willem Dafoe",
+      "titles": [
+        "Spider-Man: No Way Home"
+      ]
+    }
   },
   {
     "hero_name": "Doctor Octopus",
@@ -1492,7 +1730,13 @@
         2021,
         "Alfred Molina returns"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Alfred Molina",
+      "titles": [
+        "Spider-Man: No Way Home"
+      ]
+    }
   },
   {
     "hero_name": "Magneto",
@@ -1560,7 +1804,10 @@
         2011,
         "Played by Michael Fassbender"
       ]
-    ]
+    ],
+    "mcu": {
+      "note": "Not in the MCU yet. Ian McKellen is set to return as Magneto in Avengers: Doomsday (December 2026)."
+    }
   },
   {
     "hero_name": "Doctor Doom",
@@ -1613,7 +1860,13 @@
         2005,
         "Played by Julian McMahon"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Robert Downey Jr.",
+      "titles": [
+        "The Fantastic Four: First Steps"
+      ]
+    }
   },
   {
     "hero_name": "Red Skull",
@@ -1665,7 +1918,15 @@
         2018,
         "Guardian of the Soul Stone"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Hugo Weaving (Ross Marquand in Infinity War and Endgame)",
+      "titles": [
+        "Captain America: The First Avenger",
+        "Avengers: Infinity War",
+        "Avengers: Endgame"
+      ]
+    }
   },
   {
     "hero_name": "Ultron",
@@ -1722,7 +1983,14 @@
         2015,
         "Voiced by James Spader"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "James Spader",
+      "titles": [
+        "Avengers: Age of Ultron",
+        "VisionQuest"
+      ]
+    }
   },
   {
     "hero_name": "Kingpin",
@@ -1784,7 +2052,16 @@
         2025,
         "Becomes mayor of New York"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Vincent D'Onofrio",
+      "titles": [
+        "Daredevil",
+        "Hawkeye",
+        "Echo",
+        "Daredevil: Born Again"
+      ]
+    }
   },
   {
     "hero_name": "Hela",
@@ -1829,7 +2106,13 @@
         2017,
         "Played by Cate Blanchett, as Odin's firstborn"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Cate Blanchett",
+      "titles": [
+        "Thor: Ragnarok"
+      ]
+    }
   },
   {
     "hero_name": "Mister Fantastic",
@@ -1889,7 +2172,14 @@
         2025,
         "Played by Pedro Pascal"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Pedro Pascal (John Krasinski as the Earth-838 Reed)",
+      "titles": [
+        "Doctor Strange in the Multiverse of Madness",
+        "The Fantastic Four: First Steps"
+      ]
+    }
   },
   {
     "hero_name": "Invisible Woman",
@@ -1944,7 +2234,13 @@
         2025,
         "Played by Vanessa Kirby"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Vanessa Kirby",
+      "titles": [
+        "The Fantastic Four: First Steps"
+      ]
+    }
   },
   {
     "hero_name": "The Thing",
@@ -2000,7 +2296,13 @@
         2025,
         "Played by Ebon Moss-Bachrach"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Ebon Moss-Bachrach",
+      "titles": [
+        "The Fantastic Four: First Steps"
+      ]
+    }
   },
   {
     "hero_name": "Silver Surfer",
@@ -2053,7 +2355,13 @@
         2007,
         "Played by Doug Jones, voiced by Laurence Fishburne"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Julia Garner (as Shalla-Bal)",
+      "titles": [
+        "The Fantastic Four: First Steps"
+      ]
+    }
   },
   {
     "hero_name": "Cyclops",
@@ -2108,7 +2416,10 @@
         2000,
         "Played by James Marsden"
       ]
-    ]
+    ],
+    "mcu": {
+      "note": "Not in the MCU yet. James Marsden is set to return as Cyclops in Avengers: Doomsday (December 2026)."
+    }
   },
   {
     "hero_name": "Jean Grey",
@@ -2164,7 +2475,13 @@
         2000,
         "Played by Famke Janssen"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Sadie Sink",
+      "titles": [
+        "Spider-Man: Brand New Day"
+      ]
+    }
   },
   {
     "hero_name": "Professor X",
@@ -2225,7 +2542,13 @@
         2011,
         "Played by James McAvoy"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Patrick Stewart",
+      "titles": [
+        "Doctor Strange in the Multiverse of Madness"
+      ]
+    }
   },
   {
     "hero_name": "Galactus",
@@ -2270,7 +2593,13 @@
         2025,
         "Played by Ralph Ineson"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Ralph Ineson",
+      "titles": [
+        "The Fantastic Four: First Steps"
+      ]
+    }
   },
   {
     "hero_name": "Mystique",
@@ -2323,7 +2652,10 @@
         2011,
         "Played by Jennifer Lawrence"
       ]
-    ]
+    ],
+    "mcu": {
+      "note": "Not in the MCU yet. Her film appearances so far are in Fox's X-Men universe."
+    }
   },
   {
     "hero_name": "Apocalypse",
@@ -2376,7 +2708,10 @@
         2016,
         "Played by Oscar Isaac"
       ]
-    ]
+    ],
+    "mcu": {
+      "note": "Not in the MCU yet. His only film appearance so far is Fox's X-Men: Apocalypse (2016)."
+    }
   },
   {
     "hero_name": "Kang the Conqueror",
@@ -2433,7 +2768,14 @@
         2023,
         "Kang the Conqueror appears"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Jonathan Majors",
+      "titles": [
+        "Loki",
+        "Ant-Man and the Wasp: Quantumania"
+      ]
+    }
   },
   {
     "hero_name": "Deadpool",
@@ -2486,7 +2828,13 @@
         2024,
         "Teams up with Wolverine"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Ryan Reynolds",
+      "titles": [
+        "Deadpool & Wolverine"
+      ]
+    }
   },
   {
     "hero_name": "Punisher",
@@ -2540,7 +2888,20 @@
         2017,
         "Netflix series starring Jon Bernthal"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Jon Bernthal",
+      "titles": [
+        [
+          "Daredevil",
+          2016
+        ],
+        "The Punisher",
+        "Daredevil: Born Again",
+        "The Punisher: One Last Kill",
+        "Spider-Man: Brand New Day"
+      ]
+    }
   },
   {
     "hero_name": "Venom",
@@ -2591,7 +2952,13 @@
         2018,
         "Played by Tom Hardy"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Tom Hardy",
+      "titles": [
+        "Spider-Man: No Way Home"
+      ]
+    }
   },
   {
     "hero_name": "Mysterio",
@@ -2633,7 +3000,13 @@
         2019,
         "Played by Jake Gyllenhaal"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Jake Gyllenhaal",
+      "titles": [
+        "Spider-Man: Far From Home"
+      ]
+    }
   },
   {
     "hero_name": "Killmonger",
@@ -2673,7 +3046,14 @@
         2018,
         "Played by Michael B. Jordan"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Michael B. Jordan",
+      "titles": [
+        "Black Panther",
+        "Black Panther: Wakanda Forever"
+      ]
+    }
   },
   {
     "hero_name": "Carnage",
@@ -2724,7 +3104,10 @@
         2021,
         "Played by Woody Harrelson"
       ]
-    ]
+    ],
+    "mcu": {
+      "note": "Not in the MCU. His film appearance is in Sony's Venom: Let There Be Carnage (2021), outside the MCU."
+    }
   },
   {
     "hero_name": "Sabretooth",
@@ -2773,7 +3156,13 @@
         2009,
         "Played by Liev Schreiber"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Tyler Mane",
+      "titles": [
+        "Deadpool & Wolverine"
+      ]
+    }
   },
   {
     "hero_name": "Juggernaut",
@@ -2823,7 +3212,13 @@
         2018,
         "A CGI Juggernaut"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Aaron W. Reed",
+      "titles": [
+        "Deadpool & Wolverine"
+      ]
+    }
   },
   {
     "hero_name": "Kraven the Hunter",
@@ -2872,7 +3267,10 @@
         2024,
         "Played by Aaron Taylor-Johnson"
       ]
-    ]
+    ],
+    "mcu": {
+      "note": "Not in the MCU. His film is Sony's Kraven the Hunter (2024), outside the MCU."
+    }
   },
   {
     "hero_name": "Electro",
@@ -2916,7 +3314,13 @@
         2021,
         "Jamie Foxx returns"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Jamie Foxx",
+      "titles": [
+        "Spider-Man: No Way Home"
+      ]
+    }
   },
   {
     "hero_name": "Vulture",
@@ -2954,7 +3358,13 @@
         2017,
         "Played by Michael Keaton"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Michael Keaton",
+      "titles": [
+        "Spider-Man: Homecoming"
+      ]
+    }
   },
   {
     "hero_name": "Baron Zemo",
@@ -3003,7 +3413,14 @@
         2021,
         "Daniel Brühl returns"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Daniel Brühl",
+      "titles": [
+        "Captain America: Civil War",
+        "The Falcon and the Winter Soldier"
+      ]
+    }
   },
   {
     "hero_name": "Dormammu",
@@ -3048,7 +3465,13 @@
         2016,
         "Bargained with in a time loop"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Benedict Cumberbatch (voice and motion capture)",
+      "titles": [
+        "Doctor Strange"
+      ]
+    }
   },
   {
     "hero_name": "Abomination",
@@ -3094,7 +3517,15 @@
         2022,
         "Tim Roth returns"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Tim Roth",
+      "titles": [
+        "The Incredible Hulk",
+        "Shang-Chi and the Legend of the Ten Rings",
+        "She-Hulk: Attorney at Law"
+      ]
+    }
   },
   {
     "hero_name": "Bullseye",
@@ -3147,7 +3578,17 @@
         2018,
         "Played by Wilson Bethel in season 3"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Wilson Bethel",
+      "titles": [
+        [
+          "Daredevil",
+          2018
+        ],
+        "Daredevil: Born Again"
+      ]
+    }
   },
   {
     "hero_name": "Pepper Potts",
@@ -3194,7 +3635,19 @@
         2019,
         "Fights in the Rescue armor"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Gwyneth Paltrow",
+      "titles": [
+        "Iron Man",
+        "Iron Man 2",
+        "The Avengers",
+        "Iron Man 3",
+        "Spider-Man: Homecoming",
+        "Avengers: Infinity War",
+        "Avengers: Endgame"
+      ]
+    }
   },
   {
     "hero_name": "Happy Hogan",
@@ -3243,7 +3696,19 @@
         2017,
         "Watches over Peter for Tony"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Jon Favreau",
+      "titles": [
+        "Iron Man",
+        "Iron Man 2",
+        "Iron Man 3",
+        "Spider-Man: Homecoming",
+        "Avengers: Endgame",
+        "Spider-Man: Far From Home",
+        "Spider-Man: No Way Home"
+      ]
+    }
   },
   {
     "hero_name": "War Machine",
@@ -3292,7 +3757,22 @@
         2010,
         "Played by Don Cheadle from here on; first wears the War Machine armor"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Don Cheadle (Terrence Howard in Iron Man)",
+      "titles": [
+        "Iron Man",
+        "Iron Man 2",
+        "Iron Man 3",
+        "Avengers: Age of Ultron",
+        "Captain America: Civil War",
+        "Avengers: Infinity War",
+        "Captain Marvel",
+        "Avengers: Endgame",
+        "The Falcon and the Winter Soldier",
+        "Secret Invasion"
+      ]
+    }
   },
   {
     "hero_name": "Iron Monger",
@@ -3328,7 +3808,13 @@
         2008,
         "Played by Jeff Bridges"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Jeff Bridges",
+      "titles": [
+        "Iron Man"
+      ]
+    }
   },
   {
     "hero_name": "Whiplash",
@@ -3368,7 +3854,13 @@
         2010,
         "Played by Mickey Rourke"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Mickey Rourke",
+      "titles": [
+        "Iron Man 2"
+      ]
+    }
   },
   {
     "hero_name": "Justin Hammer",
@@ -3407,7 +3899,13 @@
         2010,
         "Played by Sam Rockwell"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Sam Rockwell",
+      "titles": [
+        "Iron Man 2"
+      ]
+    }
   },
   {
     "hero_name": "Aldrich Killian",
@@ -3447,7 +3945,13 @@
         2013,
         "Played by Guy Pearce"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Guy Pearce",
+      "titles": [
+        "Iron Man 3"
+      ]
+    }
   },
   {
     "hero_name": "Betty Ross",
@@ -3491,7 +3995,14 @@
         2025,
         "Returns"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Liv Tyler",
+      "titles": [
+        "The Incredible Hulk",
+        "Captain America: Brave New World"
+      ]
+    }
   },
   {
     "hero_name": "Red Hulk",
@@ -3543,7 +4054,18 @@
         2025,
         "Played by Harrison Ford; becomes Red Hulk as President"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Harrison Ford (William Hurt until 2021)",
+      "titles": [
+        "The Incredible Hulk",
+        "Captain America: Civil War",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "Black Widow",
+        "Captain America: Brave New World"
+      ]
+    }
   },
   {
     "hero_name": "Leader",
@@ -3589,7 +4111,14 @@
         2025,
         "Returns as the Leader"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Tim Blake Nelson",
+      "titles": [
+        "The Incredible Hulk",
+        "Captain America: Brave New World"
+      ]
+    }
   },
   {
     "hero_name": "Odin",
@@ -3644,7 +4173,15 @@
         2017,
         "His death frees Hela"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Anthony Hopkins",
+      "titles": [
+        "Thor",
+        "Thor: The Dark World",
+        "Thor: Ragnarok"
+      ]
+    }
   },
   {
     "hero_name": "Frigga",
@@ -3694,7 +4231,15 @@
         2013,
         "Dies protecting Jane Foster"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Rene Russo",
+      "titles": [
+        "Thor",
+        "Thor: The Dark World",
+        "Avengers: Endgame"
+      ]
+    }
   },
   {
     "hero_name": "Heimdall",
@@ -3740,7 +4285,18 @@
         2018,
         "Sends Hulk to Earth"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Idris Elba",
+      "titles": [
+        "Thor",
+        "Thor: The Dark World",
+        "Avengers: Age of Ultron",
+        "Thor: Ragnarok",
+        "Avengers: Infinity War",
+        "Thor: Love and Thunder"
+      ]
+    }
   },
   {
     "hero_name": "Sif",
@@ -3782,7 +4338,16 @@
         2021,
         "Appears in season 1"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Jaimie Alexander",
+      "titles": [
+        "Thor",
+        "Thor: The Dark World",
+        "Loki",
+        "Thor: Love and Thunder"
+      ]
+    }
   },
   {
     "hero_name": "Laufey",
@@ -3822,7 +4387,13 @@
         2011,
         "Played by Colm Feore"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Colm Feore",
+      "titles": [
+        "Thor"
+      ]
+    }
   },
   {
     "hero_name": "Malekith",
@@ -3858,7 +4429,13 @@
         2013,
         "Played by Christopher Eccleston"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Christopher Eccleston",
+      "titles": [
+        "Thor: The Dark World"
+      ]
+    }
   },
   {
     "hero_name": "Jane Foster",
@@ -3903,7 +4480,16 @@
         2022,
         "Becomes the Mighty Thor"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Natalie Portman",
+      "titles": [
+        "Thor",
+        "Thor: The Dark World",
+        "Avengers: Endgame",
+        "Thor: Love and Thunder"
+      ]
+    }
   },
   {
     "hero_name": "Valkyrie",
@@ -3952,7 +4538,16 @@
         2022,
         "Rules New Asgard"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Tessa Thompson",
+      "titles": [
+        "Thor: Ragnarok",
+        "Avengers: Endgame",
+        "Thor: Love and Thunder",
+        "The Marvels"
+      ]
+    }
   },
   {
     "hero_name": "Korg",
@@ -3992,7 +4587,15 @@
         2017,
         "Voiced by Taika Waititi"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Taika Waititi",
+      "titles": [
+        "Thor: Ragnarok",
+        "Avengers: Endgame",
+        "Thor: Love and Thunder"
+      ]
+    }
   },
   {
     "hero_name": "Grandmaster",
@@ -4036,7 +4639,13 @@
         2017,
         "Played by Jeff Goldblum"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Jeff Goldblum",
+      "titles": [
+        "Thor: Ragnarok"
+      ]
+    }
   },
   {
     "hero_name": "Skurge",
@@ -4076,7 +4685,13 @@
         2017,
         "Played by Karl Urban"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Karl Urban",
+      "titles": [
+        "Thor: Ragnarok"
+      ]
+    }
   },
   {
     "hero_name": "Surtur",
@@ -4116,7 +4731,13 @@
         2017,
         "Voiced by Clancy Brown"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Clancy Brown (voice)",
+      "titles": [
+        "Thor: Ragnarok"
+      ]
+    }
   },
   {
     "hero_name": "Winter Soldier",
@@ -4177,7 +4798,21 @@
         2025,
         "Joins the Thunderbolts"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Sebastian Stan",
+      "titles": [
+        "Captain America: The First Avenger",
+        "Captain America: The Winter Soldier",
+        "Ant-Man",
+        "Captain America: Civil War",
+        "Black Panther",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "The Falcon and the Winter Soldier",
+        "Thunderbolts*"
+      ]
+    }
   },
   {
     "hero_name": "Peggy Carter",
@@ -4225,7 +4860,18 @@
         2019,
         "Reunites with Steve"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Hayley Atwell",
+      "titles": [
+        "Captain America: The First Avenger",
+        "Captain America: The Winter Soldier",
+        "Agent Carter",
+        "Ant-Man",
+        "Avengers: Endgame",
+        "Doctor Strange in the Multiverse of Madness"
+      ]
+    }
   },
   {
     "hero_name": "Sharon Carter",
@@ -4273,7 +4919,15 @@
         2021,
         "Revealed as the Power Broker"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Emily VanCamp",
+      "titles": [
+        "Captain America: The Winter Soldier",
+        "Captain America: Civil War",
+        "The Falcon and the Winter Soldier"
+      ]
+    }
   },
   {
     "hero_name": "Arnim Zola",
@@ -4321,7 +4975,14 @@
         2014,
         "Lives on as a computer"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Toby Jones",
+      "titles": [
+        "Captain America: The First Avenger",
+        "Captain America: The Winter Soldier"
+      ]
+    }
   },
   {
     "hero_name": "Dum Dum Dugan",
@@ -4363,7 +5024,14 @@
         2011,
         "Played by Neal McDonough"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Neal McDonough",
+      "titles": [
+        "Captain America: The First Avenger",
+        "Agent Carter"
+      ]
+    }
   },
   {
     "hero_name": "Crossbones",
@@ -4411,7 +5079,14 @@
         2016,
         "Becomes Crossbones"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Frank Grillo",
+      "titles": [
+        "Captain America: The Winter Soldier",
+        "Captain America: Civil War"
+      ]
+    }
   },
   {
     "hero_name": "Batroc",
@@ -4457,7 +5132,14 @@
         2021,
         "Returns"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Georges St-Pierre",
+      "titles": [
+        "Captain America: The Winter Soldier",
+        "The Falcon and the Winter Soldier"
+      ]
+    }
   },
   {
     "hero_name": "Nick Fury",
@@ -4515,7 +5197,25 @@
         2023,
         "Leads the series"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Samuel L. Jackson",
+      "titles": [
+        "Iron Man",
+        "Iron Man 2",
+        "Thor",
+        "Captain America: The First Avenger",
+        "The Avengers",
+        "Captain America: The Winter Soldier",
+        "Avengers: Age of Ultron",
+        "Captain Marvel",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "Spider-Man: Far From Home",
+        "Secret Invasion",
+        "The Marvels"
+      ]
+    }
   },
   {
     "hero_name": "Maria Hill",
@@ -4553,7 +5253,19 @@
         2012,
         "Played by Cobie Smulders"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Cobie Smulders",
+      "titles": [
+        "The Avengers",
+        "Captain America: The Winter Soldier",
+        "Avengers: Age of Ultron",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "Spider-Man: Far From Home",
+        "Secret Invasion"
+      ]
+    }
   },
   {
     "hero_name": "Star-Lord",
@@ -4610,7 +5322,19 @@
         2023,
         "Returns to Earth"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Chris Pratt",
+      "titles": [
+        "Guardians of the Galaxy",
+        "Guardians of the Galaxy Vol. 2",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "Thor: Love and Thunder",
+        "The Guardians of the Galaxy Holiday Special",
+        "Guardians of the Galaxy Vol. 3"
+      ]
+    }
   },
   {
     "hero_name": "Gamora",
@@ -4662,7 +5386,17 @@
         2018,
         "Sacrificed by Thanos"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Zoe Saldaña",
+      "titles": [
+        "Guardians of the Galaxy",
+        "Guardians of the Galaxy Vol. 2",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "Guardians of the Galaxy Vol. 3"
+      ]
+    }
   },
   {
     "hero_name": "Drax the Destroyer",
@@ -4708,7 +5442,19 @@
         2014,
         "Played by Dave Bautista"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Dave Bautista",
+      "titles": [
+        "Guardians of the Galaxy",
+        "Guardians of the Galaxy Vol. 2",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "Thor: Love and Thunder",
+        "The Guardians of the Galaxy Holiday Special",
+        "Guardians of the Galaxy Vol. 3"
+      ]
+    }
   },
   {
     "hero_name": "Rocket",
@@ -4761,7 +5507,19 @@
         2023,
         "His origin is told"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Bradley Cooper (voice), Sean Gunn (motion capture)",
+      "titles": [
+        "Guardians of the Galaxy",
+        "Guardians of the Galaxy Vol. 2",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "Thor: Love and Thunder",
+        "The Guardians of the Galaxy Holiday Special",
+        "Guardians of the Galaxy Vol. 3"
+      ]
+    }
   },
   {
     "hero_name": "Groot",
@@ -4800,7 +5558,19 @@
         2014,
         "Voiced by Vin Diesel"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Vin Diesel (voice)",
+      "titles": [
+        "Guardians of the Galaxy",
+        "Guardians of the Galaxy Vol. 2",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "Thor: Love and Thunder",
+        "The Guardians of the Galaxy Holiday Special",
+        "Guardians of the Galaxy Vol. 3"
+      ]
+    }
   },
   {
     "hero_name": "Nebula",
@@ -4853,7 +5623,19 @@
         2019,
         "Helps defeat Thanos"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Karen Gillan",
+      "titles": [
+        "Guardians of the Galaxy",
+        "Guardians of the Galaxy Vol. 2",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "Thor: Love and Thunder",
+        "The Guardians of the Galaxy Holiday Special",
+        "Guardians of the Galaxy Vol. 3"
+      ]
+    }
   },
   {
     "hero_name": "Yondu",
@@ -4901,7 +5683,14 @@
         2017,
         "Sacrifices himself for Peter"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Michael Rooker",
+      "titles": [
+        "Guardians of the Galaxy",
+        "Guardians of the Galaxy Vol. 2"
+      ]
+    }
   },
   {
     "hero_name": "Ronan the Accuser",
@@ -4951,7 +5740,14 @@
         2019,
         "Appears in the 1990s"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Lee Pace",
+      "titles": [
+        "Guardians of the Galaxy",
+        "Captain Marvel"
+      ]
+    }
   },
   {
     "hero_name": "Collector",
@@ -4997,7 +5793,15 @@
         2014,
         "Keeps the Power Stone briefly"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Benicio del Toro",
+      "titles": [
+        "Thor: The Dark World",
+        "Guardians of the Galaxy",
+        "Avengers: Infinity War"
+      ]
+    }
   },
   {
     "hero_name": "Mantis",
@@ -5044,7 +5848,18 @@
         2017,
         "Played by Pom Klementieff"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Pom Klementieff",
+      "titles": [
+        "Guardians of the Galaxy Vol. 2",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "Thor: Love and Thunder",
+        "The Guardians of the Galaxy Holiday Special",
+        "Guardians of the Galaxy Vol. 3"
+      ]
+    }
   },
   {
     "hero_name": "Ego",
@@ -5088,7 +5903,13 @@
         2017,
         "Played by Kurt Russell"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Kurt Russell",
+      "titles": [
+        "Guardians of the Galaxy Vol. 2"
+      ]
+    }
   },
   {
     "hero_name": "Hank Pym",
@@ -5144,7 +5965,16 @@
         2023,
         "Returns"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Michael Douglas",
+      "titles": [
+        "Ant-Man",
+        "Ant-Man and the Wasp",
+        "Avengers: Endgame",
+        "Ant-Man and the Wasp: Quantumania"
+      ]
+    }
   },
   {
     "hero_name": "Wasp",
@@ -5197,7 +6027,16 @@
         2018,
         "Suits up as the Wasp"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Evangeline Lilly",
+      "titles": [
+        "Ant-Man",
+        "Ant-Man and the Wasp",
+        "Avengers: Endgame",
+        "Ant-Man and the Wasp: Quantumania"
+      ]
+    }
   },
   {
     "hero_name": "Janet van Dyne",
@@ -5249,7 +6088,15 @@
         2023,
         "Her past with Kang is revealed"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Michelle Pfeiffer",
+      "titles": [
+        "Ant-Man and the Wasp",
+        "Avengers: Endgame",
+        "Ant-Man and the Wasp: Quantumania"
+      ]
+    }
   },
   {
     "hero_name": "Yellowjacket",
@@ -5299,7 +6146,14 @@
         2023,
         "Returns as M.O.D.O.K."
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Corey Stoll",
+      "titles": [
+        "Ant-Man",
+        "Ant-Man and the Wasp: Quantumania"
+      ]
+    }
   },
   {
     "hero_name": "Cassie Lang",
@@ -5346,7 +6200,16 @@
         2023,
         "Played by Kathryn Newton; gets her own suit"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Kathryn Newton (Abby Ryder Fortson as a child, Emma Fuhrmann in Endgame)",
+      "titles": [
+        "Ant-Man",
+        "Ant-Man and the Wasp",
+        "Avengers: Endgame",
+        "Ant-Man and the Wasp: Quantumania"
+      ]
+    }
   },
   {
     "hero_name": "Ghost",
@@ -5398,7 +6261,14 @@
         2025,
         "Joins the Thunderbolts"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Hannah John-Kamen",
+      "titles": [
+        "Ant-Man and the Wasp",
+        "Thunderbolts*"
+      ]
+    }
   },
   {
     "hero_name": "Goliath",
@@ -5437,7 +6307,13 @@
         2018,
         "Played by Laurence Fishburne"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Laurence Fishburne",
+      "titles": [
+        "Ant-Man and the Wasp"
+      ]
+    }
   },
   {
     "hero_name": "Jimmy Woo",
@@ -5485,7 +6361,14 @@
         2021,
         "Investigates Westview"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Randall Park",
+      "titles": [
+        "Ant-Man and the Wasp",
+        "WandaVision"
+      ]
+    }
   },
   {
     "hero_name": "Ancient One",
@@ -5529,7 +6412,14 @@
         2016,
         "Played by Tilda Swinton"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Tilda Swinton",
+      "titles": [
+        "Doctor Strange",
+        "Avengers: Endgame"
+      ]
+    }
   },
   {
     "hero_name": "Mordo",
@@ -5574,7 +6464,14 @@
         2022,
         "A variant leads the Illuminati's sorcerers"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Chiwetel Ejiofor",
+      "titles": [
+        "Doctor Strange",
+        "Doctor Strange in the Multiverse of Madness"
+      ]
+    }
   },
   {
     "hero_name": "Wong",
@@ -5619,7 +6516,19 @@
         2022,
         "Recurring"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Benedict Wong",
+      "titles": [
+        "Doctor Strange",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "Shang-Chi and the Legend of the Ten Rings",
+        "Spider-Man: No Way Home",
+        "Doctor Strange in the Multiverse of Madness",
+        "She-Hulk: Attorney at Law"
+      ]
+    }
   },
   {
     "hero_name": "Kaecilius",
@@ -5658,7 +6567,13 @@
         2016,
         "Played by Mads Mikkelsen"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Mads Mikkelsen",
+      "titles": [
+        "Doctor Strange"
+      ]
+    }
   },
   {
     "hero_name": "Christine Palmer",
@@ -5692,7 +6607,14 @@
         2016,
         "Played by Rachel McAdams"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Rachel McAdams",
+      "titles": [
+        "Doctor Strange",
+        "Doctor Strange in the Multiverse of Madness"
+      ]
+    }
   },
   {
     "hero_name": "May Parker",
@@ -5737,7 +6659,17 @@
         2021,
         "Her death teaches Peter about responsibility"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Marisa Tomei",
+      "titles": [
+        "Captain America: Civil War",
+        "Spider-Man: Homecoming",
+        "Avengers: Endgame",
+        "Spider-Man: Far From Home",
+        "Spider-Man: No Way Home"
+      ]
+    }
   },
   {
     "hero_name": "Shocker",
@@ -5778,7 +6710,13 @@
         2017,
         "Played by Bokeem Woodbine"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Bokeem Woodbine (Logan Marshall-Green as the first Shocker)",
+      "titles": [
+        "Spider-Man: Homecoming"
+      ]
+    }
   },
   {
     "hero_name": "Tinkerer",
@@ -5817,7 +6755,13 @@
         2017,
         "Played by Michael Chernus"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Michael Chernus",
+      "titles": [
+        "Spider-Man: Homecoming"
+      ]
+    }
   },
   {
     "hero_name": "Ned Leeds",
@@ -5852,7 +6796,17 @@
         2017,
         "Played by Jacob Batalon"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Jacob Batalon",
+      "titles": [
+        "Spider-Man: Homecoming",
+        "Avengers: Infinity War",
+        "Spider-Man: Far From Home",
+        "Spider-Man: No Way Home",
+        "Spider-Man: Brand New Day"
+      ]
+    }
   },
   {
     "hero_name": "Liz Allan",
@@ -5890,7 +6844,13 @@
         2017,
         "Played by Laura Harrier"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Laura Harrier",
+      "titles": [
+        "Spider-Man: Homecoming"
+      ]
+    }
   },
   {
     "hero_name": "Flash Thompson",
@@ -5924,7 +6884,15 @@
         2017,
         "Played by Tony Revolori"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Tony Revolori",
+      "titles": [
+        "Spider-Man: Homecoming",
+        "Spider-Man: Far From Home",
+        "Spider-Man: No Way Home"
+      ]
+    }
   },
   {
     "hero_name": "Scorpion",
@@ -5972,7 +6940,14 @@
         2026,
         "Returns"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Michael Mando",
+      "titles": [
+        "Spider-Man: Homecoming",
+        "Spider-Man: Brand New Day"
+      ]
+    }
   },
   {
     "hero_name": "Prowler",
@@ -6007,7 +6982,13 @@
         2017,
         "Played by Donald Glover"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Donald Glover",
+      "titles": [
+        "Spider-Man: Homecoming"
+      ]
+    }
   },
   {
     "hero_name": "Shuri",
@@ -6057,7 +7038,16 @@
         2022,
         "Becomes Black Panther"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Letitia Wright",
+      "titles": [
+        "Black Panther",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "Black Panther: Wakanda Forever"
+      ]
+    }
   },
   {
     "hero_name": "Okoye",
@@ -6099,7 +7089,16 @@
         2018,
         "Played by Danai Gurira"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Danai Gurira",
+      "titles": [
+        "Black Panther",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "Black Panther: Wakanda Forever"
+      ]
+    }
   },
   {
     "hero_name": "Nakia",
@@ -6138,7 +7137,14 @@
         2018,
         "Played by Lupita Nyong'o"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Lupita Nyong'o",
+      "titles": [
+        "Black Panther",
+        "Black Panther: Wakanda Forever"
+      ]
+    }
   },
   {
     "hero_name": "M'Baku",
@@ -6178,7 +7184,16 @@
         2018,
         "Played by Winston Duke"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Winston Duke",
+      "titles": [
+        "Black Panther",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "Black Panther: Wakanda Forever"
+      ]
+    }
   },
   {
     "hero_name": "Klaue",
@@ -6227,7 +7242,14 @@
         2018,
         "Killed by Killmonger"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Andy Serkis",
+      "titles": [
+        "Avengers: Age of Ultron",
+        "Black Panther"
+      ]
+    }
   },
   {
     "hero_name": "Ebony Maw",
@@ -6269,7 +7291,14 @@
         2018,
         "Played by Tom Vaughan-Lawlor"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Tom Vaughan-Lawlor",
+      "titles": [
+        "Avengers: Infinity War",
+        "Avengers: Endgame"
+      ]
+    }
   },
   {
     "hero_name": "Proxima Midnight",
@@ -6311,7 +7340,14 @@
         2018,
         "Played by Carrie Coon"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Carrie Coon",
+      "titles": [
+        "Avengers: Infinity War",
+        "Avengers: Endgame"
+      ]
+    }
   },
   {
     "hero_name": "Corvus Glaive",
@@ -6357,7 +7393,14 @@
         2018,
         "Played by Michael James Shaw"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Michael James Shaw",
+      "titles": [
+        "Avengers: Infinity War",
+        "Avengers: Endgame"
+      ]
+    }
   },
   {
     "hero_name": "Cull Obsidian",
@@ -6399,7 +7442,14 @@
         2018,
         "Played by Terry Notary"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Terry Notary",
+      "titles": [
+        "Avengers: Infinity War",
+        "Avengers: Endgame"
+      ]
+    }
   },
   {
     "hero_name": "Talos",
@@ -6444,7 +7494,15 @@
         2023,
         "Killed by Gravik"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Ben Mendelsohn",
+      "titles": [
+        "Captain Marvel",
+        "Spider-Man: Far From Home",
+        "Secret Invasion"
+      ]
+    }
   },
   {
     "hero_name": "Supreme Intelligence",
@@ -6484,7 +7542,13 @@
         2019,
         "Played by Annette Bening"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Annette Bening",
+      "titles": [
+        "Captain Marvel"
+      ]
+    }
   },
   {
     "hero_name": "Mar-Vell",
@@ -6520,7 +7584,13 @@
         2019,
         "Played by Annette Bening"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Annette Bening",
+      "titles": [
+        "Captain Marvel"
+      ]
+    }
   },
   {
     "hero_name": "Quicksilver",
@@ -6572,7 +7642,14 @@
         2015,
         "Dies saving Hawkeye"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Aaron Taylor-Johnson",
+      "titles": [
+        "Captain America: The Winter Soldier",
+        "Avengers: Age of Ultron"
+      ]
+    }
   },
   {
     "hero_name": "Starhawk",
@@ -6610,7 +7687,14 @@
         2017,
         "Played by Sylvester Stallone"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Sylvester Stallone",
+      "titles": [
+        "Guardians of the Galaxy Vol. 2",
+        "Guardians of the Galaxy Vol. 3"
+      ]
+    }
   },
   {
     "hero_name": "Yelena Belova",
@@ -6662,7 +7746,16 @@
         2025,
         "Leads the Thunderbolts"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Florence Pugh",
+      "titles": [
+        "Black Widow",
+        "Hawkeye",
+        "Thunderbolts*",
+        "Spider-Man: Brand New Day"
+      ]
+    }
   },
   {
     "hero_name": "Red Guardian",
@@ -6714,7 +7807,14 @@
         2025,
         "Joins the Thunderbolts"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "David Harbour",
+      "titles": [
+        "Black Widow",
+        "Thunderbolts*"
+      ]
+    }
   },
   {
     "hero_name": "Taskmaster",
@@ -6762,7 +7862,14 @@
         2025,
         "Killed early in the film"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Olga Kurylenko",
+      "titles": [
+        "Black Widow",
+        "Thunderbolts*"
+      ]
+    }
   },
   {
     "hero_name": "Iron Maiden",
@@ -6806,7 +7913,13 @@
         2021,
         "Played by Rachel Weisz"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Rachel Weisz",
+      "titles": [
+        "Black Widow"
+      ]
+    }
   },
   {
     "hero_name": "Razor Fist",
@@ -6846,7 +7959,13 @@
         2021,
         "Played by Florian Munteanu"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Florian Munteanu",
+      "titles": [
+        "Shang-Chi and the Legend of the Ten Rings"
+      ]
+    }
   },
   {
     "hero_name": "Ikaris",
@@ -6893,7 +8012,13 @@
         2021,
         "Played by Richard Madden"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Richard Madden",
+      "titles": [
+        "Eternals"
+      ]
+    }
   },
   {
     "hero_name": "Sersi",
@@ -6940,7 +8065,13 @@
         2021,
         "Played by Gemma Chan"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Gemma Chan",
+      "titles": [
+        "Eternals"
+      ]
+    }
   },
   {
     "hero_name": "Thena",
@@ -6982,7 +8113,13 @@
         2021,
         "Played by Angelina Jolie"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Angelina Jolie",
+      "titles": [
+        "Eternals"
+      ]
+    }
   },
   {
     "hero_name": "Ajak",
@@ -7028,7 +8165,13 @@
         2021,
         "Played by Salma Hayek"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Salma Hayek",
+      "titles": [
+        "Eternals"
+      ]
+    }
   },
   {
     "hero_name": "Kingo",
@@ -7066,7 +8209,13 @@
         2021,
         "Played by Kumail Nanjiani"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Kumail Nanjiani",
+      "titles": [
+        "Eternals"
+      ]
+    }
   },
   {
     "hero_name": "Sprite",
@@ -7107,7 +8256,13 @@
         2021,
         "Played by Lia McHugh"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Lia McHugh",
+      "titles": [
+        "Eternals"
+      ]
+    }
   },
   {
     "hero_name": "Phastos",
@@ -7145,7 +8300,13 @@
         2021,
         "Played by Brian Tyree Henry"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Brian Tyree Henry",
+      "titles": [
+        "Eternals"
+      ]
+    }
   },
   {
     "hero_name": "Makkari",
@@ -7182,7 +8343,13 @@
         2021,
         "Played by Lauren Ridloff"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Lauren Ridloff",
+      "titles": [
+        "Eternals"
+      ]
+    }
   },
   {
     "hero_name": "Druig",
@@ -7223,7 +8390,13 @@
         2021,
         "Played by Barry Keoghan"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Barry Keoghan",
+      "titles": [
+        "Eternals"
+      ]
+    }
   },
   {
     "hero_name": "Gilgamesh",
@@ -7262,7 +8435,13 @@
         2021,
         "Played by Ma Dong-seok"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Ma Dong-seok (Don Lee)",
+      "titles": [
+        "Eternals"
+      ]
+    }
   },
   {
     "hero_name": "Kro",
@@ -7302,7 +8481,13 @@
         2021,
         "Voiced by Bill Skarsgård"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Bill Skarsgård (voice)",
+      "titles": [
+        "Eternals"
+      ]
+    }
   },
   {
     "hero_name": "Arishem",
@@ -7342,7 +8527,13 @@
         2021,
         "Voiced by David Kaye"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "David Kaye (voice)",
+      "titles": [
+        "Eternals"
+      ]
+    }
   },
   {
     "hero_name": "Starfox",
@@ -7384,7 +8575,13 @@
         2021,
         "Played by Harry Styles (post-credits)"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Harry Styles",
+      "titles": [
+        "Eternals"
+      ]
+    }
   },
   {
     "hero_name": "Black Knight",
@@ -7422,7 +8619,13 @@
         2021,
         "Played by Kit Harington"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Kit Harington",
+      "titles": [
+        "Eternals"
+      ]
+    }
   },
   {
     "hero_name": "Pip the Troll",
@@ -7461,7 +8664,13 @@
         2021,
         "Voiced by Patton Oswalt (post-credits)"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Patton Oswalt",
+      "titles": [
+        "Eternals"
+      ]
+    }
   },
   {
     "hero_name": "America Chavez",
@@ -7507,7 +8716,13 @@
         2022,
         "Played by Xochitl Gomez"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Xochitl Gomez",
+      "titles": [
+        "Doctor Strange in the Multiverse of Madness"
+      ]
+    }
   },
   {
     "hero_name": "Clea",
@@ -7546,7 +8761,13 @@
         2022,
         "Played by Charlize Theron (post-credits)"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Charlize Theron",
+      "titles": [
+        "Doctor Strange in the Multiverse of Madness"
+      ]
+    }
   },
   {
     "hero_name": "Black Bolt",
@@ -7589,7 +8810,13 @@
         2022,
         "Played by Anson Mount; a member of Earth-838's Illuminati"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Anson Mount",
+      "titles": [
+        "Doctor Strange in the Multiverse of Madness"
+      ]
+    }
   },
   {
     "hero_name": "Gorr the God Butcher",
@@ -7629,7 +8856,13 @@
         2022,
         "Played by Christian Bale"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Christian Bale",
+      "titles": [
+        "Thor: Love and Thunder"
+      ]
+    }
   },
   {
     "hero_name": "Hercules",
@@ -7667,7 +8900,13 @@
         2022,
         "Played by Brett Goldstein (post-credits)"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Brett Goldstein",
+      "titles": [
+        "Thor: Love and Thunder"
+      ]
+    }
   },
   {
     "hero_name": "Namor",
@@ -7715,7 +8954,13 @@
         2022,
         "Played by Tenoch Huerta Mejía"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Tenoch Huerta Mejía",
+      "titles": [
+        "Black Panther: Wakanda Forever"
+      ]
+    }
   },
   {
     "hero_name": "Ironheart",
@@ -7765,7 +9010,14 @@
         2025,
         "Her own series"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Dominique Thorne",
+      "titles": [
+        "Black Panther: Wakanda Forever",
+        "Ironheart"
+      ]
+    }
   },
   {
     "hero_name": "Attuma",
@@ -7804,7 +9056,13 @@
         2022,
         "Played by Alex Livinalli"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Alex Livinalli",
+      "titles": [
+        "Black Panther: Wakanda Forever"
+      ]
+    }
   },
   {
     "hero_name": "Namora",
@@ -7840,7 +9098,13 @@
         2022,
         "Played by Mabel Cadena"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Mabel Cadena",
+      "titles": [
+        "Black Panther: Wakanda Forever"
+      ]
+    }
   },
   {
     "hero_name": "Aneka",
@@ -7881,7 +9145,13 @@
         2022,
         "Played by Michaela Coel"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Michaela Coel",
+      "titles": [
+        "Black Panther: Wakanda Forever"
+      ]
+    }
   },
   {
     "hero_name": "Adam Warlock",
@@ -7933,7 +9203,14 @@
         2023,
         "Played by Will Poulter"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Will Poulter",
+      "titles": [
+        "Guardians of the Galaxy Vol. 2",
+        "Guardians of the Galaxy Vol. 3"
+      ]
+    }
   },
   {
     "hero_name": "High Evolutionary",
@@ -7973,7 +9250,13 @@
         2023,
         "Played by Chukwudi Iwuji"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Chukwudi Iwuji",
+      "titles": [
+        "Guardians of the Galaxy Vol. 3"
+      ]
+    }
   },
   {
     "hero_name": "Cosmo the Spacedog",
@@ -8010,7 +9293,15 @@
         2023,
         "Voiced by Maria Bakalova"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Maria Bakalova (voice)",
+      "titles": [
+        "Guardians of the Galaxy",
+        "The Guardians of the Galaxy Holiday Special",
+        "Guardians of the Galaxy Vol. 3"
+      ]
+    }
   },
   {
     "hero_name": "X-23",
@@ -8049,7 +9340,13 @@
         2024,
         "Played by Dafne Keen"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Dafne Keen",
+      "titles": [
+        "Deadpool & Wolverine"
+      ]
+    }
   },
   {
     "hero_name": "Cassandra Nova",
@@ -8093,7 +9390,13 @@
         2024,
         "Played by Emma Corrin"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Emma Corrin",
+      "titles": [
+        "Deadpool & Wolverine"
+      ]
+    }
   },
   {
     "hero_name": "Elektra",
@@ -8139,7 +9442,18 @@
         2024,
         "Played by Jennifer Garner, returning from 2003's Daredevil"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Jennifer Garner (Élodie Yung in the Netflix shows)",
+      "titles": [
+        [
+          "Daredevil",
+          2016
+        ],
+        "The Defenders",
+        "Deadpool & Wolverine"
+      ]
+    }
   },
   {
     "hero_name": "Blade",
@@ -8182,7 +9496,14 @@
         2024,
         "Played by Wesley Snipes"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Wesley Snipes (Mahershala Ali's voice in Eternals)",
+      "titles": [
+        "Eternals",
+        "Deadpool & Wolverine"
+      ]
+    }
   },
   {
     "hero_name": "Gambit",
@@ -8224,7 +9545,13 @@
         2024,
         "Played by Channing Tatum"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Channing Tatum",
+      "titles": [
+        "Deadpool & Wolverine"
+      ]
+    }
   },
   {
     "hero_name": "Human Torch",
@@ -8276,7 +9603,14 @@
         2025,
         "Played by Joseph Quinn"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Joseph Quinn (Chris Evans as a variant in Deadpool & Wolverine)",
+      "titles": [
+        "Deadpool & Wolverine",
+        "The Fantastic Four: First Steps"
+      ]
+    }
   },
   {
     "hero_name": "Sidewinder",
@@ -8311,7 +9645,13 @@
         2025,
         "Played by Giancarlo Esposito"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Giancarlo Esposito",
+      "titles": [
+        "Captain America: Brave New World"
+      ]
+    }
   },
   {
     "hero_name": "Sentry",
@@ -8355,7 +9695,13 @@
         2025,
         "Played by Lewis Pullman"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Lewis Pullman",
+      "titles": [
+        "Thunderbolts*"
+      ]
+    }
   },
   {
     "hero_name": "Mole Man",
@@ -8394,7 +9740,13 @@
         2025,
         "Played by Paul Walter Hauser"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Paul Walter Hauser",
+      "titles": [
+        "The Fantastic Four: First Steps"
+      ]
+    }
   },
   {
     "hero_name": "H.E.R.B.I.E.",
@@ -8431,7 +9783,13 @@
         2025,
         "Voiced by Matthew Wood"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Matthew Wood (voice)",
+      "titles": [
+        "The Fantastic Four: First Steps"
+      ]
+    }
   },
   {
     "hero_name": "Tombstone",
@@ -8471,7 +9829,13 @@
         2026,
         "Played by Marvin Jones III"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Marvin Jones III",
+      "titles": [
+        "Spider-Man: Brand New Day"
+      ]
+    }
   },
   {
     "hero_name": "Mandarin",
@@ -8511,7 +9875,13 @@
         2021,
         "Played by Tony Leung"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Tony Leung",
+      "titles": [
+        "Shang-Chi and the Legend of the Ten Rings"
+      ]
+    }
   },
   {
     "hero_name": "Sandman",
@@ -8549,7 +9919,13 @@
         2021,
         "Played by Thomas Haden Church, from the Raimi films"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Thomas Haden Church",
+      "titles": [
+        "Spider-Man: No Way Home"
+      ]
+    }
   },
   {
     "hero_name": "Lizard",
@@ -8587,7 +9963,13 @@
         2021,
         "Played by Rhys Ifans, from The Amazing Spider-Man"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Rhys Ifans",
+      "titles": [
+        "Spider-Man: No Way Home"
+      ]
+    }
   },
   {
     "hero_name": "Agatha Harkness",
@@ -8637,7 +10019,14 @@
         2024,
         "Her own series"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Kathryn Hahn",
+      "titles": [
+        "WandaVision",
+        "Agatha All Along"
+      ]
+    }
   },
   {
     "hero_name": "Monica Rambeau",
@@ -8696,7 +10085,15 @@
         2023,
         "Teams with Carol and Kamala"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Teyonah Parris (Akira Akbar as a child)",
+      "titles": [
+        "Captain Marvel",
+        "WandaVision",
+        "The Marvels"
+      ]
+    }
   },
   {
     "hero_name": "Wiccan",
@@ -8748,7 +10145,14 @@
         2024,
         "Played by Joe Locke"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Joe Locke (Julian Hilliard as a child)",
+      "titles": [
+        "WandaVision",
+        "Agatha All Along"
+      ]
+    }
   },
   {
     "hero_name": "Speed",
@@ -8793,7 +10197,15 @@
         2021,
         "Played by Jett Klyne as Wanda's son Tommy"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Ruaridh Mollica (Jett Klyne as a child)",
+      "titles": [
+        "WandaVision",
+        "Doctor Strange in the Multiverse of Madness",
+        "VisionQuest"
+      ]
+    }
   },
   {
     "hero_name": "U.S. Agent",
@@ -8845,7 +10257,14 @@
         2025,
         "Joins the Thunderbolts"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Wyatt Russell",
+      "titles": [
+        "The Falcon and the Winter Soldier",
+        "Thunderbolts*"
+      ]
+    }
   },
   {
     "hero_name": "Isaiah Bradley",
@@ -8890,7 +10309,14 @@
         2025,
         "Returns"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Carl Lumbly",
+      "titles": [
+        "The Falcon and the Winter Soldier",
+        "Captain America: Brave New World"
+      ]
+    }
   },
   {
     "hero_name": "Flag-Smasher",
@@ -8933,7 +10359,13 @@
         2021,
         "Played by Erin Kellyman"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Erin Kellyman",
+      "titles": [
+        "The Falcon and the Winter Soldier"
+      ]
+    }
   },
   {
     "hero_name": "Valentina Allegra de Fontaine",
@@ -8989,7 +10421,15 @@
         2025,
         "Behind the team"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Julia Louis-Dreyfus",
+      "titles": [
+        "The Falcon and the Winter Soldier",
+        "Black Widow",
+        "Thunderbolts*"
+      ]
+    }
   },
   {
     "hero_name": "Joaquin Torres",
@@ -9033,7 +10473,14 @@
         2025,
         "The new Falcon"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Danny Ramirez",
+      "titles": [
+        "The Falcon and the Winter Soldier",
+        "Captain America: Brave New World"
+      ]
+    }
   },
   {
     "hero_name": "Sylvie",
@@ -9073,7 +10520,13 @@
         2021,
         "Played by Sophia Di Martino"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Sophia Di Martino",
+      "titles": [
+        "Loki"
+      ]
+    }
   },
   {
     "hero_name": "Mobius M. Mobius",
@@ -9120,7 +10573,13 @@
         2024,
         "Briefly appears"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Owen Wilson",
+      "titles": [
+        "Loki"
+      ]
+    }
   },
   {
     "hero_name": "Ravonna Renslayer",
@@ -9165,7 +10624,13 @@
         2021,
         "Played by Gugu Mbatha-Raw"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Gugu Mbatha-Raw",
+      "titles": [
+        "Loki"
+      ]
+    }
   },
   {
     "hero_name": "Kate Bishop",
@@ -9211,7 +10676,13 @@
         2021,
         "Played by Hailee Steinfeld"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Hailee Steinfeld",
+      "titles": [
+        "Hawkeye"
+      ]
+    }
   },
   {
     "hero_name": "Echo",
@@ -9263,7 +10734,14 @@
         2024,
         "Her own series"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Alaqua Cox",
+      "titles": [
+        "Hawkeye",
+        "Echo"
+      ]
+    }
   },
   {
     "hero_name": "Lucky the Pizza Dog",
@@ -9302,7 +10780,13 @@
         2021,
         "Played by the dog Jolt"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Jolt (dog)",
+      "titles": [
+        "Hawkeye"
+      ]
+    }
   },
   {
     "hero_name": "Swordsman",
@@ -9343,7 +10827,17 @@
         2021,
         "Played by Tony Dalton"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Tony Dalton",
+      "titles": [
+        "Hawkeye",
+        [
+          "Daredevil: Born Again",
+          2026
+        ]
+      ]
+    }
   },
   {
     "hero_name": "Khonshu",
@@ -9382,7 +10876,13 @@
         2022,
         "Voiced by F. Murray Abraham"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "F. Murray Abraham (voice)",
+      "titles": [
+        "Moon Knight"
+      ]
+    }
   },
   {
     "hero_name": "Arthur Harrow",
@@ -9421,7 +10921,13 @@
         2022,
         "Played by Ethan Hawke"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Ethan Hawke",
+      "titles": [
+        "Moon Knight"
+      ]
+    }
   },
   {
     "hero_name": "She-Hulk",
@@ -9469,7 +10975,13 @@
         2022,
         "Played by Tatiana Maslany"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Tatiana Maslany",
+      "titles": [
+        "She-Hulk: Attorney at Law"
+      ]
+    }
   },
   {
     "hero_name": "Titania",
@@ -9506,7 +11018,13 @@
         2022,
         "Played by Jameela Jamil"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Jameela Jamil",
+      "titles": [
+        "She-Hulk: Attorney at Law"
+      ]
+    }
   },
   {
     "hero_name": "Leap-Frog",
@@ -9545,7 +11063,13 @@
         2022,
         "Played by Brandon Stanley"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Brandon Stanley",
+      "titles": [
+        "She-Hulk: Attorney at Law"
+      ]
+    }
   },
   {
     "hero_name": "Mr. Immortal",
@@ -9580,7 +11104,13 @@
         2022,
         "Played by David Pasquesi"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "David Pasquesi",
+      "titles": [
+        "She-Hulk: Attorney at Law"
+      ]
+    }
   },
   {
     "hero_name": "Werewolf by Night",
@@ -9620,7 +11150,13 @@
         2022,
         "Played by Gael García Bernal (TV special)"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Gael García Bernal",
+      "titles": [
+        "Werewolf by Night"
+      ]
+    }
   },
   {
     "hero_name": "Elsa Bloodstone",
@@ -9656,7 +11192,13 @@
         2022,
         "Played by Laura Donnelly (TV special)"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Laura Donnelly",
+      "titles": [
+        "Werewolf by Night"
+      ]
+    }
   },
   {
     "hero_name": "Man-Thing",
@@ -9692,7 +11234,13 @@
         2022,
         "TV special; called Ted"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Carey Jones (performance)",
+      "titles": [
+        "Werewolf by Night"
+      ]
+    }
   },
   {
     "hero_name": "Death",
@@ -9732,7 +11280,13 @@
         2024,
         "Played by Aubrey Plaza as Rio Vidal"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Aubrey Plaza",
+      "titles": [
+        "Agatha All Along"
+      ]
+    }
   },
   {
     "hero_name": "Karen Page",
@@ -9774,7 +11328,17 @@
         2025,
         "Played by Deborah Ann Woll, returning from Netflix's Daredevil"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Deborah Ann Woll",
+      "titles": [
+        "Daredevil",
+        "The Defenders",
+        "The Punisher",
+        "Daredevil: Born Again",
+        "The Punisher: One Last Kill"
+      ]
+    }
   },
   {
     "hero_name": "Foggy Nelson",
@@ -9812,7 +11376,15 @@
         2025,
         "Played by Elden Henson, returning from Netflix's Daredevil"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Elden Henson",
+      "titles": [
+        "Daredevil",
+        "The Defenders",
+        "Daredevil: Born Again"
+      ]
+    }
   },
   {
     "hero_name": "Vanessa Fisk",
@@ -9851,7 +11423,14 @@
         2025,
         "Played by Ayelet Zurer"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Ayelet Zurer",
+      "titles": [
+        "Daredevil",
+        "Daredevil: Born Again"
+      ]
+    }
   },
   {
     "hero_name": "White Tiger",
@@ -9887,7 +11466,13 @@
         2025,
         "Played by Kamar de los Reyes"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Kamar de los Reyes",
+      "titles": [
+        "Daredevil: Born Again"
+      ]
+    }
   },
   {
     "hero_name": "Muse",
@@ -9922,7 +11507,13 @@
         2025,
         "Played by Hunter Doohan"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Hunter Doohan",
+      "titles": [
+        "Daredevil: Born Again"
+      ]
+    }
   },
   {
     "hero_name": "The Hood",
@@ -9963,7 +11554,13 @@
         2025,
         "Played by Anthony Ramos"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Anthony Ramos",
+      "titles": [
+        "Ironheart"
+      ]
+    }
   },
   {
     "hero_name": "Mephisto",
@@ -10008,7 +11605,13 @@
         2025,
         "Played by Sacha Baron Cohen"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Sacha Baron Cohen",
+      "titles": [
+        "Ironheart"
+      ]
+    }
   },
   {
     "hero_name": "Wonder Man",
@@ -10051,6 +11654,12 @@
         2026,
         "Played by Yahya Abdul-Mateen II"
       ]
-    ]
+    ],
+    "mcu": {
+      "actor": "Yahya Abdul-Mateen II",
+      "titles": [
+        "Wonder Man"
+      ]
+    }
   }
 ]

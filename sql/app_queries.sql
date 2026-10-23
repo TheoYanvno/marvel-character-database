@@ -4,16 +4,16 @@
 -- Parameters use ? placeholders, so user input is never pasted into the SQL (prevents SQL injection).
 
 -- name: search
--- Card list. Matches hero name, real name or a power, optionally only one side
+-- Card list. Matches hero name, real name, a power or the MCU actor, optionally only one side
 -- (hero, villain or antihero; an empty string means all). Characters whose hero name starts with the
--- search come first, then other name matches, then power matches.
--- Params: like, like, like, side, side, prefix, like, like
+-- search come first, then other name matches, then power and actor matches.
+-- Params: like, like, like, like, side, side, prefix, like, like
 SELECT c.id, c.hero_name, c.real_name, c.alignment, c.first_year, c.color
 FROM characters c
 WHERE EXISTS (
         SELECT 1 FROM character_powers cp JOIN powers p ON p.id = cp.power_id
         WHERE cp.character_id = c.id AND p.name LIKE ?
-      ) OR c.hero_name LIKE ? OR c.real_name LIKE ?
+      ) OR c.hero_name LIKE ? OR c.real_name LIKE ? OR c.mcu_actor LIKE ?
 GROUP BY c.id
 HAVING (? = '' OR c.alignment = ?)
 ORDER BY CASE WHEN c.hero_name LIKE ? THEN 0
@@ -48,6 +48,13 @@ ORDER BY CASE kind WHEN 'family' THEN 1 WHEN 'romance' THEN 2 WHEN 'mentor' THEN
 SELECT medium, title, year, note FROM appearances
 WHERE character_id = ? ORDER BY year;
 
+-- name: character_mcu_titles
+-- Movies and series in release order; the first row is their first MCU appearance
+SELECT t.title, t.kind, COALESCE(r.year, t.year) AS year
+FROM mcu_roles r JOIN mcu_titles t ON t.id = r.title_id
+WHERE r.character_id = ?
+ORDER BY COALESCE(r.year, t.year), t.id;
+
 -- name: stats_by_alignment
 SELECT alignment, COUNT(*) AS total FROM characters GROUP BY alignment ORDER BY total DESC;
 
@@ -60,3 +67,8 @@ ORDER BY characters DESC, p.name LIMIT 5;
 -- name: stats_by_decade
 SELECT (first_year / 10) * 10 AS decade, COUNT(*) AS debuts
 FROM characters GROUP BY decade ORDER BY decade;
+
+-- name: stats_most_mcu_titles
+SELECT c.hero_name, COUNT(*) AS titles
+FROM characters c JOIN mcu_roles r ON r.character_id = c.id
+GROUP BY c.id ORDER BY titles DESC, c.hero_name LIMIT 5;

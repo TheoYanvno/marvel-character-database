@@ -10,6 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SCHEMA = ROOT / "sql" / "schema.sql"
 DATA = ROOT / "data" / "characters.json"
+TITLES = ROOT / "data" / "mcu_titles.json"
 QUERIES_FILE = ROOT / "sql" / "app_queries.sql"
 
 
@@ -27,19 +28,32 @@ def _get_or_create(conn, table, name):
     return conn.execute(f"INSERT INTO {table} (name) VALUES (?)", (name,)).lastrowid
 
 
-def build(conn, data_file=DATA):
-    """Create the tables and load characters.json inside one transaction."""
+def build(conn, data_file=DATA, titles_file=TITLES):
+    """Create the tables and load characters.json and mcu_titles.json inside one transaction."""
     conn.executescript(SCHEMA.read_text())
     characters = json.loads(Path(data_file).read_text())
     with conn:
+        conn.executemany("INSERT INTO mcu_titles (title, year, kind) VALUES (:title, :year, :kind)",
+                         json.loads(Path(titles_file).read_text()))
         for c in characters:
+            mcu = c.get("mcu", {})
             cid = conn.execute(
                 """INSERT INTO characters
-                   (hero_name, real_name, alignment, first_appearance, first_year, creators, origin, color)
-                   VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
+                   (hero_name, real_name, alignment, first_appearance, first_year, creators, origin, color,
+                    mcu_actor, mcu_note)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
                 (c["hero_name"], c["real_name"], c["alignment"], c["first_appearance"],
-                 c["first_year"], c["creators"], c["origin"], c["color"]),
+                 c["first_year"], c["creators"], c["origin"], c["color"],
+                 mcu.get("actor"), mcu.get("note")),
             ).lastrowid
+            for t in mcu.get("titles", []):
+                # "Title", or ["Title", year] for a later season
+                title, year = (t, None) if isinstance(t, str) else t
+                row = conn.execute("SELECT id FROM mcu_titles WHERE title = ?", (title,)).fetchone()
+                if row is None:
+                    raise ValueError(f"{c['hero_name']}: unknown MCU title {title!r}")
+                conn.execute("INSERT INTO mcu_roles (character_id, title_id, year) VALUES (?, ?, ?)",
+                             (cid, row["id"], year))
             for power in c["powers"]:
                 conn.execute("INSERT INTO character_powers VALUES (?, ?)",
                              (cid, _get_or_create(conn, "powers", power)))
@@ -84,11 +98,11 @@ SIDES = ("hero", "villain", "antihero")
 
 
 def search(conn, text="", side=""):
-    """Card list. Matches hero name, real name or a power; side limits it to heroes, villains or antiheroes."""
+    """Card list. Matches hero name, real name, a power or the MCU actor; side limits it to heroes, villains or antiheroes."""
     like = f"%{text.strip()}%"
     prefix = f"{text.strip()}%"
     side = side if side in SIDES else ""
-    return _rows(conn, "search", like, like, like, side, side, prefix, like, like)
+    return _rows(conn, "search", like, like, like, like, side, side, prefix, like, like)
 
 
 def side_counts(conn):
@@ -106,6 +120,7 @@ def get_character(conn, character_id):
     profile["teams"] = [r["name"] for r in _rows(conn, "character_teams", character_id)]
     profile["relationships"] = _rows(conn, "character_relationships", character_id)
     profile["appearances"] = _rows(conn, "character_appearances", character_id)
+    profile["mcu_titles"] = _rows(conn, "character_mcu_titles", character_id)
     return profile
 
 
@@ -115,4 +130,5 @@ def stats(conn):
         "by_alignment": _rows(conn, "stats_by_alignment"),
         "top_powers": _rows(conn, "stats_top_powers"),
         "by_decade": _rows(conn, "stats_by_decade"),
+        "most_mcu_titles": _rows(conn, "stats_most_mcu_titles"),
     }

@@ -10,7 +10,9 @@ CREATE TABLE characters (
   first_year       INTEGER NOT NULL,
   creators         TEXT NOT NULL,
   origin           TEXT NOT NULL,
-  color            TEXT NOT NULL           -- card accent color
+  color            TEXT NOT NULL,          -- card accent color
+  mcu_actor        TEXT,                   -- who plays them in the Marvel Cinematic Universe
+  mcu_note         TEXT                    -- set instead when they haven't appeared in the MCU yet
 );
 
 CREATE TABLE powers (
@@ -54,5 +56,23 @@ CREATE TABLE appearances (
   note          TEXT
 );
 
+-- Marvel Cinematic Universe movies and series (live action)
+CREATE TABLE mcu_titles (
+  id     INTEGER PRIMARY KEY AUTOINCREMENT,   -- ids follow release order
+  title  TEXT NOT NULL UNIQUE,
+  year   INTEGER NOT NULL,
+  kind   TEXT NOT NULL CHECK (kind IN ('film', 'series'))
+);
+
+-- many-to-many: which characters appear in which MCU titles.
+-- year is only set when it differs from the title's year (a later season of a series).
+CREATE TABLE mcu_roles (
+  character_id INTEGER NOT NULL REFERENCES characters(id) ON DELETE CASCADE,
+  title_id     INTEGER NOT NULL REFERENCES mcu_titles(id),
+  year         INTEGER,
+  PRIMARY KEY (character_id, title_id)
+);
+
 CREATE INDEX idx_relationships_character ON relationships(character_id);
 CREATE INDEX idx_appearances_character   ON appearances(character_id);
+CREATE INDEX idx_mcu_roles_title         ON mcu_roles(title_id);

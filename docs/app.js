@@ -64,6 +64,25 @@ $('tabs').addEventListener('click', (e) => {
   loadCards($('search').value);
 });
 
+// The Marvel Cinematic Universe block: who plays them, where they first showed up, and every movie and series.
+function mcuSection(c) {
+  if (!c.mcu_titles.length) {
+    return `<section class="mcu"><h3>In the MCU</h3><p class="meta">${esc(c.mcu_note || 'Not in the MCU yet.')}</p></section>`;
+  }
+  const first = c.mcu_titles[0];
+  return `<section class="mcu">
+    <h3>In the MCU</h3>
+    <dl class="facts">
+      <div><dt>Played by</dt><dd>${esc(c.mcu_actor)}</dd></div>
+      <div><dt>First MCU appearance</dt><dd>${esc(first.title)} (${first.year})</dd></div>
+    </dl>
+    <h4>Movies and shows <span class="count">${c.mcu_titles.length}</span></h4>
+    <ul class="titles">${c.mcu_titles.map((t) => `
+      <li class="title-${t.kind}"><span class="year">${t.year}</span> ${esc(t.title)}${t.kind === 'series' ? ' <span class="meta">(series)</span>' : ''}</li>`).join('')}
+    </ul>
+  </section>`;
+}
+
 async function showCharacter(id) {
   const c = await api.character(id);
   if (!c) return showGrid();
@@ -77,6 +96,8 @@ async function showCharacter(id) {
 
     <h3>Origin</h3>
     <p>${esc(c.origin)}</p>
+
+    ${mcuSection(c)}
 
     <h3>Powers & abilities</h3>
     <div class="chips">${c.powers.map((p) => `<span class="chip">${esc(p)}</span>`).join('')}</div>

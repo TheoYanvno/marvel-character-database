@@ -1,0 +1,307 @@
+[
+  {
+    "title": "Iron Man",
+    "year": 2008,
+    "kind": "film"
+  },
+  {
+    "title": "The Incredible Hulk",
+    "year": 2008,
+    "kind": "film"
+  },
+  {
+    "title": "Iron Man 2",
+    "year": 2010,
+    "kind": "film"
+  },
+  {
+    "title": "Thor",
+    "year": 2011,
+    "kind": "film"
+  },
+  {
+    "title": "Captain America: The First Avenger",
+    "year": 2011,
+    "kind": "film"
+  },
+  {
+    "title": "The Avengers",
+    "year": 2012,
+    "kind": "film"
+  },
+  {
+    "title": "Iron Man 3",
+    "year": 2013,
+    "kind": "film"
+  },
+  {
+    "title": "Thor: The Dark World",
+    "year": 2013,
+    "kind": "film"
+  },
+  {
+    "title": "Captain America: The Winter Soldier",
+    "year": 2014,
+    "kind": "film"
+  },
+  {
+    "title": "Guardians of the Galaxy",
+    "year": 2014,
+    "kind": "film"
+  },
+  {
+    "title": "Avengers: Age of Ultron",
+    "year": 2015,
+    "kind": "film"
+  },
+  {
+    "title": "Ant-Man",
+    "year": 2015,
+    "kind": "film"
+  },
+  {
+    "title": "Agent Carter",
+    "year": 2015,
+    "kind": "series"
+  },
+  {
+    "title": "Daredevil",
+    "year": 2015,
+    "kind": "series"
+  },
+  {
+    "title": "Jessica Jones",
+    "year": 2015,
+    "kind": "series"
+  },
+  {
+    "title": "Captain America: Civil War",
+    "year": 2016,
+    "kind": "film"
+  },
+  {
+    "title": "Doctor Strange",
+    "year": 2016,
+    "kind": "film"
+  },
+  {
+    "title": "Luke Cage",
+    "year": 2016,
+    "kind": "series"
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 2",
+    "year": 2017,
+    "kind": "film"
+  },
+  {
+    "title": "Spider-Man: Homecoming",
+    "year": 2017,
+    "kind": "film"
+  },
+  {
+    "title": "Thor: Ragnarok",
+    "year": 2017,
+    "kind": "film"
+  },
+  {
+    "title": "The Defenders",
+    "year": 2017,
+    "kind": "series"
+  },
+  {
+    "title": "The Punisher",
+    "year": 2017,
+    "kind": "series"
+  },
+  {
+    "title": "Black Panther",
+    "year": 2018,
+    "kind": "film"
+  },
+  {
+    "title": "Avengers: Infinity War",
+    "year": 2018,
+    "kind": "film"
+  },
+  {
+    "title": "Ant-Man and the Wasp",
+    "year": 2018,
+    "kind": "film"
+  },
+  {
+    "title": "Captain Marvel",
+    "year": 2019,
+    "kind": "film"
+  },
+  {
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "kind": "film"
+  },
+  {
+    "title": "Spider-Man: Far From Home",
+    "year": 2019,
+    "kind": "film"
+  },
+  {
+    "title": "Black Widow",
+    "year": 2021,
+    "kind": "film"
+  },
+  {
+    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "year": 2021,
+    "kind": "film"
+  },
+  {
+    "title": "Eternals",
+    "year": 2021,
+    "kind": "film"
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "year": 2021,
+    "kind": "film"
+  },
+  {
+    "title": "WandaVision",
+    "year": 2021,
+    "kind": "series"
+  },
+  {
+    "title": "The Falcon and the Winter Soldier",
+    "year": 2021,
+    "kind": "series"
+  },
+  {
+    "title": "Loki",
+    "year": 2021,
+    "kind": "series"
+  },
+  {
+    "title": "Hawkeye",
+    "year": 2021,
+    "kind": "series"
+  },
+  {
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "year": 2022,
+    "kind": "film"
+  },
+  {
+    "title": "Thor: Love and Thunder",
+    "year": 2022,
+    "kind": "film"
+  },
+  {
+    "title": "Black Panther: Wakanda Forever",
+    "year": 2022,
+    "kind": "film"
+  },
+  {
+    "title": "Moon Knight",
+    "year": 2022,
+    "kind": "series"
+  },
+  {
+    "title": "Ms. Marvel",
+    "year": 2022,
+    "kind": "series"
+  },
+  {
+    "title": "She-Hulk: Attorney at Law",
+    "year": 2022,
+    "kind": "series"
+  },
+  {
+    "title": "Werewolf by Night",
+    "year": 2022,
+    "kind": "series"
+  },
+  {
+    "title": "The Guardians of the Galaxy Holiday Special",
+    "year": 2022,
+    "kind": "series"
+  },
+  {
+    "title": "Ant-Man and the Wasp: Quantumania",
+    "year": 2023,
+    "kind": "film"
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 3",
+    "year": 2023,
+    "kind": "film"
+  },
+  {
+    "title": "The Marvels",
+    "year": 2023,
+    "kind": "film"
+  },
+  {
+    "title": "Secret Invasion",
+    "year": 2023,
+    "kind": "series"
+  },
+  {
+    "title": "Deadpool & Wolverine",
+    "year": 2024,
+    "kind": "film"
+  },
+  {
+    "title": "Echo",
+    "year": 2024,
+    "kind": "series"
+  },
+  {
+    "title": "Agatha All Along",
+    "year": 2024,
+    "kind": "series"
+  },
+  {
+    "title": "Captain America: Brave New World",
+    "year": 2025,
+    "kind": "film"
+  },
+  {
+    "title": "Thunderbolts*",
+    "year": 2025,
+    "kind": "film"
+  },
+  {
+    "title": "The Fantastic Four: First Steps",
+    "year": 2025,
+    "kind": "film"
+  },
+  {
+    "title": "Daredevil: Born Again",
+    "year": 2025,
+    "kind": "series"
+  },
+  {
+    "title": "Ironheart",
+    "year": 2025,
+    "kind": "series"
+  },
+  {
+    "title": "Spider-Man: Brand New Day",
+    "year": 2026,
+    "kind": "film"
+  },
+  {
+    "title": "Wonder Man",
+    "year": 2026,
+    "kind": "series"
+  },
+  {
+    "title": "The Punisher: One Last Kill",
+    "year": 2026,
+    "kind": "series"
+  },
+  {
+    "title": "VisionQuest",
+    "year": 2026,
+    "kind": "series"
+  }
+]

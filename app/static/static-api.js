@@ -42,7 +42,7 @@ window.staticApi = {
     const like = `%${q.trim()}%`;
     side = ['hero', 'villain', 'antihero'].includes(side) ? side : '';
     const prefix = `${q.trim()}%`;
-    return rows(db, Q.search, [like, like, like, side, side, prefix, like, like]);
+    return rows(db, Q.search, [like, like, like, like, side, side, prefix, like, like]);
   },
   async sides() {
     const { db, Q } = await ready;
@@ -59,6 +59,7 @@ window.staticApi = {
       teams: rows(db, Q.character_teams, [id]).map((r) => r.name),
       relationships: rows(db, Q.character_relationships, [id]),
       appearances: rows(db, Q.character_appearances, [id]),
+      mcu_titles: rows(db, Q.character_mcu_titles, [id]),
     };
   },
 };

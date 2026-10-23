@@ -48,6 +48,18 @@ footer { text-align: center; color: var(--muted); font-size: .8rem; padding: 24p
 .rel div { background: #1f2430; border-radius: 8px; padding: 8px 10px; font-size: .9rem; }
 .rel a { color: inherit; }
 .kind { display: block; font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+/* In the MCU */
+.mcu { margin-top: 22px; padding: 16px 18px 18px; border-radius: 12px; background: #1c2029; border-left: 4px solid var(--accent); }
+.mcu h3 { margin-top: 0 !important; }
+.mcu h4 { margin: 16px 0 8px; font-size: .8rem; color: var(--muted); font-weight: 600; }
+.mcu .count { font-weight: 400; opacity: .8; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin: 0 0 12px; }
+.facts dt { font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.facts dd { margin: 2px 0 0; font-weight: 600; }
+.lore { line-height: 1.55; }
+.titles { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 6px 14px; font-size: .9rem; }
+.titles li { padding: 4px 0; border-bottom: 1px solid var(--line); }
+.titles .year { display: inline-block; min-width: 2.8em; color: var(--muted); font-variant-numeric: tabular-nums; }
 .timeline { list-style: none; padding: 0; margin: 0; border-left: 2px solid var(--line); }
 .timeline li { padding: 0 0 12px 14px; position: relative; }
 .timeline li::before { content: ""; position: absolute; left: -6px; top: 5px; width: 10px; height: 10px; border-radius: 50%; background: var(--accent); }

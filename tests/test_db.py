@@ -45,6 +45,32 @@ class DatabaseTests(unittest.TestCase):
         goblin = next(r for r in db.get_character(self.conn, spidey["id"])["relationships"] if r["name"] == "Green Goblin")
         self.assertIsNotNone(goblin["id"])           # Spider-Man's enemy now has its own profile
 
+    def test_mcu_appearances(self):
+        spidey = db.get_character(self.conn, db.search(self.conn, "Peter Parker")[0]["id"])
+        self.assertEqual(spidey["mcu_actor"], "Tom Holland")
+        self.assertEqual(spidey["mcu_titles"][0], {"title": "Captain America: Civil War", "kind": "film", "year": 2016})
+        years = [t["year"] for t in spidey["mcu_titles"]]
+        self.assertEqual(years, sorted(years))                       # release order
+        punisher = db.get_character(self.conn, db.search(self.conn, "Frank Castle")[0]["id"])
+        self.assertEqual(punisher["mcu_titles"][0], {"title": "Daredevil", "kind": "series", "year": 2016})  # season 2
+        storm = db.get_character(self.conn, db.search(self.conn, "Ororo")[0]["id"])
+        self.assertEqual(storm["mcu_titles"], [])
+        self.assertIn("Not in the MCU yet", storm["mcu_note"])
+
+    def test_search_by_actor(self):
+        self.assertEqual([c["hero_name"] for c in db.search(self.conn, "Hiddleston")], ["Loki"])
+        self.assertEqual(db.search(self.conn, "Thor")[0]["hero_name"], "Thor")   # names still rank first
+
+    def test_unknown_mcu_title_is_rejected(self):
+        bad = Path(self.id().replace(".", "_") + ".json")
+        bad.write_text(json.dumps([{**json.loads(Path(db.DATA).read_text())[0],
+                                    "mcu": {"actor": "X", "titles": ["Not A Real Movie"]}}]))
+        try:
+            with self.assertRaises(ValueError):
+                db.build(db.connect(), data_file=bad)
+        finally:
+            bad.unlink()
+
     def test_missing_character_returns_none(self):
         self.assertIsNone(db.get_character(self.conn, 999))
 
@@ -58,6 +84,7 @@ class DatabaseTests(unittest.TestCase):
         s = db.stats(self.conn)
         self.assertEqual(sum(r["total"] for r in s["by_alignment"]), COUNT)
         self.assertTrue(all(r["characters"] > 1 for r in s["top_powers"]))
+        self.assertEqual(s["most_mcu_titles"][0]["hero_name"], "Nick Fury")
 
 
 if __name__ == "__main__":
