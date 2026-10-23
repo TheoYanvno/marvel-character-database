@@ -44,10 +44,12 @@ footer { text-align: center; color: var(--muted); font-size: .8rem; padding: 24p
 .meta { color: var(--muted); font-size: .9rem; }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip { padding: 4px 10px; border-radius: 999px; background: #232836; font-size: .85rem; }
-.rel { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px; }
-.rel div { background: #1f2430; border-radius: 8px; padding: 8px 10px; font-size: .9rem; }
-.rel a { color: inherit; }
-.kind { display: block; font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.rel-groups { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; }
+.rel-group { background: #1f2430; border-radius: 10px; padding: 10px 12px; }
+.rel-group h4 { margin: 0 0 6px; font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.rel-group ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; font-size: .92rem; }
+.rel-group a { color: inherit; }
+.detail { font-size: .75rem; color: var(--muted); }
 /* In the MCU */
 .mcu { margin-top: 22px; padding: 16px 18px 18px; border-radius: 12px; background: #1c2029; border-left: 4px solid var(--accent); }
 .mcu h3 { margin-top: 0 !important; }

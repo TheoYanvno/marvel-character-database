@@ -60,17 +60,20 @@ def build(conn, data_file=DATA, titles_file=TITLES):
             for team in c["teams"]:
                 conn.execute("INSERT INTO character_teams VALUES (?, ?)",
                              (cid, _get_or_create(conn, "teams", team)))
-            for name, kind in c["relationships"]:
-                conn.execute("INSERT INTO relationships (character_id, related_name, kind) VALUES (?, ?, ?)",
-                             (cid, name, kind))
+            for name, kind, *detail in c["relationships"]:
+                conn.execute("INSERT INTO relationships (character_id, related_name, kind, detail) VALUES (?, ?, ?, ?)",
+                             (cid, name, kind, detail[0] if detail else None))
             for medium, title, year, note in c["appearances"]:
                 conn.execute("INSERT INTO appearances (character_id, medium, title, year, note) VALUES (?, ?, ?, ?, ?)",
                              (cid, medium, title, year, note))
-        # Link relationships to characters that exist in the database (UPDATE with a subquery)
+        # Link relationships to characters that exist in the database (UPDATE with a subquery):
+        # by hero name, or by real name when exactly one character has it.
         conn.execute("""
             UPDATE relationships
-            SET related_id = (SELECT id FROM characters WHERE hero_name = relationships.related_name)
-            WHERE related_name IN (SELECT hero_name FROM characters)""")
+            SET related_id = COALESCE(
+                (SELECT id FROM characters WHERE hero_name = relationships.related_name),
+                (SELECT CASE WHEN COUNT(*) = 1 THEN MIN(id) END
+                 FROM characters WHERE real_name = relationships.related_name))""")
     return conn
 
 
@@ -118,7 +121,7 @@ def get_character(conn, character_id):
     profile = dict(c)
     profile["powers"] = [r["name"] for r in _rows(conn, "character_powers", character_id)]
     profile["teams"] = [r["name"] for r in _rows(conn, "character_teams", character_id)]
-    profile["relationships"] = _rows(conn, "character_relationships", character_id)
+    profile["relationships"] = _rows(conn, "character_relationships", character_id, character_id, character_id)
     profile["appearances"] = _rows(conn, "character_appearances", character_id)
     profile["mcu_titles"] = _rows(conn, "character_mcu_titles", character_id)
     return profile

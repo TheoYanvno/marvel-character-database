@@ -27,7 +27,8 @@ class DatabaseTests(unittest.TestCase):
         profile = db.get_character(self.conn, spidey["id"])
         self.assertIn("Spider-sense", profile["powers"])
         self.assertEqual(profile["appearances"][0]["year"], 1962)
-        mentor = next(r for r in profile["relationships"] if r["kind"] == "mentor")
+        mentor = next(r for r in profile["relationships"] if r["detail"] == "mentor")
+        self.assertEqual((mentor["name"], mentor["kind"]), ("Iron Man", "friend"))
         self.assertIsNotNone(mentor["id"])   # Iron Man is linked to his own record
 
     def test_heroes_and_villains_sections(self):
@@ -74,6 +75,20 @@ class DatabaseTests(unittest.TestCase):
                 db.build(db.connect(), data_file=bad)
         finally:
             bad.unlink()
+
+    def test_relationships_show_on_both_pages(self):
+        def rels(name):
+            return db.get_character(self.conn, db.search(self.conn, name)[0]["id"])["relationships"]
+        iron_man = rels("Tony Stark")
+        spidey = next(r for r in iron_man if r["name"] == "Spider-Man")      # stored on Spider-Man's record
+        self.assertEqual((spidey["kind"], spidey["detail"]), ("friend", "protégé"))
+        self.assertIn("War Machine", [r["name"] for r in iron_man if r["id"]])  # linked by real name James Rhodes
+        kinds = {r["kind"] for name in ("Thor", "Loki", "Hela") for r in rels(name)}
+        self.assertEqual(kinds, {"family", "friend", "romantic", "enemy"})
+        names = [r["name"] for r in rels("Wakanda")] if db.search(self.conn, "Wakanda") else []
+        self.assertEqual(names, [])
+        for r in rels("Scarlet Witch"):                                     # no one listed twice
+            self.assertEqual(sum(1 for x in rels("Scarlet Witch") if (x["name"], x["kind"]) == (r["name"], r["kind"])), 1)
 
     def test_missing_character_returns_none(self):
         self.assertIsNone(db.get_character(self.conn, 999))

@@ -84,6 +84,20 @@ function mcuSection(c) {
   </section>`;
 }
 
+const GROUPS = [['family', 'Family'], ['romantic', 'Romantic'], ['friend', 'Friends'], ['enemy', 'Enemies']];
+const person = (r) => (r.id ? `<a href="#${r.id}" data-id="${r.id}">${esc(r.name)}</a>` : esc(r.name))
+  + (r.detail ? ` <span class="detail">${esc(r.detail)}</span>` : '');
+
+function relationshipGroups(c) {
+  const groups = GROUPS.map(([kind, title]) => [title, c.relationships.filter((r) => r.kind === kind)])
+    .filter(([, people]) => people.length);
+  if (!groups.length) return '';
+  return `<h3>Relationships</h3>
+    <div class="rel-groups">${groups.map(([title, people]) => `
+      <div class="rel-group"><h4>${title}</h4><ul>${people.map((r) => `<li>${person(r)}</li>`).join('')}</ul></div>`).join('')}
+    </div>`;
+}
+
 async function showCharacter(id) {
   const c = await api.character(id);
   if (!c) return showGrid();
@@ -105,10 +119,7 @@ async function showCharacter(id) {
 
     ${c.teams.length ? `<h3>Teams</h3><div class="chips">${c.teams.map((t) => `<span class="chip">${esc(t)}</span>`).join('')}</div>` : ''}
 
-    <h3>Relationships</h3>
-    <div class="rel">${c.relationships.map((r) => `
-      <div><span class="kind">${r.kind}</span>${r.id ? `<a href="#${r.id}" data-id="${r.id}">${esc(r.name)}</a>` : esc(r.name)}</div>`).join('')}
-    </div>
+    ${relationshipGroups(c)}
 
     <h3>Pop culture highlights</h3>
     <ul class="timeline">${c.appearances.map((a) => `

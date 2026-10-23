@@ -39,10 +39,23 @@ JOIN character_teams ct ON ct.team_id = t.id
 WHERE ct.character_id = ? ORDER BY t.name;
 
 -- name: character_relationships
-SELECT related_name AS name, related_id AS id, kind
-FROM relationships WHERE character_id = ?
-ORDER BY CASE kind WHEN 'family' THEN 1 WHEN 'romance' THEN 2 WHEN 'mentor' THEN 3
-                   WHEN 'ally' THEN 4 ELSE 5 END, related_name;
+-- Everyone connected to a character: the pairs stored on their own record, plus pairs stored on the
+-- other person's record (UNION), so a relationship only has to be entered once.
+-- A mentor seen from the other side is a protégé.
+-- Params: id, id, id
+SELECT name, id, kind, detail FROM (
+  SELECT r.related_name AS name, r.related_id AS id, r.kind, r.detail
+  FROM relationships r
+  WHERE r.character_id = ?
+  UNION
+  SELECT c.hero_name, c.id, r.kind,
+         CASE r.detail WHEN 'mentor' THEN 'protégé' WHEN 'protégé' THEN 'mentor' ELSE r.detail END
+  FROM relationships r JOIN characters c ON c.id = r.character_id
+  WHERE r.related_id = ?
+    AND NOT EXISTS (SELECT 1 FROM relationships mine
+                    WHERE mine.character_id = ? AND mine.related_id = c.id AND mine.kind = r.kind)
+)
+ORDER BY CASE kind WHEN 'family' THEN 1 WHEN 'romantic' THEN 2 WHEN 'friend' THEN 3 ELSE 4 END, name;
 
 -- name: character_appearances
 SELECT medium, title, year, note FROM appearances

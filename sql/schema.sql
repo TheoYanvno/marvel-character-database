@@ -39,13 +39,15 @@ CREATE TABLE character_teams (
   PRIMARY KEY (character_id, team_id)
 );
 
--- related_id is set when the related person is also in the database
+-- related_id is set when the related person is also in the database.
+-- Each pair is stored once; the profile query shows it on both characters' pages.
 CREATE TABLE relationships (
   id            INTEGER PRIMARY KEY AUTOINCREMENT,
   character_id  INTEGER NOT NULL REFERENCES characters(id) ON DELETE CASCADE,
   related_name  TEXT NOT NULL,
   related_id    INTEGER REFERENCES characters(id),
-  kind          TEXT NOT NULL CHECK (kind IN ('family', 'ally', 'romance', 'mentor', 'enemy'))
+  kind          TEXT NOT NULL CHECK (kind IN ('family', 'friend', 'romantic', 'enemy')),
+  detail        TEXT CHECK (detail IN ('mentor', 'protégé', 'best friend', 'cousin', 'twin', 'married'))
 );
 
 CREATE TABLE appearances (

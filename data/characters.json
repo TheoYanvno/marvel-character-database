@@ -21,20 +21,12 @@
     ],
     "relationships": [
       [
-        "May Parker",
-        "family"
-      ],
-      [
         "Ben Parker",
         "family"
       ],
       [
         "Mary Jane Watson",
-        "romance"
-      ],
-      [
-        "Green Goblin",
-        "enemy"
+        "romantic"
       ],
       [
         "Venom",
@@ -42,7 +34,12 @@
       ],
       [
         "Iron Man",
+        "friend",
         "mentor"
+      ],
+      [
+        "Doctor Strange",
+        "friend"
       ]
     ],
     "appearances": [
@@ -112,27 +109,23 @@
     "relationships": [
       [
         "Pepper Potts",
-        "romance"
+        "romantic"
       ],
       [
-        "James Rhodes",
-        "ally"
+        "War Machine",
+        "friend"
       ],
       [
-        "Captain America",
-        "ally"
-      ],
-      [
-        "Spider-Man",
-        "ally"
-      ],
-      [
-        "Obadiah Stane",
+        "Iron Monger",
         "enemy"
       ],
       [
         "Mandarin",
         "enemy"
+      ],
+      [
+        "Hulk",
+        "friend"
       ]
     ],
     "appearances": [
@@ -198,20 +191,16 @@
     ],
     "relationships": [
       [
-        "Bucky Barnes",
-        "ally"
+        "Winter Soldier",
+        "friend"
       ],
       [
         "Peggy Carter",
-        "romance"
-      ],
-      [
-        "Sam Wilson",
-        "ally"
+        "romantic"
       ],
       [
         "Iron Man",
-        "ally"
+        "friend"
       ],
       [
         "Red Skull",
@@ -287,24 +276,8 @@
     ],
     "relationships": [
       [
-        "Odin",
-        "family"
-      ],
-      [
-        "Loki",
-        "family"
-      ],
-      [
-        "Jane Foster",
-        "romance"
-      ],
-      [
-        "Hulk",
-        "ally"
-      ],
-      [
         "Hela",
-        "enemy"
+        "family"
       ]
     ],
     "appearances": [
@@ -363,24 +336,20 @@
     ],
     "relationships": [
       [
-        "Betty Ross",
-        "romance"
-      ],
-      [
         "She-Hulk",
         "family"
       ],
       [
         "Thor",
-        "ally"
+        "friend"
       ],
       [
-        "Thaddeus Ross",
+        "Red Hulk",
         "enemy"
       ],
       [
-        "Abomination",
-        "enemy"
+        "Black Widow",
+        "romantic"
       ]
     ],
     "appearances": [
@@ -449,19 +418,19 @@
     "relationships": [
       [
         "Hawkeye",
-        "ally"
+        "friend"
       ],
       [
         "Yelena Belova",
         "family"
       ],
       [
-        "Bucky Barnes",
-        "romance"
+        "Winter Soldier",
+        "romantic"
       ],
       [
         "Captain America",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -525,15 +494,20 @@
       ],
       [
         "Storm",
-        "romance"
+        "romantic"
       ],
       [
         "Killmonger",
         "enemy"
       ],
       [
-        "Klaw",
+        "Klaue",
         "enemy"
+      ],
+      [
+        "Killmonger",
+        "family",
+        "cousin"
       ]
     ],
     "appearances": [
@@ -588,15 +562,11 @@
     "relationships": [
       [
         "Monica Rambeau",
-        "ally"
+        "friend"
       ],
       [
         "Jessica Drew",
-        "ally"
-      ],
-      [
-        "Kamala Khan",
-        "ally"
+        "friend"
       ],
       [
         "Yon-Rogg",
@@ -657,23 +627,11 @@
     "relationships": [
       [
         "Jean Grey",
-        "romance"
+        "romantic"
       ],
       [
-        "Professor X",
-        "mentor"
-      ],
-      [
-        "X-23 (Laura Kinney)",
+        "X-23",
         "family"
-      ],
-      [
-        "Cyclops",
-        "ally"
-      ],
-      [
-        "Sabretooth",
-        "enemy"
       ]
     ],
     "appearances": [
@@ -730,20 +688,8 @@
     ],
     "relationships": [
       [
-        "Black Panther",
-        "romance"
-      ],
-      [
-        "Professor X",
-        "mentor"
-      ],
-      [
-        "Jean Grey",
-        "ally"
-      ],
-      [
         "Wolverine",
-        "ally"
+        "friend"
       ],
       [
         "Shadow King",
@@ -796,22 +742,14 @@
     "relationships": [
       [
         "Wong",
-        "ally"
-      ],
-      [
-        "The Ancient One",
-        "mentor"
-      ],
-      [
-        "Clea",
-        "romance"
+        "friend"
       ],
       [
         "Dormammu",
         "enemy"
       ],
       [
-        "Baron Mordo",
+        "Mordo",
         "enemy"
       ]
     ],
@@ -868,19 +806,12 @@
     ],
     "relationships": [
       [
-        "Quicksilver",
-        "family"
-      ],
-      [
         "Vision",
-        "romance"
-      ],
-      [
-        "Magneto",
-        "family"
+        "romantic"
       ],
       [
         "Agatha Harkness",
+        "friend",
         "mentor"
       ]
     ],
@@ -937,18 +868,6 @@
       "Black Order"
     ],
     "relationships": [
-      [
-        "Gamora",
-        "family"
-      ],
-      [
-        "Nebula",
-        "family"
-      ],
-      [
-        "Adam Warlock",
-        "enemy"
-      ],
       [
         "Captain Marvel",
         "enemy"
@@ -1012,12 +931,8 @@
         "family"
       ],
       [
-        "Laufey",
-        "family"
-      ],
-      [
         "Enchantress",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -1075,18 +990,19 @@
     "relationships": [
       [
         "Foggy Nelson",
-        "ally"
+        "friend"
       ],
       [
         "Karen Page",
-        "romance"
+        "romantic"
       ],
       [
         "Elektra",
-        "romance"
+        "romantic"
       ],
       [
         "Stick",
+        "friend",
         "mentor"
       ],
       [
@@ -1095,7 +1011,7 @@
       ],
       [
         "Punisher",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -1163,20 +1079,17 @@
     ],
     "relationships": [
       [
-        "Black Widow",
-        "ally"
-      ],
-      [
         "Kate Bishop",
+        "friend",
         "mentor"
       ],
       [
         "Mockingbird",
-        "romance"
+        "romantic"
       ],
       [
         "Captain America",
-        "ally"
+        "friend"
       ],
       [
         "Kingpin",
@@ -1247,15 +1160,16 @@
       ],
       [
         "Hank Pym",
+        "friend",
         "mentor"
       ],
       [
         "Wasp",
-        "romance"
+        "romantic"
       ],
       [
         "Iron Man",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -1316,20 +1230,24 @@
     ],
     "relationships": [
       [
-        "Scarlet Witch",
-        "romance"
-      ],
-      [
         "Ultron",
         "enemy"
       ],
       [
         "Iron Man",
-        "ally"
+        "friend"
       ],
       [
         "Captain America",
-        "ally"
+        "friend"
+      ],
+      [
+        "Wiccan",
+        "family"
+      ],
+      [
+        "Speed",
+        "family"
       ]
     ],
     "appearances": [
@@ -1385,11 +1303,12 @@
     "relationships": [
       [
         "Captain America",
+        "friend",
         "mentor"
       ],
       [
         "Winter Soldier",
-        "ally"
+        "friend"
       ],
       [
         "Red Skull",
@@ -1397,7 +1316,7 @@
       ],
       [
         "Black Widow",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -1461,19 +1380,24 @@
     "relationships": [
       [
         "Captain Marvel",
+        "friend",
         "mentor"
       ],
       [
         "Bruno Carrelli",
-        "ally"
+        "friend"
       ],
       [
         "Spider-Man",
-        "ally"
+        "friend"
       ],
       [
         "Wolverine",
-        "ally"
+        "friend"
+      ],
+      [
+        "Kate Bishop",
+        "friend"
       ]
     ],
     "appearances": [
@@ -1530,16 +1454,12 @@
     ],
     "relationships": [
       [
-        "Xu Wenwu",
-        "family"
-      ],
-      [
         "Katy Chen",
-        "ally"
+        "friend"
       ],
       [
         "Wong",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -1590,15 +1510,16 @@
     "relationships": [
       [
         "Khonshu",
+        "friend",
         "mentor"
       ],
       [
         "Marlene Alraune",
-        "romance"
+        "romantic"
       ],
       [
         "Jean-Paul Duchamp",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -1656,10 +1577,6 @@
       [
         "Spider-Man",
         "enemy"
-      ],
-      [
-        "Doctor Octopus",
-        "ally"
       ]
     ],
     "appearances": [
@@ -1720,11 +1637,11 @@
       ],
       [
         "May Parker",
-        "romance"
+        "romantic"
       ],
       [
         "Green Goblin",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -1783,7 +1700,7 @@
     "relationships": [
       [
         "Professor X",
-        "ally"
+        "friend"
       ],
       [
         "Scarlet Witch",
@@ -1795,7 +1712,7 @@
       ],
       [
         "Mystique",
-        "ally"
+        "friend"
       ],
       [
         "Wolverine",
@@ -1861,7 +1778,7 @@
       ],
       [
         "Doctor Strange",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -1911,16 +1828,8 @@
     ],
     "relationships": [
       [
-        "Captain America",
-        "enemy"
-      ],
-      [
         "Sinthea Schmidt",
         "family"
-      ],
-      [
-        "Falcon",
-        "enemy"
       ]
     ],
     "appearances": [
@@ -2038,11 +1947,7 @@
     "relationships": [
       [
         "Vanessa Fisk",
-        "romance"
-      ],
-      [
-        "Daredevil",
-        "enemy"
+        "romantic"
       ],
       [
         "Spider-Man",
@@ -2161,24 +2066,12 @@
     ],
     "relationships": [
       [
-        "Invisible Woman",
-        "romance"
-      ],
-      [
         "The Thing",
-        "ally"
+        "friend"
       ],
       [
         "Human Torch",
         "family"
-      ],
-      [
-        "Doctor Doom",
-        "enemy"
-      ],
-      [
-        "Galactus",
-        "enemy"
       ]
     ],
     "appearances": [
@@ -2229,15 +2122,11 @@
     "relationships": [
       [
         "Mister Fantastic",
-        "romance"
-      ],
-      [
-        "Human Torch",
-        "family"
+        "romantic"
       ],
       [
         "The Thing",
-        "ally"
+        "friend"
       ],
       [
         "Doctor Doom",
@@ -2291,16 +2180,8 @@
     ],
     "relationships": [
       [
-        "Mister Fantastic",
-        "ally"
-      ],
-      [
-        "Human Torch",
-        "ally"
-      ],
-      [
         "Alicia Masters",
-        "romance"
+        "romantic"
       ],
       [
         "Hulk",
@@ -2355,16 +2236,12 @@
     ],
     "relationships": [
       [
-        "Galactus",
-        "enemy"
-      ],
-      [
         "Shalla-Bal",
-        "romance"
+        "romantic"
       ],
       [
         "Mister Fantastic",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -2414,15 +2291,16 @@
     "relationships": [
       [
         "Jean Grey",
-        "romance"
+        "romantic"
       ],
       [
         "Professor X",
+        "friend",
         "mentor"
       ],
       [
         "Wolverine",
-        "ally"
+        "friend"
       ],
       [
         "Magneto",
@@ -2472,20 +2350,17 @@
     ],
     "relationships": [
       [
-        "Cyclops",
-        "romance"
-      ],
-      [
         "Professor X",
+        "friend",
         "mentor"
       ],
       [
         "Wolverine",
-        "ally"
+        "friend"
       ],
       [
         "Storm",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -2536,23 +2411,13 @@
     ],
     "relationships": [
       [
-        "Magneto",
-        "ally"
-      ],
-      [
-        "Cyclops",
-        "mentor"
-      ],
-      [
-        "Jean Grey",
-        "mentor"
-      ],
-      [
         "Storm",
+        "friend",
         "mentor"
       ],
       [
         "Wolverine",
+        "friend",
         "mentor"
       ]
     ],
@@ -2658,10 +2523,6 @@
       [
         "Nightcrawler",
         "family"
-      ],
-      [
-        "Magneto",
-        "ally"
       ],
       [
         "Wolverine",
@@ -2834,15 +2695,15 @@
     "relationships": [
       [
         "Wolverine",
-        "ally"
+        "friend"
       ],
       [
         "Cable",
-        "ally"
+        "friend"
       ],
       [
         "Vanessa Carlysle",
-        "romance"
+        "romantic"
       ]
     ],
     "appearances": [
@@ -2898,12 +2759,8 @@
         "enemy"
       ],
       [
-        "Kingpin",
-        "enemy"
-      ],
-      [
         "Microchip",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -2959,16 +2816,8 @@
     "teams": [],
     "relationships": [
       [
-        "Spider-Man",
-        "enemy"
-      ],
-      [
-        "Carnage",
-        "enemy"
-      ],
-      [
         "Anne Weying",
-        "romance"
+        "romantic"
       ]
     ],
     "appearances": [
@@ -3065,10 +2914,6 @@
     "teams": [],
     "relationships": [
       [
-        "Black Panther",
-        "enemy"
-      ],
-      [
         "Shuri",
         "enemy"
       ]
@@ -3123,7 +2968,7 @@
       ],
       [
         "Shriek",
-        "romance"
+        "romantic"
       ]
     ],
     "appearances": [
@@ -3175,7 +3020,7 @@
       ],
       [
         "Mystique",
-        "romance"
+        "romantic"
       ]
     ],
     "appearances": [
@@ -3228,7 +3073,7 @@
       ],
       [
         "Black Tom Cassidy",
-        "ally"
+        "friend"
       ],
       [
         "Colossus",
@@ -3486,15 +3331,7 @@
     "teams": [],
     "relationships": [
       [
-        "Doctor Strange",
-        "enemy"
-      ],
-      [
         "Umar",
-        "family"
-      ],
-      [
-        "Clea",
         "family"
       ]
     ],
@@ -3600,7 +3437,7 @@
       ],
       [
         "Kingpin",
-        "ally"
+        "friend"
       ],
       [
         "Elektra",
@@ -3655,16 +3492,7 @@
     "teams": [
       "Avengers"
     ],
-    "relationships": [
-      [
-        "Iron Man",
-        "romance"
-      ],
-      [
-        "Happy Hogan",
-        "ally"
-      ]
-    ],
+    "relationships": [],
     "appearances": [
       [
         "comic",
@@ -3716,15 +3544,15 @@
     "relationships": [
       [
         "Iron Man",
-        "ally"
+        "friend"
       ],
       [
         "Pepper Potts",
-        "ally"
+        "friend"
       ],
       [
         "Spider-Man",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -3781,12 +3609,12 @@
     ],
     "relationships": [
       [
-        "Iron Man",
-        "ally"
+        "Falcon",
+        "friend"
       ],
       [
-        "Falcon",
-        "ally"
+        "Captain Marvel",
+        "friend"
       ]
     ],
     "appearances": [
@@ -3841,12 +3669,7 @@
       "Superhuman strength (armor)"
     ],
     "teams": [],
-    "relationships": [
-      [
-        "Iron Man",
-        "enemy"
-      ]
-    ],
+    "relationships": [],
     "appearances": [
       [
         "comic",
@@ -3888,10 +3711,6 @@
       [
         "Iron Man",
         "enemy"
-      ],
-      [
-        "Justin Hammer",
-        "ally"
       ]
     ],
     "appearances": [
@@ -3937,7 +3756,7 @@
       ],
       [
         "Whiplash",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -4025,7 +3844,7 @@
     "relationships": [
       [
         "Hulk",
-        "romance"
+        "romantic"
       ],
       [
         "Red Hulk",
@@ -4078,20 +3897,7 @@
     "teams": [
       "Thunderbolts"
     ],
-    "relationships": [
-      [
-        "Hulk",
-        "enemy"
-      ],
-      [
-        "Betty Ross",
-        "family"
-      ],
-      [
-        "Leader",
-        "enemy"
-      ]
-    ],
+    "relationships": [],
     "appearances": [
       [
         "comic",
@@ -4201,16 +4007,8 @@
         "family"
       ],
       [
-        "Loki",
-        "family"
-      ],
-      [
         "Hela",
         "family"
-      ],
-      [
-        "Frigga",
-        "romance"
       ]
     ],
     "appearances": [
@@ -4261,7 +4059,7 @@
     "relationships": [
       [
         "Odin",
-        "romance"
+        "romantic"
       ],
       [
         "Thor",
@@ -4320,11 +4118,11 @@
     "relationships": [
       [
         "Thor",
-        "ally"
+        "friend"
       ],
       [
         "Odin",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -4378,7 +4176,7 @@
     "relationships": [
       [
         "Thor",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -4523,7 +4321,11 @@
     "relationships": [
       [
         "Thor",
-        "romance"
+        "romantic"
+      ],
+      [
+        "Valkyrie",
+        "friend"
       ]
     ],
     "appearances": [
@@ -4578,11 +4380,15 @@
     "relationships": [
       [
         "Thor",
-        "ally"
+        "friend"
       ],
       [
         "Hulk",
-        "ally"
+        "friend"
+      ],
+      [
+        "Korg",
+        "friend"
       ]
     ],
     "appearances": [
@@ -4634,11 +4440,11 @@
     "relationships": [
       [
         "Thor",
-        "ally"
+        "friend"
       ],
       [
         "Hulk",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -4681,10 +4487,6 @@
     ],
     "teams": [],
     "relationships": [
-      [
-        "Collector",
-        "family"
-      ],
       [
         "Thor",
         "enemy"
@@ -4734,7 +4536,7 @@
     "relationships": [
       [
         "Hela",
-        "ally"
+        "friend"
       ],
       [
         "Thor",
@@ -4832,14 +4634,6 @@
     ],
     "relationships": [
       [
-        "Captain America",
-        "ally"
-      ],
-      [
-        "Falcon",
-        "ally"
-      ],
-      [
         "Baron Zemo",
         "enemy"
       ]
@@ -4905,10 +4699,6 @@
     ],
     "relationships": [
       [
-        "Captain America",
-        "romance"
-      ],
-      [
         "Sharon Carter",
         "family"
       ]
@@ -4965,12 +4755,8 @@
     ],
     "relationships": [
       [
-        "Peggy Carter",
-        "family"
-      ],
-      [
         "Captain America",
-        "romance"
+        "romantic"
       ]
     ],
     "appearances": [
@@ -5023,7 +4809,7 @@
     "relationships": [
       [
         "Red Skull",
-        "ally"
+        "friend"
       ],
       [
         "Captain America",
@@ -5079,11 +4865,11 @@
     "relationships": [
       [
         "Captain America",
-        "ally"
+        "friend"
       ],
       [
         "Nick Fury",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -5133,7 +4919,7 @@
       ],
       [
         "Red Skull",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -5239,15 +5025,11 @@
     "relationships": [
       [
         "Captain Marvel",
-        "ally"
-      ],
-      [
-        "Maria Hill",
-        "ally"
+        "friend"
       ],
       [
         "Talos",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -5316,7 +5098,7 @@
     "relationships": [
       [
         "Nick Fury",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -5367,20 +5149,12 @@
     ],
     "relationships": [
       [
-        "Gamora",
-        "romance"
-      ],
-      [
-        "Ego",
-        "family"
-      ],
-      [
         "Yondu",
         "family"
       ],
       [
-        "Rocket",
-        "ally"
+        "Groot",
+        "friend"
       ]
     ],
     "appearances": [
@@ -5445,7 +5219,7 @@
       ],
       [
         "Star-Lord",
-        "romance"
+        "romantic"
       ]
     ],
     "appearances": [
@@ -5504,11 +5278,11 @@
       ],
       [
         "Mantis",
-        "ally"
+        "friend"
       ],
       [
         "Star-Lord",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -5559,16 +5333,8 @@
     ],
     "relationships": [
       [
-        "Groot",
-        "ally"
-      ],
-      [
-        "High Evolutionary",
-        "enemy"
-      ],
-      [
         "Star-Lord",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -5626,7 +5392,7 @@
     "relationships": [
       [
         "Rocket",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -5677,16 +5443,12 @@
     ],
     "relationships": [
       [
-        "Gamora",
-        "family"
-      ],
-      [
         "Thanos",
         "family"
       ],
       [
         "Iron Man",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -5740,16 +5502,7 @@
     "teams": [
       "Guardians of the Galaxy"
     ],
-    "relationships": [
-      [
-        "Star-Lord",
-        "family"
-      ],
-      [
-        "Ego",
-        "enemy"
-      ]
-    ],
+    "relationships": [],
     "appearances": [
       [
         "comic",
@@ -5801,7 +5554,7 @@
       ],
       [
         "Thanos",
-        "ally"
+        "friend"
       ],
       [
         "Star-Lord",
@@ -5912,14 +5665,6 @@
     ],
     "relationships": [
       [
-        "Drax the Destroyer",
-        "ally"
-      ],
-      [
-        "Ego",
-        "enemy"
-      ],
-      [
         "Star-Lord",
         "family"
       ]
@@ -6022,15 +5767,11 @@
     "relationships": [
       [
         "Janet van Dyne",
-        "romance"
+        "romantic"
       ],
       [
         "Wasp",
         "family"
-      ],
-      [
-        "Ant-Man",
-        "mentor"
       ],
       [
         "Ultron",
@@ -6086,20 +5827,7 @@
     "teams": [
       "Avengers"
     ],
-    "relationships": [
-      [
-        "Hank Pym",
-        "family"
-      ],
-      [
-        "Janet van Dyne",
-        "family"
-      ],
-      [
-        "Ant-Man",
-        "romance"
-      ]
-    ],
+    "relationships": [],
     "appearances": [
       [
         "comic",
@@ -6149,10 +5877,6 @@
       "Avengers"
     ],
     "relationships": [
-      [
-        "Hank Pym",
-        "romance"
-      ],
       [
         "Wasp",
         "family"
@@ -6218,7 +5942,7 @@
       ],
       [
         "Kang the Conqueror",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -6268,11 +5992,8 @@
     ],
     "relationships": [
       [
-        "Ant-Man",
-        "family"
-      ],
-      [
         "Hank Pym",
+        "friend",
         "mentor"
       ]
     ],
@@ -6327,6 +6048,7 @@
     "relationships": [
       [
         "Goliath",
+        "friend",
         "mentor"
       ],
       [
@@ -6335,7 +6057,7 @@
       ],
       [
         "Yelena Belova",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -6433,11 +6155,11 @@
     "relationships": [
       [
         "Ant-Man",
-        "ally"
+        "friend"
       ],
       [
         "Scarlet Witch",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -6487,6 +6209,7 @@
     "relationships": [
       [
         "Doctor Strange",
+        "friend",
         "mentor"
       ],
       [
@@ -6495,6 +6218,7 @@
       ],
       [
         "Mordo",
+        "friend",
         "mentor"
       ]
     ],
@@ -6535,16 +6259,7 @@
       "Astral projection"
     ],
     "teams": [],
-    "relationships": [
-      [
-        "Doctor Strange",
-        "enemy"
-      ],
-      [
-        "Ancient One",
-        "mentor"
-      ]
-    ],
+    "relationships": [],
     "appearances": [
       [
         "comic",
@@ -6590,12 +6305,8 @@
     "teams": [],
     "relationships": [
       [
-        "Doctor Strange",
-        "ally"
-      ],
-      [
         "She-Hulk",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -6649,7 +6360,7 @@
     "relationships": [
       [
         "Dormammu",
-        "ally"
+        "friend"
       ],
       [
         "Doctor Strange",
@@ -6694,7 +6405,7 @@
     "relationships": [
       [
         "Doctor Strange",
-        "romance"
+        "romantic"
       ]
     ],
     "appearances": [
@@ -6741,7 +6452,7 @@
       ],
       [
         "Happy Hogan",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -6799,7 +6510,7 @@
       ],
       [
         "Vulture",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -6841,7 +6552,7 @@
     "relationships": [
       [
         "Vulture",
-        "ally"
+        "friend"
       ],
       [
         "Spider-Man",
@@ -6887,7 +6598,7 @@
     "relationships": [
       [
         "Spider-Man",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -6932,7 +6643,7 @@
     "relationships": [
       [
         "Spider-Man",
-        "romance"
+        "romantic"
       ],
       [
         "Vulture",
@@ -7028,7 +6739,7 @@
       ],
       [
         "Vulture",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -7117,20 +6828,7 @@
       "Black Panther powers (heart-shaped herb)"
     ],
     "teams": [],
-    "relationships": [
-      [
-        "Black Panther",
-        "family"
-      ],
-      [
-        "Okoye",
-        "ally"
-      ],
-      [
-        "Namor",
-        "enemy"
-      ]
-    ],
+    "relationships": [],
     "appearances": [
       [
         "comic",
@@ -7182,11 +6880,11 @@
     "relationships": [
       [
         "Black Panther",
-        "ally"
+        "friend"
       ],
       [
         "Shuri",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -7231,11 +6929,11 @@
     "relationships": [
       [
         "Black Panther",
-        "romance"
+        "romantic"
       ],
       [
         "Shuri",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -7279,11 +6977,11 @@
     "relationships": [
       [
         "Black Panther",
-        "ally"
+        "friend"
       ],
       [
         "Shuri",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -7327,16 +7025,12 @@
     "teams": [],
     "relationships": [
       [
-        "Black Panther",
-        "enemy"
-      ],
-      [
         "Killmonger",
-        "ally"
+        "friend"
       ],
       [
         "Ultron",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -7388,7 +7082,7 @@
     "relationships": [
       [
         "Thanos",
-        "ally"
+        "friend"
       ],
       [
         "Doctor Strange",
@@ -7438,11 +7132,7 @@
     "relationships": [
       [
         "Thanos",
-        "ally"
-      ],
-      [
-        "Corvus Glaive",
-        "romance"
+        "friend"
       ]
     ],
     "appearances": [
@@ -7488,11 +7178,11 @@
     "relationships": [
       [
         "Thanos",
-        "ally"
+        "friend"
       ],
       [
         "Proxima Midnight",
-        "romance"
+        "romantic"
       ],
       [
         "Vision",
@@ -7542,7 +7232,7 @@
     "relationships": [
       [
         "Thanos",
-        "ally"
+        "friend"
       ],
       [
         "Hulk",
@@ -7588,12 +7278,8 @@
     "teams": [],
     "relationships": [
       [
-        "Nick Fury",
-        "ally"
-      ],
-      [
         "Captain Marvel",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -7648,7 +7334,7 @@
       ],
       [
         "Ronan the Accuser",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -7691,6 +7377,7 @@
     "relationships": [
       [
         "Captain Marvel",
+        "friend",
         "mentor"
       ]
     ],
@@ -7739,12 +7426,8 @@
         "family"
       ],
       [
-        "Magneto",
-        "family"
-      ],
-      [
         "Hawkeye",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -7796,7 +7479,7 @@
     "relationships": [
       [
         "Yondu",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -7841,16 +7524,8 @@
     ],
     "relationships": [
       [
-        "Black Widow",
-        "family"
-      ],
-      [
-        "Red Guardian",
-        "family"
-      ],
-      [
-        "Valentina Allegra de Fontaine",
-        "ally"
+        "Winter Soldier",
+        "friend"
       ]
     ],
     "appearances": [
@@ -7968,7 +7643,7 @@
       ],
       [
         "Yelena Belova",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -8026,7 +7701,7 @@
       ],
       [
         "Red Guardian",
-        "romance"
+        "romantic"
       ]
     ],
     "appearances": [
@@ -8073,7 +7748,7 @@
       ],
       [
         "Mandarin",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -8119,15 +7794,11 @@
     "relationships": [
       [
         "Sersi",
-        "romance"
-      ],
-      [
-        "Ajak",
-        "mentor"
+        "romantic"
       ],
       [
         "Arishem",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -8170,20 +7841,7 @@
       "Eternals",
       "Avengers"
     ],
-    "relationships": [
-      [
-        "Ikaris",
-        "romance"
-      ],
-      [
-        "Black Knight",
-        "romance"
-      ],
-      [
-        "Ajak",
-        "mentor"
-      ]
-    ],
+    "relationships": [],
     "appearances": [
       [
         "comic",
@@ -8223,16 +7881,7 @@
     "teams": [
       "Eternals"
     ],
-    "relationships": [
-      [
-        "Gilgamesh",
-        "ally"
-      ],
-      [
-        "Kro",
-        "enemy"
-      ]
-    ],
+    "relationships": [],
     "appearances": [
       [
         "comic",
@@ -8275,14 +7924,16 @@
     "relationships": [
       [
         "Arishem",
-        "ally"
+        "friend"
       ],
       [
         "Ikaris",
+        "friend",
         "mentor"
       ],
       [
         "Sersi",
+        "friend",
         "mentor"
       ]
     ],
@@ -8328,7 +7979,7 @@
     "relationships": [
       [
         "Sersi",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -8372,11 +8023,11 @@
     "relationships": [
       [
         "Ikaris",
-        "romance"
+        "romantic"
       ],
       [
         "Sersi",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -8421,7 +8072,11 @@
     "relationships": [
       [
         "Sersi",
-        "ally"
+        "friend"
+      ],
+      [
+        "Makkari",
+        "friend"
       ]
     ],
     "appearances": [
@@ -8462,12 +8117,7 @@
     "teams": [
       "Eternals"
     ],
-    "relationships": [
-      [
-        "Druig",
-        "romance"
-      ]
-    ],
+    "relationships": [],
     "appearances": [
       [
         "comic",
@@ -8509,7 +8159,7 @@
     "relationships": [
       [
         "Makkari",
-        "romance"
+        "romantic"
       ],
       [
         "Ikaris",
@@ -8559,7 +8209,7 @@
     "relationships": [
       [
         "Thena",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -8648,10 +8298,6 @@
     "teams": [],
     "relationships": [
       [
-        "Ajak",
-        "ally"
-      ],
-      [
         "Sersi",
         "enemy"
       ]
@@ -8699,10 +8345,6 @@
       [
         "Thanos",
         "family"
-      ],
-      [
-        "Pip the Troll",
-        "ally"
       ]
     ],
     "appearances": [
@@ -8747,7 +8389,7 @@
     "relationships": [
       [
         "Sersi",
-        "romance"
+        "romantic"
       ]
     ],
     "appearances": [
@@ -8789,11 +8431,7 @@
     "relationships": [
       [
         "Starfox",
-        "ally"
-      ],
-      [
-        "Adam Warlock",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -8838,7 +8476,7 @@
     "relationships": [
       [
         "Doctor Strange",
-        "ally"
+        "friend"
       ],
       [
         "Scarlet Witch",
@@ -8846,7 +8484,7 @@
       ],
       [
         "Wong",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -8888,7 +8526,7 @@
     "relationships": [
       [
         "Doctor Strange",
-        "romance"
+        "romantic"
       ],
       [
         "Dormammu",
@@ -8938,11 +8576,11 @@
     "relationships": [
       [
         "Mister Fantastic",
-        "ally"
+        "friend"
       ],
       [
         "Professor X",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -9084,10 +8722,6 @@
         "enemy"
       ],
       [
-        "Attuma",
-        "ally"
-      ],
-      [
         "Namora",
         "family"
       ]
@@ -9132,15 +8766,20 @@
     "relationships": [
       [
         "Iron Man",
+        "friend",
         "mentor"
       ],
       [
         "Shuri",
-        "ally"
+        "friend"
       ],
       [
         "The Hood",
         "enemy"
+      ],
+      [
+        "The Hood",
+        "friend"
       ]
     ],
     "appearances": [
@@ -9189,7 +8828,7 @@
     "relationships": [
       [
         "Namor",
-        "ally"
+        "friend"
       ],
       [
         "Okoye",
@@ -9233,12 +8872,7 @@
       "Underwater breathing"
     ],
     "teams": [],
-    "relationships": [
-      [
-        "Namor",
-        "family"
-      ]
-    ],
+    "relationships": [],
     "appearances": [
       [
         "comic",
@@ -9280,11 +8914,11 @@
     "relationships": [
       [
         "Okoye",
-        "ally"
+        "friend"
       ],
       [
         "Shuri",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -9333,7 +8967,7 @@
       ],
       [
         "Pip the Troll",
-        "ally"
+        "friend"
       ],
       [
         "Star-Lord",
@@ -9435,7 +9069,7 @@
     "relationships": [
       [
         "Rocket",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -9480,12 +9114,7 @@
       "X-Men",
       "X-Force"
     ],
-    "relationships": [
-      [
-        "Wolverine",
-        "family"
-      ]
-    ],
+    "relationships": [],
     "appearances": [
       [
         "comic",
@@ -9578,14 +9207,6 @@
     ],
     "relationships": [
       [
-        "Daredevil",
-        "romance"
-      ],
-      [
-        "Bullseye",
-        "enemy"
-      ],
-      [
         "Kingpin",
         "enemy"
       ]
@@ -9636,7 +9257,7 @@
     "relationships": [
       [
         "Deadpool",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -9688,11 +9309,11 @@
     "relationships": [
       [
         "Wolverine",
-        "ally"
+        "friend"
       ],
       [
         "Deadpool",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -9741,11 +9362,11 @@
       ],
       [
         "The Thing",
-        "ally"
+        "friend"
       ],
       [
         "Mister Fantastic",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -9841,7 +9462,7 @@
     "relationships": [
       [
         "Yelena Belova",
-        "ally"
+        "friend"
       ],
       [
         "Valentina Allegra de Fontaine",
@@ -9935,7 +9556,7 @@
     "relationships": [
       [
         "Mister Fantastic",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -9982,7 +9603,7 @@
       ],
       [
         "Kingpin",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -10026,10 +9647,6 @@
       [
         "Shang-Chi",
         "family"
-      ],
-      [
-        "Iron Man",
-        "enemy"
       ]
     ],
     "appearances": [
@@ -10166,11 +9783,12 @@
       ],
       [
         "Wiccan",
+        "friend",
         "mentor"
       ],
       [
         "Death",
-        "romance"
+        "romantic"
       ]
     ],
     "appearances": [
@@ -10227,11 +9845,11 @@
       ],
       [
         "Ms. Marvel",
-        "ally"
+        "friend"
       ],
       [
         "Scarlet Witch",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -10291,14 +9909,6 @@
       [
         "Scarlet Witch",
         "family"
-      ],
-      [
-        "Speed",
-        "family"
-      ],
-      [
-        "Agatha Harkness",
-        "mentor"
       ]
     ],
     "appearances": [
@@ -10412,7 +10022,7 @@
       ],
       [
         "Valentina Allegra de Fontaine",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -10461,11 +10071,11 @@
     "relationships": [
       [
         "Falcon",
-        "ally"
+        "friend"
       ],
       [
         "Captain America",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -10567,19 +10177,15 @@
     "relationships": [
       [
         "Nick Fury",
-        "romance"
-      ],
-      [
-        "U.S. Agent",
-        "ally"
+        "romantic"
       ],
       [
         "Yelena Belova",
-        "ally"
+        "friend"
       ],
       [
         "Sentry",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -10632,7 +10238,7 @@
     "relationships": [
       [
         "Falcon",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -10682,7 +10288,7 @@
     "relationships": [
       [
         "Loki",
-        "romance"
+        "romantic"
       ],
       [
         "Kang the Conqueror",
@@ -10730,11 +10336,11 @@
     "relationships": [
       [
         "Loki",
-        "ally"
+        "friend"
       ],
       [
         "Ravonna Renslayer",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -10784,11 +10390,7 @@
     "relationships": [
       [
         "Kang the Conqueror",
-        "romance"
-      ],
-      [
-        "Mobius M. Mobius",
-        "ally"
+        "romantic"
       ],
       [
         "Loki",
@@ -10836,16 +10438,16 @@
     ],
     "relationships": [
       [
-        "Hawkeye",
-        "mentor"
-      ],
-      [
         "Yelena Belova",
         "enemy"
       ],
       [
         "Kingpin",
         "enemy"
+      ],
+      [
+        "Swordsman",
+        "family"
       ]
     ],
     "appearances": [
@@ -10894,11 +10496,15 @@
       ],
       [
         "Daredevil",
-        "romance"
+        "romantic"
       ],
       [
         "Hawkeye",
         "enemy"
+      ],
+      [
+        "Daredevil",
+        "friend"
       ]
     ],
     "appearances": [
@@ -10947,11 +10553,11 @@
     "relationships": [
       [
         "Hawkeye",
-        "ally"
+        "friend"
       ],
       [
         "Kate Bishop",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -10995,11 +10601,12 @@
     "relationships": [
       [
         "Hawkeye",
+        "friend",
         "mentor"
       ],
       [
         "Kate Bishop",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -11042,16 +10649,7 @@
       "Controlling the night sky"
     ],
     "teams": [],
-    "relationships": [
-      [
-        "Moon Knight",
-        "ally"
-      ],
-      [
-        "Arthur Harrow",
-        "enemy"
-      ]
-    ],
+    "relationships": [],
     "appearances": [
       [
         "comic",
@@ -11141,16 +10739,12 @@
     ],
     "relationships": [
       [
-        "Hulk",
-        "family"
-      ],
-      [
         "Titania",
         "enemy"
       ],
       [
         "Daredevil",
-        "romance"
+        "romantic"
       ]
     ],
     "appearances": [
@@ -11191,12 +10785,7 @@
     "teams": [
       "Masters of Evil"
     ],
-    "relationships": [
-      [
-        "She-Hulk",
-        "enemy"
-      ]
-    ],
+    "relationships": [],
     "appearances": [
       [
         "comic",
@@ -11282,7 +10871,7 @@
     "relationships": [
       [
         "She-Hulk",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -11322,16 +10911,7 @@
       "Enhanced senses"
     ],
     "teams": [],
-    "relationships": [
-      [
-        "Elsa Bloodstone",
-        "ally"
-      ],
-      [
-        "Man-Thing",
-        "ally"
-      ]
-    ],
+    "relationships": [],
     "appearances": [
       [
         "comic",
@@ -11372,7 +10952,7 @@
     "relationships": [
       [
         "Werewolf by Night",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -11415,7 +10995,7 @@
     "relationships": [
       [
         "Werewolf by Night",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -11458,11 +11038,7 @@
     "relationships": [
       [
         "Thanos",
-        "romance"
-      ],
-      [
-        "Agatha Harkness",
-        "romance"
+        "romantic"
       ]
     ],
     "appearances": [
@@ -11502,16 +11078,8 @@
     "teams": [],
     "relationships": [
       [
-        "Daredevil",
-        "romance"
-      ],
-      [
-        "Foggy Nelson",
-        "ally"
-      ],
-      [
         "Punisher",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -11555,12 +11123,8 @@
     "teams": [],
     "relationships": [
       [
-        "Daredevil",
-        "ally"
-      ],
-      [
         "Karen Page",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -11602,10 +11166,6 @@
     ],
     "teams": [],
     "relationships": [
-      [
-        "Kingpin",
-        "romance"
-      ],
       [
         "Daredevil",
         "enemy"
@@ -11652,7 +11212,7 @@
     "relationships": [
       [
         "Daredevil",
-        "ally"
+        "friend"
       ]
     ],
     "appearances": [
@@ -11735,16 +11295,7 @@
       "Dark magic"
     ],
     "teams": [],
-    "relationships": [
-      [
-        "Ironheart",
-        "enemy"
-      ],
-      [
-        "Mephisto",
-        "ally"
-      ]
-    ],
+    "relationships": [],
     "appearances": [
       [
         "comic",
@@ -11790,7 +11341,7 @@
       ],
       [
         "The Hood",
-        "ally"
+        "friend"
       ],
       [
         "Ironheart",
@@ -11845,6 +11396,10 @@
       [
         "Vision",
         "family"
+      ],
+      [
+        "Mandarin",
+        "friend"
       ]
     ],
     "appearances": [

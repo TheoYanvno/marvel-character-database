@@ -57,7 +57,7 @@ window.staticApi = {
       ...c,
       powers: rows(db, Q.character_powers, [id]).map((r) => r.name),
       teams: rows(db, Q.character_teams, [id]).map((r) => r.name),
-      relationships: rows(db, Q.character_relationships, [id]),
+      relationships: rows(db, Q.character_relationships, [id, id, id]),
       appearances: rows(db, Q.character_appearances, [id]),
       mcu_titles: rows(db, Q.character_mcu_titles, [id]),
     };
