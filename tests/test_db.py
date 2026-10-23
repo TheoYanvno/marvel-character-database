@@ -48,6 +48,7 @@ class DatabaseTests(unittest.TestCase):
     def test_mcu_appearances(self):
         spidey = db.get_character(self.conn, db.search(self.conn, "Peter Parker")[0]["id"])
         self.assertEqual(spidey["mcu_actor"], "Tom Holland")
+        self.assertIn("Doctor Strange", spidey["mcu_lore"])
         self.assertEqual(spidey["mcu_titles"][0], {"title": "Captain America: Civil War", "kind": "film", "year": 2016})
         years = [t["year"] for t in spidey["mcu_titles"]]
         self.assertEqual(years, sorted(years))                       # release order
@@ -56,6 +57,9 @@ class DatabaseTests(unittest.TestCase):
         storm = db.get_character(self.conn, db.search(self.conn, "Ororo")[0]["id"])
         self.assertEqual(storm["mcu_titles"], [])
         self.assertIn("Not in the MCU yet", storm["mcu_note"])
+        missing = self.conn.execute("""SELECT hero_name FROM characters
+            WHERE (mcu_lore IS NULL) = (mcu_note IS NULL)""").fetchall()
+        self.assertEqual(missing, [])                 # everyone has either an MCU story or a note
 
     def test_search_by_actor(self):
         self.assertEqual([c["hero_name"] for c in db.search(self.conn, "Hiddleston")], ["Loki"])

@@ -12,6 +12,7 @@ CREATE TABLE characters (
   origin           TEXT NOT NULL,
   color            TEXT NOT NULL,          -- card accent color
   mcu_actor        TEXT,                   -- who plays them in the Marvel Cinematic Universe
+  mcu_lore         TEXT,                   -- their story in the MCU
   mcu_note         TEXT                    -- set instead when they haven't appeared in the MCU yet
 );
 

@@ -40,11 +40,11 @@ def build(conn, data_file=DATA, titles_file=TITLES):
             cid = conn.execute(
                 """INSERT INTO characters
                    (hero_name, real_name, alignment, first_appearance, first_year, creators, origin, color,
-                    mcu_actor, mcu_note)
-                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                    mcu_actor, mcu_lore, mcu_note)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
                 (c["hero_name"], c["real_name"], c["alignment"], c["first_appearance"],
                  c["first_year"], c["creators"], c["origin"], c["color"],
-                 mcu.get("actor"), mcu.get("note")),
+                 mcu.get("actor"), mcu.get("lore"), mcu.get("note")),
             ).lastrowid
             for t in mcu.get("titles", []):
                 # "Title", or ["Title", year] for a later season

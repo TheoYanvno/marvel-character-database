@@ -76,6 +76,7 @@ function mcuSection(c) {
       <div><dt>Played by</dt><dd>${esc(c.mcu_actor)}</dd></div>
       <div><dt>First MCU appearance</dt><dd>${esc(first.title)} (${first.year})</dd></div>
     </dl>
+    ${c.mcu_lore ? `<p class="lore">${esc(c.mcu_lore)}</p>` : ''}
     <h4>Movies and shows <span class="count">${c.mcu_titles.length}</span></h4>
     <ul class="titles">${c.mcu_titles.map((t) => `
       <li class="title-${t.kind}"><span class="year">${t.year}</span> ${esc(t.title)}${t.kind === 'series' ? ' <span class="meta">(series)</span>' : ''}</li>`).join('')}
