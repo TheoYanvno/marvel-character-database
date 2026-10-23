@@ -13,7 +13,9 @@ CREATE TABLE characters (
   color            TEXT NOT NULL,          -- card accent color
   mcu_actor        TEXT,                   -- who plays them in the Marvel Cinematic Universe
   mcu_lore         TEXT,                   -- their story in the MCU
-  mcu_note         TEXT                    -- set instead when they haven't appeared in the MCU yet
+  mcu_note         TEXT,                   -- set instead when they haven't appeared in the MCU yet
+  image            TEXT,                   -- optional photo for the card: a file name in app/static/images/
+  image_credit     TEXT                    -- who the photo is by / where it's from, shown on the profile
 );
 
 CREATE TABLE powers (

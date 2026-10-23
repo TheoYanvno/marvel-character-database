@@ -11,6 +11,8 @@ ROOT = Path(__file__).resolve().parent.parent
 SCHEMA = ROOT / "sql" / "schema.sql"
 DATA = ROOT / "data" / "characters.json"
 TITLES = ROOT / "data" / "mcu_titles.json"
+IMAGES = ROOT / "app" / "static" / "images"     # card photos; see the README in that folder
+IMAGE_TYPES = (".jpg", ".jpeg", ".png", ".webp")
 QUERIES_FILE = ROOT / "sql" / "app_queries.sql"
 
 
@@ -21,6 +23,18 @@ def connect(path=":memory:"):
     return conn
 
 
+def _image(character, images_dir):
+    """The card photo's file name, checked so a typo shows up when the database is built, not as a broken image."""
+    name = character.get("image")
+    if not name:
+        return None
+    if "/" in name or "\\" in name or not name.lower().endswith(IMAGE_TYPES):
+        raise ValueError(f"{character['hero_name']}: image must be a file name ending in {', '.join(IMAGE_TYPES)}, got {name!r}")
+    if not (Path(images_dir) / name).is_file():
+        raise ValueError(f"{character['hero_name']}: image {name!r} is not in {images_dir}")
+    return name
+
+
 def _get_or_create(conn, table, name):
     row = conn.execute(f"SELECT id FROM {table} WHERE name = ?", (name,)).fetchone()
     if row:
@@ -28,7 +42,7 @@ def _get_or_create(conn, table, name):
     return conn.execute(f"INSERT INTO {table} (name) VALUES (?)", (name,)).lastrowid
 
 
-def build(conn, data_file=DATA, titles_file=TITLES):
+def build(conn, data_file=DATA, titles_file=TITLES, images_dir=IMAGES):
     """Create the tables and load characters.json and mcu_titles.json inside one transaction."""
     conn.executescript(SCHEMA.read_text())
     characters = json.loads(Path(data_file).read_text())
@@ -40,11 +54,12 @@ def build(conn, data_file=DATA, titles_file=TITLES):
             cid = conn.execute(
                 """INSERT INTO characters
                    (hero_name, real_name, alignment, first_appearance, first_year, creators, origin, color,
-                    mcu_actor, mcu_lore, mcu_note)
-                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                    mcu_actor, mcu_lore, mcu_note, image, image_credit)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
                 (c["hero_name"], c["real_name"], c["alignment"], c["first_appearance"],
                  c["first_year"], c["creators"], c["origin"], c["color"],
-                 mcu.get("actor"), mcu.get("lore"), mcu.get("note")),
+                 mcu.get("actor"), mcu.get("lore"), mcu.get("note"),
+                 _image(c, images_dir), c.get("image_credit")),
             ).lastrowid
             for t in mcu.get("titles", []):
                 # "Title", or ["Title", year] for a later season

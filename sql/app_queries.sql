@@ -8,7 +8,7 @@
 -- (hero, villain or antihero; an empty string means all). Characters whose hero name starts with the
 -- search come first, then other name matches, then power and actor matches.
 -- Params: like, like, like, like, side, side, prefix, like, like
-SELECT c.id, c.hero_name, c.real_name, c.alignment, c.first_year, c.color
+SELECT c.id, c.hero_name, c.real_name, c.alignment, c.first_year, c.color, c.image
 FROM characters c
 WHERE EXISTS (
         SELECT 1 FROM character_powers cp JOIN powers p ON p.id = cp.power_id

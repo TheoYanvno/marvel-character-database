@@ -11,9 +11,16 @@ const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const monogram = (name) => name.split(/[\s-]+/).map((w) => w[0]).join('').slice(0, 2).toUpperCase();
 
+// Card photos live in app/static/images/ (copied to images/ on the live demo). A character with no
+// photo yet keeps the color card with its initials. See app/static/images/README.md to add one.
+const IMAGES = window.staticApi ? 'images/' : '/static/images/';
+const photo = (c) => (c.image
+  ? `<img class="photo" src="${IMAGES}${encodeURIComponent(c.image)}" alt="" loading="lazy" onerror="this.remove()">`
+  : `<span class="monogram">${monogram(c.hero_name)}</span>`);
+
 const card = (c, tag = 'button') => `
-  <${tag} class="card" data-id="${c.id}" style="--accent:${c.color}" aria-label="${esc(c.hero_name)}">
-    <span class="monogram">${monogram(c.hero_name)}</span>
+  <${tag} class="card${c.image ? ' has-photo' : ''}" data-id="${c.id}" style="--accent:${c.color}" aria-label="${esc(c.hero_name)}">
+    ${photo(c)}
     <span class="badge">${c.alignment}</span>
     <span class="name">${esc(c.hero_name)}</span>
     <span class="real">${esc(c.real_name)} · ${c.first_year}</span>
@@ -125,6 +132,7 @@ async function showCharacter(id) {
   $('info').innerHTML = `
     <h2>${esc(c.hero_name)}</h2>
     <p class="meta">${esc(c.real_name)} · First appeared in ${esc(c.first_appearance)} (${c.first_year}) · Created by ${esc(c.creators)}</p>
+    ${c.image && c.image_credit ? `<p class="meta credit">Photo: ${esc(c.image_credit)}</p>` : ''}
 
     <h3>Origin</h3>
     <p>${esc(c.origin)}</p>

@@ -118,6 +118,27 @@ class DatabaseTests(unittest.TestCase):
         self.assertTrue(all(r["characters"] > 1 for r in s["top_powers"]))
         self.assertEqual(s["most_mcu_titles"][0]["hero_name"], "Nick Fury")
 
+    def test_card_photos(self):
+        """No photos yet: every card falls back to its color and initials. A listed photo must really exist."""
+        self.assertTrue(all(c["image"] is None for c in db.search(self.conn, "")))
+        import tempfile
+        with tempfile.TemporaryDirectory() as tmp:
+            characters = json.loads(db.DATA.read_text())
+            characters[0] = {**characters[0], "image": "spider-man.jpg", "image_credit": "Test photo"}
+            data = Path(tmp) / "characters.json"
+            data.write_text(json.dumps(characters))
+            with self.assertRaisesRegex(ValueError, "Spider-Man: image 'spider-man.jpg' is not in"):
+                db.build(db.connect(), data_file=data, images_dir=tmp)
+            (Path(tmp) / "spider-man.jpg").write_bytes(b"\xff\xd8\xff")
+            conn = db.build(db.connect(), data_file=data, images_dir=tmp)
+            spidey = db.search(conn, "Spider-Man")[0]
+            self.assertEqual(spidey["image"], "spider-man.jpg")
+            self.assertEqual(db.get_character(conn, spidey["id"])["image_credit"], "Test photo")
+            characters[0]["image"] = "../secret.jpg"
+            data.write_text(json.dumps(characters))
+            with self.assertRaisesRegex(ValueError, "must be a file name"):
+                db.build(db.connect(), data_file=data, images_dir=tmp)
+
 
 if __name__ == "__main__":
     unittest.main()

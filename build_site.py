@@ -2,7 +2,7 @@
 
 GitHub Pages only serves static files, so instead of running Flask this script:
   1. builds the SQLite database (docs/marvel.db) with the same code the app uses,
-  2. renders the page template and copies the front end,
+  2. renders the page template and copies the front end and the card photos in use,
   3. copies sql/app_queries.sql, which the browser runs against marvel.db with sql.js.
 
 Run it after changing data/characters.json, the SQL, or the front end:
@@ -34,6 +34,11 @@ def build(out=OUT):
     for name in ("app.js", "static-api.js", "style.css"):
         shutil.copy(ROOT / "app" / "static" / name, out / name)
     shutil.copy(ROOT / "sql" / "app_queries.sql", out / "app_queries.sql")
+    shutil.rmtree(out / "images", ignore_errors=True)   # card photos (only the ones in use are copied)
+    used = {r["image"] for r in db.search(db.build(db.connect()), "") if r["image"]}
+    (out / "images").mkdir()
+    for name in used:
+        shutil.copy(ROOT / "app" / "static" / "images" / name, out / "images" / name)
     (out / ".nojekyll").touch()                 # serve files as-is
     print(f"Built the live demo in {out}/")
 
