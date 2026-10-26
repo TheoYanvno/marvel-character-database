@@ -99,3 +99,8 @@ Building the database checks that each `image` is a plain file name with an allo
 - The MCU section covers live-action films and series through October 2026, including the Netflix Defenders shows, which Marvel's official timeline counts as MCU. Characters who haven't appeared yet (like Storm or Magneto) say so. Sony's Venom, Morbius and Kraven films and Fox's X-Men films aren't counted, except where those characters crossed into MCU releases such as No Way Home and Deadpool & Wolverine.
 - Unofficial fan project for learning Python and SQL. Not affiliated with or endorsed by Marvel. Character summaries are written in my own words. Cards show initials until a photo is added; any photo added must be one the owner of this repo has the right to publish, credited on the profile.
 - Built with help from AI coding tools for planning, code review and tests.
+
+## Credits
+
+- Built by Anthony Evo.
+- Claude, Anthropic's AI assistant, assisted with entering all 214 characters and tested the live demo.
