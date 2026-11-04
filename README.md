@@ -1,8 +1,8 @@
 # Marvel Character Database
 
-**▶ [Live demo](https://theoyanvno.github.io/marvel-character-database/)**
+**▶ [Live demo](https://theoyanvno.github.io/marvel-character-database/)** · **[Build it yourself, step by step, in CodeForge](https://theoyanvno.github.io/CodeForge/?guide=marvel)**
 
-A Python + SQL web app for exploring 214 Marvel characters (100 heroes, 75 villains and 39 antiheroes), grouped into **Heroes**, **Villains** and **Antiheroes**. Type a name, real name, power or actor (try "flight" or "Hiddleston"), switch between sections, or click a card. It includes every comic character with a real role in a Marvel Cinematic Universe film or Disney+ series, from Iron Man (2008) through Spider-Man: Brand New Day and Wonder Man (2026), plus classic characters from the comics. The selected card slides to the side and the character's profile appears next to it:
+A Python + SQL web app for exploring 214 Marvel characters (100 heroes, 75 villains and 39 antiheroes), grouped into **Heroes**, **Villains** and **Antiheroes**. Type a name, real name, power or actor (try "flight" or "Hiddleston"), switch between sections, or click a card. It includes every comic character with a real role in a Marvel Cinematic Universe film or Disney+ series, from Iron Man (2008) through the 2026 releases (Spider-Man: Brand New Day, Wonder Man, The Punisher: One Last Kill and VisionQuest), plus classic characters from the comics. The selected card slides to the side and the character's profile appears next to it:
 
 - **In the MCU:** who plays them, their first MCU appearance, a short summary of their story across the movies and shows, and every title they're in
 - **Origin, powers and teams** from the comics
@@ -17,6 +17,14 @@ Every card has a **photo slot** on its front. Add an image file and one line to 
 | Card grid | Character profile |
 |---|---|
 | ![Cards](docs/cards.png) | ![Profile](docs/profile.png) |
+
+## What this project shows
+
+- **Relational database design:** nine tables with link tables for many-to-many data, foreign keys, `CHECK` and `UNIQUE` constraints, and indexes
+- **Real SQL, safely:** every query is parameterized, from ranked search to `UNION`s, correlated subqueries and `GROUP BY … HAVING`
+- **A small REST API** in Flask with JSON endpoints and proper 404s
+- **One set of queries, two places:** the same SQL file runs on the Flask server and, through SQLite compiled to WebAssembly, in the browser for the static live demo
+- **Data you can check:** the database is rebuilt from JSON in one transaction, the build stops on bad data, and 21 tests cover the database, the API and the static site
 
 ## Database design
 
@@ -81,6 +89,20 @@ python build_db.py                                  # optional: writes marvel.db
 python build_site.py                                # rebuilds the live demo in docs/
 ```
 
+## Project layout
+
+| Path | What's in it |
+|---|---|
+| `app/main.py` | The Flask app and its API routes |
+| `app/db.py` | Builds the database from the JSON files and runs the named queries |
+| `app/static/`, `app/templates/` | The front end: cards, profiles, search and the side filter |
+| `sql/schema.sql` | The nine tables, constraints and indexes |
+| `sql/app_queries.sql` | Every query the app runs, shared by Flask and the live demo |
+| `sql/queries.sql` | More queries to explore |
+| `data/` | The 214 characters and the 61 MCU titles |
+| `build_db.py`, `build_site.py` | Write `marvel.db`, or the static live demo into `docs/` |
+| `tests/` | Database, API and static-site tests (`unittest`) |
+
 ## Add a character
 
 Add an entry to `data/characters.json` (same fields as the others) and restart the app. The database is rebuilt from the JSON file on startup. Run `python build_site.py` to update the live demo.
@@ -96,7 +118,7 @@ Building the database checks that each `image` is a plain file name with an allo
 ## Notes
 
 - Each character's first comic appearance and creators come from the comics; for characters the films changed (for example Whiplash, Taskmaster or Ghost), the origin explains how the MCU version differs.
-- The MCU section covers live-action films and series through October 2026, including the Netflix Defenders shows, which Marvel's official timeline counts as MCU. Characters who haven't appeared yet (like Storm or Magneto) say so. Sony's Venom, Morbius and Kraven films and Fox's X-Men films aren't counted, except where those characters crossed into MCU releases such as No Way Home and Deadpool & Wolverine.
+- The MCU section covers live-action films and series released through 2026, including the Netflix Defenders shows, which Marvel's official timeline counts as MCU. Characters who haven't appeared yet (like Storm or Magneto) say so. Sony's Venom, Morbius and Kraven films and Fox's X-Men films aren't counted, except where those characters crossed into MCU releases such as No Way Home and Deadpool & Wolverine.
 - Unofficial fan project for learning Python and SQL. Not affiliated with or endorsed by Marvel. Character summaries are written in my own words. Cards show initials until a photo is added; any photo added must be one the owner of this repo has the right to publish, credited on the profile.
 - Built with help from AI coding tools for planning, code review and tests.
 
