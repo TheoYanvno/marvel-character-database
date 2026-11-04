@@ -1,6 +1,6 @@
 # Marvel Character Database
 
-**▶ [Live demo](https://theoyanvno.github.io/marvel-character-database/)** · **[Build it yourself, step by step, in CodeForge](https://theoyanvno.github.io/CodeForge/?guide=marvel)**
+**▶ [Live demo](https://theoyanvno.github.io/marvel-character-database/)**
 
 A Python + SQL web app for exploring 214 Marvel characters (100 heroes, 75 villains and 39 antiheroes), grouped into **Heroes**, **Villains** and **Antiheroes**. Type a name, real name, power or actor (try "flight" or "Hiddleston"), switch between sections, or click a card. It includes every comic character with a real role in a Marvel Cinematic Universe film or Disney+ series, from Iron Man (2008) through the 2026 releases (Spider-Man: Brand New Day, Wonder Man, The Punisher: One Last Kill and VisionQuest), plus classic characters from the comics. The selected card slides to the side and the character's profile appears next to it:
 
