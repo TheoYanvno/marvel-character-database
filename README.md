@@ -126,3 +126,7 @@ Building the database checks that each `image` is a plain file name with an allo
 
 - Built by Anthony Evo.
 - Claude, Anthropic's AI assistant, assisted with entering all 214 characters and tested the live demo.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
