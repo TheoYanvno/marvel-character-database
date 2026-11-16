@@ -4,7 +4,7 @@ from pathlib import Path
 
 from app.main import app
 
-COUNT = len(json.loads((Path(__file__).parent.parent / 'data' / 'characters.json').read_text()))
+COUNT = len(json.loads((Path(__file__).parent.parent / 'data' / 'characters.json').read_text(encoding="utf-8")))
 
 
 class ApiTests(unittest.TestCase):

@@ -30,7 +30,7 @@ def build(out=OUT):
     conn.close()
 
     with app.test_request_context():
-        (out / "index.html").write_text(render_template("index.html", static_site=True))
+        (out / "index.html").write_text(render_template("index.html", static_site=True), encoding="utf-8")
     for name in ("app.js", "static-api.js", "style.css"):
         shutil.copy(ROOT / "app" / "static" / name, out / name)
     shutil.copy(ROOT / "sql" / "app_queries.sql", out / "app_queries.sql")

@@ -5,7 +5,7 @@ from pathlib import Path
 
 from app import db
 
-COUNT = len(json.loads((Path(__file__).parent.parent / 'data' / 'characters.json').read_text()))
+COUNT = len(json.loads((Path(__file__).parent.parent / 'data' / 'characters.json').read_text(encoding="utf-8")))
 
 
 class DatabaseTests(unittest.TestCase):
@@ -68,7 +68,7 @@ class DatabaseTests(unittest.TestCase):
 
     def test_unknown_mcu_title_is_rejected(self):
         bad = Path(self.id().replace(".", "_") + ".json")
-        bad.write_text(json.dumps([{**json.loads(Path(db.DATA).read_text())[0],
+        bad.write_text(json.dumps([{**json.loads(Path(db.DATA).read_text(encoding="utf-8"))[0],
                                     "mcu": {"actor": "X", "titles": ["Not A Real Movie"]}}]))
         try:
             with self.assertRaises(ValueError):
@@ -123,10 +123,10 @@ class DatabaseTests(unittest.TestCase):
         self.assertTrue(all(c["image"] is None for c in db.search(self.conn, "")))
         import tempfile
         with tempfile.TemporaryDirectory() as tmp:
-            characters = json.loads(db.DATA.read_text())
+            characters = json.loads(db.DATA.read_text(encoding="utf-8"))
             characters[0] = {**characters[0], "image": "spider-man.jpg", "image_credit": "Test photo"}
             data = Path(tmp) / "characters.json"
-            data.write_text(json.dumps(characters))
+            data.write_text(json.dumps(characters), encoding="utf-8")
             with self.assertRaisesRegex(ValueError, "Spider-Man: image 'spider-man.jpg' is not in"):
                 db.build(db.connect(), data_file=data, images_dir=tmp)
             (Path(tmp) / "spider-man.jpg").write_bytes(b"\xff\xd8\xff")
@@ -135,7 +135,7 @@ class DatabaseTests(unittest.TestCase):
             self.assertEqual(spidey["image"], "spider-man.jpg")
             self.assertEqual(db.get_character(conn, spidey["id"])["image_credit"], "Test photo")
             characters[0]["image"] = "../secret.jpg"
-            data.write_text(json.dumps(characters))
+            data.write_text(json.dumps(characters), encoding="utf-8")
             with self.assertRaisesRegex(ValueError, "must be a file name"):
                 db.build(db.connect(), data_file=data, images_dir=tmp)
 

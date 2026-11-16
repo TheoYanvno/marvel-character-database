@@ -28,9 +28,9 @@ class LiveDemoBuildTests(unittest.TestCase):
             out = Path(tmp)
             for name in ("index.html", "app.js", "static-api.js", "style.css", "app_queries.sql", "marvel.db"):
                 self.assertTrue((out / name).exists(), name)
-            html = (out / "index.html").read_text()
+            html = (out / "index.html").read_text(encoding="utf-8")
             self.assertIn("sql-wasm.js", html)
             self.assertNotIn("/static/", html)         # relative paths only, for GitHub Pages
             conn = sqlite3.connect(out / "marvel.db")
-            self.assertEqual(conn.execute("SELECT COUNT(*) FROM characters").fetchone()[0], len(json.loads((Path(__file__).parent.parent / "data" / "characters.json").read_text())))
+            self.assertEqual(conn.execute("SELECT COUNT(*) FROM characters").fetchone()[0], len(json.loads((Path(__file__).parent.parent / "data" / "characters.json").read_text(encoding="utf-8"))))
             conn.close()

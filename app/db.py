@@ -44,11 +44,11 @@ def _get_or_create(conn, table, name):
 
 def build(conn, data_file=DATA, titles_file=TITLES, images_dir=IMAGES):
     """Create the tables and load characters.json and mcu_titles.json inside one transaction."""
-    conn.executescript(SCHEMA.read_text())
-    characters = json.loads(Path(data_file).read_text())
+    conn.executescript(SCHEMA.read_text(encoding="utf-8"))
+    characters = json.loads(Path(data_file).read_text(encoding="utf-8"))
     with conn:
         conn.executemany("INSERT INTO mcu_titles (title, year, kind) VALUES (:title, :year, :kind)",
-                         json.loads(Path(titles_file).read_text()))
+                         json.loads(Path(titles_file).read_text(encoding="utf-8")))
         for c in characters:
             mcu = c.get("mcu", {})
             cid = conn.execute(
@@ -95,7 +95,7 @@ def build(conn, data_file=DATA, titles_file=TITLES, images_dir=IMAGES):
 def load_queries(path=QUERIES_FILE):
     """Read the named queries ("-- name: x") from sql/app_queries.sql into a dict."""
     queries, name = {}, None
-    for line in Path(path).read_text().splitlines():
+    for line in Path(path).read_text(encoding="utf-8").splitlines():
         match = re.match(r"--\s*name:\s*(\w+)", line)
         if match:
             name = match.group(1)
